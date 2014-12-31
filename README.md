@@ -11,7 +11,7 @@ requires the following dependencies:
 - web.py http://webpy.org/
 - bigbashview https://github.com/thor27/bigbashview/
 
-bigbashview is integrated with scripts om-control-center as already into om-welcome
+bigbashview is integrated with scripts om-control-center as already into om-control-center
 
 ##### Installing Dependencies
 to install python-qt4-webkit, we can use urpmi:
@@ -49,27 +49,27 @@ bbv/
     img/
 ```
 
-if you package it separately om-welcome requires changes to the running script.
+if you package it separately om-control-center requires changes to the running script.
 
-##### Running OM-Welcome
-you can run the om-welcome for debugging, with following command:
+##### Running om-control-center
+you can run the om-control-center for debugging, with following command:
 ```sh
-python bigbashview.py -s 960x600 -c index.sh.htm
+python bigbashview.py -s 870x520 -c -i /usr/share/icons/openmandriva.svg index.sh.htm 2> /dev/null;
 ```
 
 #####translations
-* inside the folder ```usr/share/om-welcome/ ```
-* there is a file called translation, all texts om-welcome are it is from it that will 
+* inside the folder ```usr/share/om-control-center/ ```
+* there is a file called translation, all texts om-control-center are it is from it that will 
 * generate the translation files
 * format it is as follows
-```variavel=$"text that will be shown in the om-welcome"```
+```variavel=$"text that will be shown in the om-control-center"```
 
 with the command
 ```sh
-bash --dump-po-strings translation > oma-welcome.pot
+bash --dump-po-strings translation > om-control-center.pot
 ```
 
-oma-welcome.pot is the translation file.
+om-control-center.pot is the translation file.
 
 the bigbashview uses html, css and js to create the layout, if you want to make any changes or improvements
 just edit the files with the format. sh.htm, and style.css that is inside the css folder.
