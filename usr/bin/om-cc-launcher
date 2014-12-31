@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ -e "/home/$USER/.om-control-center" ]; then
+	clear;
+else
+	touch ~/.om-control-center;
+	echo 'autostart=1' > ~/.oma-welcome;
+fi
+
+source ~/.om-control-center
+
+#read if autostart?
+if [ $autostart -eq 1 ]; then
+
+	cd /usr/share/om-control-center/;
+	python bigbashview.py -s 870x520 -c -i /usr/share/icons/openmandriva.svg index.sh.htm 2> /dev/null;
+		
+fi

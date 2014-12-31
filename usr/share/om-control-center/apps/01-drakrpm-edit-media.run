@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ "$(uname -m)" = "i686" ]; then
+	drakrpm-edit-media
+    else
+	drakrpm-edit-media
+	kdialog --title $"OpenMandriva"  --msgbox  $"Waiting ... Script adding 32bit repositories will support  64bit arch";
+	kdesu konsole --noignorebutton --geometry 670x520  --nofork -e /usr/sbin/urpmi.addmedia --distrib --mirrorlist 'http://downloads.openmandriva.org/mirrors/openmandriva.2014.0.i586.list'
+	kdialog --title $"OpenMandriva"  --msgbox  $"Repositories 32 bits in 64bit arch successfully added";
+	fi
+

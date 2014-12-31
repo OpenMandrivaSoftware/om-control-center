@@ -1,0 +1,22 @@
+[Desktop Entry]
+Categories=Qt;KDE;
+Comment[it]=
+Comment=
+Exec=/usr/bin/om-control-center
+GenericName[it]=OpenMandriva Centro di controllo
+GenericName=OpenMandriva Centro di controllo
+Icon=openmandriva
+MimeType=
+Name[it]=OpenMandriva Centro di controllo
+Name=OpenMandriva Centro di controllo
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-HasTempFileOption=true
+X-KDE-StartupNotify=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=

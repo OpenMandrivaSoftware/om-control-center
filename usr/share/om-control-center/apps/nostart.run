@@ -1,0 +1,4 @@
+#!/bin/bash
+echo 'autostart=0' > ~/.om-control-center;
+
+kdialog --title $"OpenMandriva"  --msgbox  $" The om-control-center will not initialize with the system";

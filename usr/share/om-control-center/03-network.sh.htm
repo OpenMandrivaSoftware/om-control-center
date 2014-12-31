@@ -1,0 +1,78 @@
+#!/bin/bash
+source translation
+#Translation
+cat << EOF
+<html>
+<!--
+	Miniport 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!-- #Insira o conteúdo entre os 2 EOF sem se preocupar com aspas -->
+
+	<head>
+		<title>$Name</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="js/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/style.css" />
+		
+	</head>
+<body>
+EOF
+cat << EOF
+<!-- Nav -->
+	<nav id="nav">
+		<ul class="container">
+			<li><a href="index.sh.htm">$menuindex</a></li>
+			<li><a href="01-swmanagement.sh.htm">$menusw</a></li>
+			<li><a href="02-hardware.sh.htm">$menuhardware</a></li>
+			<li><a href="03-network.sh.htm">$menunetwork</a></li>
+			<li><a href="04-system.sh.htm">$menusystem</a></li>
+			<li><a href="07-security.sh.htm">$menusecurity</a></li>
+			<li><a href="about.sh.htm">$menuabout</a></li>
+		</ul>
+	</nav>
+
+<!-- Home -->
+	<div class="wrapper">			
+		<div id="container">	
+		<p class="titlePage">$titlepage03</p>
+		<br/>
+		<div id='cssmenu'>
+		    <ul>
+			 <li><a href='03-network.sh.htm'><span>$menunetwork</span></a></li>		    
+			 <li><a href='03B-sharing.sh.htm'><span>$menushare</span></a></li>
+		    </ul>
+		    <br/>
+		</div>
+		<ul id="item-list">
+			<li>
+				<p><a href=./apps/03-drakconnect.run><img src="/usr/share/icons/oxygen/48x48/devices/network-wired.png" class="alignleft"/></a>
+				<span><a class="title" href="./apps/03-drakconnect.run">$titleconfiglan</a></span><br/>$descconfiglan</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/03-hosts.run><img src="/usr/share/icons/oxygen/48x48/devices/computer.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/03-hosts.run>$titledrakhosts</a></span><br/>$descdrakhosts</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/03-internetsharing.run><img src="/usr/share/icons/oxygen/48x48/devices/computer.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/03-internetsharing.run>$titledrakgw</a></span><br/>$descdrakgw</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/03-proxysetup.run><img src="/usr/share/icons/oxygen/48x48/devices/computer.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/03-proxysetup.run>$titledrakproxy</a></span><br/>$descdrakproxy</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/03-vpn.run><img src="/usr/share/icons/oxygen/48x48/devices/computer.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/03-vpn.run>$titledrakvpn</a></span><br/>$descdrakvpn</p>
+			</li>
+		</ul>
+	</div> 
+	<div id="rodape">
+	<a href="04-system.sh.htm" class="button">$next</a>
+	</div>
+</body>
+EOF
+</html>

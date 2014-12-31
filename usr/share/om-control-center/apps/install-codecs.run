@@ -1,0 +1,20 @@
+#!/bin/bash
+if rpm -qa |grep -e dvdcss; then 
+      kdialog --title $"OpenMandriva"  --msgbox  $" Codecs are already installed.";
+	else 
+	    if [ "$(uname -m)" = "i686" ]; then
+		gurpmi libdvdcss2 gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad gstreamer0.10-plugins-good libdvdcss faac flac lame liba52dec0 libdv4 x264 libxvid4 libdca0 libdvdnav4 libdvdread4 mencoder; 
+		if rpm -qa |grep "dvdcss*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Codecs successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Codecs not installed.";
+		fi
+	    else
+		gurpmi lib64dvdcss2 gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad gstreamer0.10-plugins-good lib64dvdcss2 lib64dvdread4 lib64a52dec0 faac flac lame liba52dec0 lib64dv4 x264 lib64xvid4 lib64dca0 lib64dvdnav4 lib64dvdread4; 
+		if rpm -qa |grep "dvdcss*"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" Codecs successfully installed.";
+		    else
+		kdialog --title $"OpenMandriva"  --msgbox  $" Codecs not installed.";
+		fi
+	    fi
+    fi

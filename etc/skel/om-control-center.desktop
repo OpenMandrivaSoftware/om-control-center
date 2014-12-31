@@ -1,0 +1,10 @@
+[Desktop Entry]
+GenericName=OpenMandriva Control Center
+Name=om-control-center
+Exec=/usr/bin/om-control-center
+X-KDE-StartupNotify=true
+X-KDE-HasTempFileOption=true
+Icon=openmandriva
+Type=Application
+Terminal=false
+Categories=Qt;KDE;

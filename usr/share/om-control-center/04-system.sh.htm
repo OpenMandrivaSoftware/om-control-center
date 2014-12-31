@@ -1,0 +1,86 @@
+#!/bin/bash
+source translation
+#Translation
+cat << EOF
+<html>
+<!--
+	Miniport 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!-- #Insira o conteúdo entre os 2 EOF sem se preocupar com aspas -->
+
+	<head>
+		<title>$Name</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="js/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/style.css" />
+		
+	</head>
+<body>
+EOF
+cat << EOF
+<!-- Nav -->
+	<nav id="nav">
+		<ul class="container">
+			<li><a href="index.sh.htm">$menuindex</a></li>
+			<li><a href="01-swmanagement.sh.htm">$menusw</a></li>
+			<li><a href="02-hardware.sh.htm">$menuhardware</a></li>
+			<li><a href="03-network.sh.htm">$menunetwork</a></li>
+			<li><a href="04-system.sh.htm">$menusystem</a></li>
+			<li><a href="07-security.sh.htm">$menusecurity</a></li>
+			<li><a href="about.sh.htm">$menuabout</a></li>
+		</ul>
+	</nav>
+
+<!-- Home -->
+	<div class="wrapper">			
+		<div id="container">	
+		<p class="titlePage">$titlepage04</p>
+		<br/>
+		<ul id="item-list">
+			<li>
+				<p><a class="title" href=./apps/04-drakuser.run><img src="/usr/share/icons/oxygen/64x64/apps/system-users.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/04-drakuser.run>$titledrakuser</a></span><br/>$descdrakuser</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/04-services.run><img src="/usr/share/icons/oxygen/64x64/apps/utilities-log-viewer.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/04-services.run>$titleservices</a></span><br/>$descservices</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/04-draksec.run><img src="/usr/share/icons/oxygen/64x64/status/security-high.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/04-draksec.run>$titledraksec</a></span><br/>$descdraksec</p>
+			</li>
+			
+			<li>
+				<p><a class="title" href=./apps/04-drakfont.run><img src="/usr/share/icons/oxygen/64x64/apps/preferences-desktop-font.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/04-drakfont.run>$titledrakfont</a></span><br/>$descdrakfont</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/04-drakclock.run><img src="/usr/share/icons/oxygen/64x64/apps/clock.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/04-drakclock.run>$titledrakclock</a></span><br/>$descdrakclock</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/abrir-kdethemes.run><img src="/usr/share/icons/oxygen/64x64/apps/preferences-desktop-theme.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/abrir-kdethemes.run>$titlechangethemes</a></span><br/>$descchangethemes</p>
+			</li>
+	
+			<li>
+				<p><a class="title" href=./apps/abrir-kdeicons.run><img src="/usr/share/icons/oxygen/64x64/apps/preferences-desktop-icons.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/abrir-kdeicons.run>$titlechangeicons</a></span><br/>$descchangeicons</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/05-drakboot.run><img src="/usr/share/icons/oxygen/64x64/actions/system-reboot.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/05-drakboot.run>$titleconfigboot</a></span><br/>$descconfigboot</p>
+			</li>
+
+		</ul>
+	</div> 
+	<div id="rodape">
+	<a href="07-security.sh.htm" class="button">$next</a>
+	</div>
+</body>
+EOF
+</html>
