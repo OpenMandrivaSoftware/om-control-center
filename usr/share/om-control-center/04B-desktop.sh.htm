@@ -11,7 +11,7 @@ cat << EOF
 <!-- #Insira o conteúdo entre os 2 EOF sem se preocupar com aspas -->
 
 	<head>
-		<title>$Name</title>
+		<title>$title</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -30,7 +30,7 @@ cat << EOF
 			<li><a href="02-hardware.sh.htm">$menuhardware</a></li>
 			<li><a href="03-network.sh.htm">$menunetwork</a></li>
 			<li><a href="04-system.sh.htm">$menusystem</a></li>
-			<li><a href="07-security.sh.htm">$menusecurity</a></li>
+			<li><a href="05-security.sh.htm">$menusecurity</a></li>
 			<li><a href="about.sh.htm">$menuabout</a></li>
 		</ul>
 	</nav>
@@ -38,22 +38,30 @@ cat << EOF
 <!-- Home -->
 	<div class="wrapper">			
 		<div id="container">	
-		<p class="titlePage">$titlepage07</p>
+		<p class="titlePage">$titlepage04</p>
 		<br/>
+		<div id='cssmenu'>
+		    <ul>
+			 <li><a href='04-system.sh.htm'><span>$menusystem</span></a></li>		    
+			 <li><a href='04B-desktop.sh.htm'><span>$menudesktop</span></a></li>
+		    </ul>
+		    <br/>
+		</div>
 		<ul id="item-list">
 			<li>
-				<p><a href=./apps/07-firewall.run><img src="/usr/share/icons/oxygen/64x64/status/security-high.png" class="alignleft"/></a>
-				<span><a class="title" href="./apps/07-firewall.run">$titlefirewall </a></span><br/> $descfirewall</p>
+				<p><a class="title" href=./apps/04-kdethemes.run><img src="/usr/share/icons/oxygen/64x64/apps/preferences-desktop-theme.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/04-kdethemes.run>$titlechangethemes</a></span><br/>$descchangethemes</p>
 			</li>
+	
 			<li>
-				<p><a href=./apps/07-firewall2.run><img src="/usr/share/icons/oxygen/64x64/status/security-high.png" class="alignleft"/></a>
-				<span><a class="title" href="./apps/07-firewall2.run">$titlefirewall2 </a></span><br/> $descfirewall2</p>
+				<p><a class="title" href=./apps/04-kdeicons.run><img src="/usr/share/icons/oxygen/64x64/apps/preferences-desktop-icons.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/04-kdeicons.run>$titlechangeicons</a></span><br/>$descchangeicons</p>
 			</li>
 
 		</ul>
 	</div> 
 	<div id="rodape">
-	<a href="about.sh.htm" class="button">$next</a>
+	<a href="05-security.sh.htm" class="button">$next</a>
 	</div>
 </body>
 EOF

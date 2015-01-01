@@ -4,33 +4,35 @@
 #Locale
 export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=om-control-center
+#
 hi=$"Hi"
 title=$"OpenMandriva Control Center"
-Name=$"OpenMandriva Control Center"
+#Name=$"OpenMandriva Control Center"
+#sections menu
 menuindex=$"Welcome"
 menusw=$"Software"
 menuhardware=$"Hardware"
 menuhardware2=$"Devices Configurations"
 menunetwork=$"Networks"
 menusystem=$"System"
+menudesktop=$"Desktop"
 menusecurity=$"Security"
 menuabout=$"About"
 #
 menushare=$"Network Sharing"
 menulocaldisk=$"Local Disk configuration"
-
-
-
-#text=$"OpenMandriva Control center is an frontend for many configuration tools to be able to setup and manage our system in a single point, in an easy way. all you need to configure hardware, network and software will be find here in one apposit section"
-
-text=$"OpenMandriva Control Center (aka drakconf) is a set of tools to help you configure your system for: <br/>
+#section presentation text
+text=$"OpenMandriva Control Center is a set of tools to help you configure your system for: <br/>
 - Software Management<br/>
 - Hardware<br/>
 - Network, Internet & Sharing<br/>
 - Local Disks/Partition Manager<br/>
-- System Security<br/>"
-
-#OpenMandriva Control Center
+- System Security<br/>
+- ans other parts of your system.<br/>"
+# OpenMandriva Control Center
+# Sections and sub-Sections
+#
+#
 #section 01 sw-management
 titlepage01=$"Software and media management"
 #01-Install & Remove software
@@ -53,18 +55,24 @@ titlexfdrake=$"Configure your graphical video card"
 #02-Configure printer
 titleconfigprint=$"Configure your printer"
 descconfigprint=$"Configure your printer, add drivers for HP, EPSON, etc"
-#DVB devices
+#02-DVB devices
 titledrakdvb=$"Configure your dvb devices"
 descdrakdvb=$"install all the necessary dirver to use your dvb devices"
-#UPS devices
+#02-UPS devices
 titledrakups=$"Configure an UPS"
 descdrakups=$"Install all the necessary program to manage and configure your UPS"
+#
+#section 02B local Disk configuration
+titlepage06=$"Local Disk Configurations"
+#02B-disk management
+titlediskdrake=$"Configure your local drives"
+descdiskdrake=$"Change, configure and manage your local drives";
 #
 #section 03 Networks
 titlepage03=$"Nertworks Configurations"
 #03-Configure LAN
 titleconfiglan=$"Configure the network"
-descconfiglan=$"OpenMandriva Lx comes with support for various network drivers, but depending on your network configuration it may be necessary to change some settings, such as configuring static IP, PPPoE, 3G, etc"
+descconfiglan=$"All the necessary tools to change or settings your networks, such as configuring static IP, PPPoE, 3G, etc"
 #03-Configure hosts
 titledrakhosts=$"Add network hosts "
 descdrakhosts=$"Add all the known hosts of your network "
@@ -77,6 +85,15 @@ descdrakproxy=$"If you are into a company network, probably you should set the r
 #03-Configure a VPN
 titledrakvpn=$"Configure a VPN"
 descdrakvpn=$"All the necessary to create and manage a VPN"
+#
+#section 03B sharing Configurations
+titlepage05=$"Directory sharing configurations"
+#03B-nfs
+titledraknfs=$"Configure a NFS share"
+descdraknfs=$"Change or configure your NFS directory scharing";
+#03B-samba
+titledraksambashare=$"Configure a SMB share"
+descdraksambashare=$"Change or configure your SMB directory scharing";
 #
 #section 04 System Configurations
 titlepage04=$"System Configurations"
@@ -104,82 +121,15 @@ descchangeicons=$"Change or configure your desktop icons or install your favorit
 #04-boot configuration
 titleconfigboot=$"Configure the system boot"
 descconfigboot=$"If you need to change the boot order of the system or repair grub2 manually or later add another operating system"
-
 #
-#section 05 sharing Configurations
-titlepage05=$"Directory sharing configurations"
-#05-nfs
-titledraknfs=$"Configure a NFS share"
-descdraknfs=$"Change or configure your NFS directory scharing";
-#05-samba
-titledraksambashare=$"Configure a SMB share"
-descdraksambashare=$"Change or configure your SMB directory scharing";
-#
-#section 06 local Disk configuration
-titlepage06=$"Local Disk Configurations"
-#06-disk management
-titlediskdrake=$"Configure your local drives"
-descdiskdrake=$"Change, configure and manage your local drives";
-
-#
-#section 07 Security
+#section 05 Security
 titlepage07=$"Security Configurations"
-#07-Security management
+#05-Security management
 titlefirewall=$"Configure your firewall"
 descfirewall=$"Change, configure and manage your firewall settings";
-#07-firewall applet
+#05-firewall applet
 titlefirewall2=$"Open your firewall applet"
 descfirewall2=$"Change, configure and manage your firewall settings from the apllet";
-
-
-titleomcc=$"OpenMandriva Control Center"
-descomcc=$"All system tools and settings are available in drakconf, including System Settings, Network Sharing, Security, Disk Partitioning, and more"
-
-
-
-
-#translations of apps.sh.htm
-next=$"Next"
-#menuappsconfig=$"Settings"
-menuapps=$"Applications"
-menuappsoffice=$"Office"
-menuappsgraphics=$"Graphics"
-menuappsmultimedia=$"Multimedia"
-menuappsutility=$"Utility"
-menuappsgaming=$"Games"
-menuappsdevelopment=$"Development"
-menuappsinternet=$"Internet"
-
-
-
-
-
-
-#translation of community.sh.htm
-titlecommunity=$"How to contribute to OpenMandriva"
-desccommunity=$"So you really like OpenMandriva Lx and are eager to help? You can contribute in various ways:"
-titlemanual=$"Manual"
-descmanual=$"Help improve a simple step-by-step guide for installing and configuring OpenMandriva Lx"
-titleforum=$"Forums"
-descforum=$"Become a member at our forums, answer questions and help others"
-titletranslation=$"Translating"
-desctranslation=$"Translate blog posts, wiki pages, applications and stuffs"
-titlecooker=$"Join in the development of OpenMandriva Lx"
-desccooker=$"Cooker is the development branch of OpenMandriva Lx"
-titleartwork=$"Artwork"
-descartwork=$"Use your talent to create new artwork for OpenMandriva Lx"
-titlemainlisting=$"Mailing list"
-descmainlisting=$"Join the discussion list of OpenMandriva"
-titleqa=$"Report Bug"
-descqa=$"Search, report and fix bugs (issues?) in OpenMandriva Lx"
-titleirc=$"Join in the IRC channel"
-descirc=$"openmandriva-cooker is OpenMandriva's main IRC channel"
-titledonation=$"Donation"
-descdonation=$"You can give us your love and care by donating your time or money to OpenMandriva Lx"
-nostarwithoma=$"Do not start oma-welcome on login"
-makestartwithoma=$"Make oma-welcome start on login"
-endapp=$"Finish"
-
 
 #About.sh.htm
 about=$"About "
@@ -191,4 +141,18 @@ bugs=$"For bugs, suggestions and improvements, please head to "
 you_are_using=$"You are using"
 with_kernel=$"with kernel"
 arch=$"architecture"
-
+# Elements
+# to remove
+titleomcc=$"OpenMandriva Control Center"
+descomcc=$"All system tools and settings are available in drakconf, including System Settings, Network Sharing, Security, Disk Partitioning, and more"
+#translations of apps.sh.htm
+next=$"Next"
+#menuappsconfig=$"Settings"
+menuapps=$"Applications"
+menuappsoffice=$"Office"
+menuappsgraphics=$"Graphics"
+menuappsmultimedia=$"Multimedia"
+menuappsutility=$"Utility"
+menuappsgaming=$"Games"
+menuappsdevelopment=$"Development"
+menuappsinternet=$"Internet"
