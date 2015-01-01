@@ -10,11 +10,9 @@ all:
 
 install:
 	mkdir -p $(DESTDIR)$(prefix)/$(bindir)
-	mkdir -p $(DESTDIR)$(prefix)/$(sysconfdir)/xdg/autostart
 	mkdir -p $(DESTDIR)$(prefix)/$(sharedir)/$(NAME)
 	mkdir -p $(DESTDIR)$(prefix)/$(sharedir)/applications
 	mkdir -p $(DESTDIR)$(prefix)/$(localedir)
-	install -m 644 om-control-center.desktop $(DESTDIR)$(prefix)/$(sysconfdir)/xdg/autostart
 	install -m 644 etc/skel/om-control-center.desktop $(DESTDIR)$(prefix)/$(sharedir)/applications
 	install -m 755 usr/bin/* $(DESTDIR)$(prefix)/$(bindir)
 	cp -avx usr/share/$(NAME)/* $(DESTDIR)$(prefix)/$(sharedir)/$(NAME)
@@ -24,5 +22,5 @@ install:
 	done
 
 dist:
-	git archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD | xz -2vec -T0 > $(NAME)-$(VERSION).tar.xz;
+	git archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD | xz -2vec -T0 > $(NAME)-$(VERSION).tar.gz;
 	$(info $(NAME)-$(VERSION).tar.xz is ready)

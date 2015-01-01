@@ -7,4 +7,4 @@ X-KDE-HasTempFileOption=true
 Icon=openmandriva
 Type=Application
 Terminal=false
-Categories=Qt;KDE;
+Categories=Qt;KDE;Settings;
