@@ -13,6 +13,7 @@ menuindex=$"Welcome"
 menusw=$"Software"
 menuhardware=$"Hardware"
 menuhardware2=$"Devices Configurations"
+menulocaldisk=$"Local Disk configuration"
 menunetwork=$"Networks"
 menushare=$"Network Sharing"
 menunetserv=$"Network servers"
@@ -21,8 +22,6 @@ menudesktop=$"Desktop"
 menusecurity=$"Security"
 menuabout=$"About"
 #
-
-menulocaldisk=$"Local Disk configuration"
 #section presentation text
 text=$"OpenMandriva Control Center is a set of tools to help you configure your system for: <br/>
 - Software Management<br/>
@@ -149,7 +148,7 @@ titlefirewall=$"Configure your firewall"
 descfirewall=$"Change, configure and manage your firewall settings";
 #05-firewall applet
 titlefirewall2=$"Open your firewall applet"
-descfirewall2=$"Change, configure and manage your firewall settings from the apllet";
+descfirewall2=$"Change, configure and manage your firewall settings from the applet";
 
 #About.sh.htm
 about=$"About "
@@ -161,18 +160,5 @@ endapp=$"Exit"
 you_are_using=$"You are using"
 with_kernel=$"with kernel"
 arch=$"architecture"
-# Elements
-# to remove
-titleomcc=$"OpenMandriva Control Center"
-descomcc=$"All system tools and settings are available in drakconf, including System Settings, Network Sharing, Security, Disk Partitioning, and more"
-#translations of apps.sh.htm
 next=$"Next"
-#menuappsconfig=$"Settings"
-menuapps=$"Applications"
-menuappsoffice=$"Office"
-menuappsgraphics=$"Graphics"
-menuappsmultimedia=$"Multimedia"
-menuappsutility=$"Utility"
-menuappsgaming=$"Games"
-menuappsdevelopment=$"Development"
-menuappsinternet=$"Internet"
+

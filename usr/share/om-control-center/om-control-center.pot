@@ -1,0 +1,319 @@
+#: translation:8
+msgid "Hi"
+msgstr ""
+#: translation:9
+msgid "OpenMandriva Control Center"
+msgstr ""
+#: translation:12
+msgid "Welcome"
+msgstr ""
+#: translation:13
+msgid "Software"
+msgstr ""
+#: translation:14
+msgid "Hardware"
+msgstr ""
+#: translation:15
+msgid "Devices Configurations"
+msgstr ""
+#: translation:16
+msgid "Networks"
+msgstr ""
+#: translation:17
+msgid "Network Sharing"
+msgstr ""
+#: translation:18
+msgid "Network servers"
+msgstr ""
+#: translation:19
+msgid "System"
+msgstr ""
+#: translation:20
+msgid "Desktop"
+msgstr ""
+#: translation:21
+msgid "Security"
+msgstr ""
+#: translation:22
+msgid "About"
+msgstr ""
+#: translation:25
+msgid "Local Disk configuration"
+msgstr ""
+#: translation:27
+msgid ""
+"OpenMandriva Control Center is a set of tools to help you configure your system for: <br/>\n"
+"- Software Management<br/>\n"
+"- Hardware<br/>\n"
+"- Network, Internet & Sharing<br/>\n"
+"- Local Disks/Partition Manager<br/>\n"
+"- System Security<br/>\n"
+"- ans other parts of your system.<br/>"
+msgstr ""
+#: translation:39
+msgid "Software and media management"
+msgstr ""
+#: translation:41
+msgid "Add & Remove Software"
+msgstr ""
+#: translation:42
+msgid "Search, discover and install additional programs "
+msgstr ""
+#: translation:44
+msgid "Add Media"
+msgstr ""
+#: translation:45
+msgid "Repository management, add new media"
+msgstr ""
+#: translation:47
+msgid "Update of"
+msgstr ""
+#: translation:48
+msgid "To get the latest bug fixes and enhancements for your system"
+msgstr ""
+#: translation:50
+msgid "Remove Unused Packages"
+msgstr ""
+#: translation:51
+msgid "Remove unused packages such as unused localization and unused hardware packages"
+msgstr ""
+#: translation:54
+msgid "Devices Configurations"
+msgstr ""
+#: translation:56
+msgid "Configure your graphical video card"
+msgstr ""
+#: translation:58
+msgid "Configure your printer"
+msgstr ""
+#: translation:59
+msgid "Configure your printer, add drivers for HP, EPSON, etc"
+msgstr ""
+#: translation:61
+msgid "Configure your dvb devices"
+msgstr ""
+#: translation:62
+msgid "install all the necessary dirver to use your dvb devices"
+msgstr ""
+#: translation:64
+msgid "Configure an UPS"
+msgstr ""
+#: translation:65
+msgid "Install all the necessary program to manage and configure your UPS"
+msgstr ""
+#: translation:68
+msgid "Local Disk Configurations"
+msgstr ""
+#: translation:70
+msgid "Configure your local drives"
+msgstr ""
+#: translation:71
+msgid "Change, configure and manage your local drives"
+msgstr ""
+#: translation:74
+msgid "Nertworks Configurations"
+msgstr ""
+#: translation:76
+msgid "Configure the network"
+msgstr ""
+#: translation:77
+msgid "All the necessary tools to change or settings your networks, such as configuring static IP, PPPoE, 3G, etc"
+msgstr ""
+#: translation:79
+msgid "Add network hosts "
+msgstr ""
+#: translation:80
+msgid "Add all the known hosts of your network "
+msgstr ""
+#: translation:82
+msgid "Configure internet Sharing"
+msgstr ""
+#: translation:83
+msgid "Share your internet connection"
+msgstr ""
+#: translation:85
+msgid "Configure a proxy "
+msgstr ""
+#: translation:86
+msgid "If you are into a company network, probably you should set the right proxy"
+msgstr ""
+#: translation:88
+msgid "Configure a VPN"
+msgstr ""
+#: translation:89
+msgid "All the necessary to create and manage a VPN"
+msgstr ""
+#: translation:92
+msgid "Directory sharing configurations"
+msgstr ""
+#: translation:94
+msgid "Configure a NFS share"
+msgstr ""
+#: translation:95
+msgid "Change or configure your NFS directory scharing"
+msgstr ""
+#: translation:97
+msgid "Configure a SMB share"
+msgstr ""
+#: translation:98
+msgid "Change or configure your SMB directory scharing"
+msgstr ""
+#: translation:100
+msgid "Configure a FTP Server"
+msgstr ""
+#: translation:101
+msgid "install and configure your FTP server"
+msgstr ""
+#: translation:103
+msgid "Configure a SSH Server"
+msgstr ""
+#: translation:104
+msgid "install and configure a SSH server"
+msgstr ""
+#: translation:106
+msgid "Configure an Apache2 Server"
+msgstr ""
+#: translation:107
+msgid "install and configure your http server"
+msgstr ""
+#: translation:109
+msgid "Configure a DHCP Server"
+msgstr ""
+#: translation:110
+msgid "install and configure your DHCP server"
+msgstr ""
+#: translation:112
+msgid "Configure a DNS Server"
+msgstr ""
+#: translation:113
+msgid "install and configure your DNS server"
+msgstr ""
+#: translation:115
+msgid "Configure a TIME Server"
+msgstr ""
+#: translation:116
+msgid "install and configure your NTP server"
+msgstr ""
+#: translation:119
+msgid "System Configurations"
+msgstr ""
+#: translation:121
+msgid "Add & Configure user and groups"
+msgstr ""
+#: translation:122
+msgid "Here you can configure new users add groups etc"
+msgstr ""
+#: translation:124
+msgid "Services management"
+msgstr ""
+#: translation:125
+msgid "Start and stop of the entire services available on the system"
+msgstr ""
+#: translation:127
+msgid "Autorization management"
+msgstr ""
+#: translation:128
+msgid "Configure users Autorization to the OpenMandriva configuration tools"
+msgstr ""
+#: translation:130
+msgid "Add other fonts"
+msgstr ""
+#: translation:131
+msgid "Add new set of fonts"
+msgstr ""
+#: translation:133
+msgid "Configure time"
+msgstr ""
+#: translation:134
+msgid "Change time, configure the nts"
+msgstr ""
+#: translation:136
+msgid "Configure a theme "
+msgstr ""
+#: translation:137
+msgid "Install or change theme "
+msgstr ""
+#: translation:139
+msgid "Configure Desktop Icons"
+msgstr ""
+#: translation:140
+msgid "Change or configure your desktop icons or install your favorite icons"
+msgstr ""
+#: translation:142
+msgid "Configure the system boot"
+msgstr ""
+#: translation:143
+msgid "If you need to change the boot order of the system or repair grub2 manually or later add another operating system"
+msgstr ""
+#: translation:146
+msgid "Security Configurations"
+msgstr ""
+#: translation:148
+msgid "Configure your firewall"
+msgstr ""
+#: translation:149
+msgid "Change, configure and manage your firewall settings"
+msgstr ""
+#: translation:151
+msgid "Open your firewall applet"
+msgstr ""
+#: translation:152
+msgid "Change, configure and manage your firewall settings from the apllet"
+msgstr ""
+#: translation:155
+msgid "About "
+msgstr ""
+#: translation:156
+msgid "This software is licensed under the GNU General Public License version 2 (GPLv2)."
+msgstr ""
+#: translation:157
+msgid "It uses python-qt4-webkit, web.py, and bigbashview."
+msgstr ""
+#: translation:158
+msgid "For bugs, suggestions and improvements, please head to "
+msgstr ""
+#: translation:159
+msgid "Exit"
+msgstr ""
+#: translation:161
+msgid "You are using"
+msgstr ""
+#: translation:162
+msgid "with kernel"
+msgstr ""
+#: translation:163
+msgid "architecture"
+msgstr ""
+#: translation:166
+msgid "OpenMandriva Control Center"
+msgstr ""
+#: translation:167
+msgid "All system tools and settings are available in drakconf, including System Settings, Network Sharing, Security, Disk Partitioning, and more"
+msgstr ""
+#: translation:169
+msgid "Next"
+msgstr ""
+#: translation:171
+msgid "Applications"
+msgstr ""
+#: translation:172
+msgid "Office"
+msgstr ""
+#: translation:173
+msgid "Graphics"
+msgstr ""
+#: translation:174
+msgid "Multimedia"
+msgstr ""
+#: translation:175
+msgid "Utility"
+msgstr ""
+#: translation:176
+msgid "Games"
+msgstr ""
+#: translation:177
+msgid "Development"
+msgstr ""
+#: translation:178
+msgid "Internet"
+msgstr ""
