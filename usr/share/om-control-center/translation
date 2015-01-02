@@ -77,6 +77,9 @@ descconfiglan=$"All the necessary tools to change or settings your networks, suc
 #03-Configure hosts
 titledrakhosts=$"Add network hosts "
 descdrakhosts=$"Add all the known hosts of your network "
+#03-Configure hostname
+titlehostname=$"Change the hostname "
+deschostname=$"Change the name of your computer, or set particular DNS"
 #03-Configure internet Sharing
 titledrakgw=$"Configure internet Sharing"
 descdrakgw=$"Share your internet connection"
@@ -122,15 +125,20 @@ descdrakuser=$"Here you can configure new users add groups etc"
 #04-Services management
 titleservices=$"Services management"
 descservices=$"Start and stop of the entire services available on the system"
-#04-Autorization management
-titledraksec=$"Autorization management"
-descdraksec=$"Configure users Autorization to the OpenMandriva configuration tools"
 #04-Add fonts
 titledrakfont=$"Add other fonts"
 descdrakfont=$"Add new set of fonts"
 #04-Configure time
 titledrakclock=$"Configure time"
 descdrakclock=$"Change time, configure the nts"
+#04-Configure DM
+titledrakedm=$"Change the Display Manager"
+descdrakedm=$"Change the display manager that you use (KDM, GDM)"
+#04-Configure Keyboard
+titlekeyboard=$"Configure keyboard"
+desckeyboard=$"Change or configure keyboard layout"
+
+
 #04-Themes management
 titlechangethemes=$"Configure a theme "
 descchangethemes=$"Install or change theme "
@@ -149,6 +157,9 @@ descfirewall=$"Change, configure and manage your firewall settings";
 #05-firewall applet
 titlefirewall2=$"Open your firewall applet"
 descfirewall2=$"Change, configure and manage your firewall settings from the applet";
+#04-Autorization management
+titledraksec=$"Autorization management"
+descdraksec=$"Configure users Autorization to the OpenMandriva configuration tools"
 
 #About.sh.htm
 about=$"About "
