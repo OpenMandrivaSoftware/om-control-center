@@ -23,7 +23,9 @@ menusecurity=$"Security"
 menuabout=$"About"
 #
 #section presentation text
-text=$"OpenMandriva Control Center is a set of tools to help you configure your system for: <br/>
+text=$"OpenMandriva Control Center is a set of tools to help you to configure your system, in each its part.
+All in the same place and in the easiest way possible: <br/>
+In each section you will find the programs to configure: <br/>
 - Software Management<br/>
 - Hardware<br/>
 - Network, Internet & Sharing<br/>
