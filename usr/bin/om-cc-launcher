@@ -4,7 +4,7 @@ if [ -e "/home/$USER/.om-control-center" ]; then
 	clear;
 else
 	touch ~/.om-control-center;
-	echo 'autostart=1' > ~/.oma-welcome;
+	echo 'autostart=1' > ~/.om-control-center;
 fi
 
 source ~/.om-control-center

@@ -60,7 +60,7 @@ titleconfigprint=$"Configure your printer"
 descconfigprint=$"Configure your printer, add drivers for HP, EPSON, etc"
 #02-DVB devices
 titledrakdvb=$"Configure your dvb devices"
-descdrakdvb=$"install all the necessary dirver to use your dvb devices"
+descdrakdvb=$"Install all the necessary dirver to use your dvb devices"
 #02-UPS devices
 titledrakups=$"Configure an UPS"
 descdrakups=$"Install all the necessary program to manage and configure your UPS"
@@ -102,22 +102,22 @@ titledraksambashare=$"Configure a SMB share"
 descdraksambashare=$"Change or configure your SMB directory scharing";
 #03C-servproftp
 titleservproftp=$"Configure a FTP Server"
-descservproftp=$"install and configure your FTP server"
+descservproftp=$"Install and configure your FTP server"
 #03C-servopenssh
 titleservopenssh=$"Configure a SSH Server"
-descservopenssh=$"install and configure a SSH server"
+descservopenssh=$"Install and configure a SSH server"
 #03C-servapache
 titleservapache2=$"Configure an Apache2 Server"
-descservapache2=$"install and configure your http server"
+descservapache2=$"Install and configure your http server"
 #03C-servdhcp
 titleservdhcp=$"Configure a DHCP Server"
-descservdhcp=$"install and configure your DHCP server"
+descservdhcp=$"Install and configure your DHCP server"
 #03C-servdnsbind
 titleservdnsbind=$"Configure a DNS Server"
-descservdnsbind=$"install and configure your DNS server"
+descservdnsbind=$"Install and configure your DNS server"
 #03C-servtimentp
 titleservtimentp=$"Configure a TIME Server"
-descservtimentp=$"install and configure your NTP server"
+descservtimentp=$"Install and configure your NTP server"
 #
 #section 04 System Configurations
 titlepage04=$"System Configurations"
