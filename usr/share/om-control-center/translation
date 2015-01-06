@@ -44,6 +44,9 @@ descaddremovesw=$"Search, discover and install additional programs "
 #01-Edit media Sorces
 titleeditmedia=$"Add Media"
 descaddmedia=$"Repository management, add new media"
+#01-add 32bit support Sorces
+titlerepo32bit=$"Add 32bits repositories"
+descrepo32bit=$"Add the 32 bits repositories on a 64 bit architecture for the back compatibility"
 #01-System update
 titleupdate=$"Update of"
 descupdate=$"To get the latest bug fixes and enhancements for your system"
