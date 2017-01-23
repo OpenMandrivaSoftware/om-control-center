@@ -18,7 +18,7 @@ install:
 	cp -avx usr/share/$(NAME)/* $(DESTDIR)$(prefix)/$(sharedir)/$(NAME)
 	@for l in $(TRANSLATIONS); do \
 	mkdir -p  $(DESTDIR)$(prefix)/$(localedir)/$$l/LC_MESSAGES; \
-	cp -avx locale/$$l/* $(DESTDIR)$(prefix)$(localedir)/$$l/LC_MESSAGES ; \
+	msgcat locale/$$l/om-control-center.po |msgfmt -o $(DESTDIR)$(prefix)$(localedir)/$$l/LC_MESSAGES/om-control-center.mo - ; \
 	done
 
 dist:
