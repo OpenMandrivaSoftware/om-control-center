@@ -1,1 +1,2 @@
-drakclock 
+#!/bin/sh
+exec kcmshell5 clock

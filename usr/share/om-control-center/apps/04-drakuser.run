@@ -1,1 +1,2 @@
-drakuser
+#!/bin/sh
+exec kcmshell5 user_manager

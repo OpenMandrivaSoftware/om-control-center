@@ -1,1 +1,2 @@
-/usr/sbin/drakx11
+#!/bin/sh
+exec kcmshell5 kcm_kscreen
