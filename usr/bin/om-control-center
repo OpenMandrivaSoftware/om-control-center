@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /usr/share/om-control-center
-htmlscript -s 870x520 -i /usr/share/icons/openmandriva.svg index.sh.htm
+exec htmlscript -s 870x520 -i /usr/share/icons/openmandriva.svg index.sh.htm
