@@ -4,19 +4,8 @@ padding:0;
 }
 
 body {
+background: url(images/bg_new.png) no-repeat;
 margin-top:3em;
-background-image: -webkit-gradient(
-	linear,
-	left bottom,
-	left bottom,
-	color-stop(0, #DDE888),
-	color-stop(1, #1E6F89)
-);
-background-image: -o-linear-gradient(left bottom, #DDE888 0%, #1E6F89 100%);
-background-image: -moz-linear-gradient(left bottom, #DDE888 0%, #1E6F89 100%);
-background-image: -webkit-linear-gradient(left bottom, #DDE888 0%, #1E6F89 100%);
-background-image: -ms-linear-gradient(left bottom, #DDE888 0%, #1E6F89 100%);
-background-image: linear-gradient(to left bottom, #DDE888 0%, #1E6F89 100%);
 font-family:'Droid Sans', sans-serif;
 width:750px;
 }
@@ -336,7 +325,6 @@ text-justify:newspaper;
 }
 
 .wrapper {
-background: url(images/background_tree.png) no-repeat;
 text-align:center;
 min-width:820px;
 min-height:400px;
