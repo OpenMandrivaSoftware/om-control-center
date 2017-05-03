@@ -1,5 +1,5 @@
 NAME=om-control-center
-VERSION=0.0.1
+VERSION=0.0.3
 TRANSLATIONS=en it
 bindir=/usr/bin
 sysconfdir=/etc
