@@ -8,6 +8,12 @@ localedir=$(sharedir)/locale
 
 all:
 
+messages: usr/share/om-control-center/translation
+	xgettext -d om-control-center -o usr/share/om-control-center/om-control-center.pot -L Shell --from-code utf-8 usr/share/om-control-center/translation
+	for i in $(TRANSLATIONS); do \
+		msgmerge -U po/$$i.po usr/share/om-control-center/om-control-center.pot; \
+	done
+
 install:
 	mkdir -p $(DESTDIR)$(prefix)/$(bindir)
 	mkdir -p $(DESTDIR)$(prefix)/$(sharedir)/$(NAME)
@@ -18,7 +24,7 @@ install:
 	cp -avx usr/share/$(NAME)/* $(DESTDIR)$(prefix)/$(sharedir)/$(NAME)
 	@for l in $(TRANSLATIONS); do \
 	mkdir -p  $(DESTDIR)$(prefix)/$(localedir)/$$l/LC_MESSAGES; \
-	msgcat locale/$$l/om-control-center.po |msgfmt -o $(DESTDIR)$(prefix)$(localedir)/$$l/LC_MESSAGES/om-control-center.mo - ; \
+	msgcat po/$$l.po |msgfmt -o $(DESTDIR)$(prefix)$(localedir)/$$l/LC_MESSAGES/om-control-center.mo - ; \
 	done
 
 dist:
