@@ -39,8 +39,8 @@ In each section you will find the programs to configure: <br/>
 #section 01 sw-management
 titlepage01=$"Software and media management"
 #01-Install & Remove software
-titleaddremovesw=$"Add & Remove Software"
-descaddremovesw=$"Search, discover and install additional programs "
+titleaddremovesw=$"Install additional applications with dnfdragora"
+descaddremovesw=$"Find and install applications available in the repositories"
 #01-Edit media Sorces
 titleeditmedia=$"Add Media"
 descaddmedia=$"Repository management, add new media"
@@ -50,9 +50,13 @@ descrepo32bit=$"Add the 32 bits repositories on a 64 bit architecture for the ba
 #01-System update
 titleupdate=$"Update of"
 descupdate=$"To get the latest bug fixes and enhancements for your system"
-#01-Remove unused packages
+#01-KBackup
 titleunusedpackage=$"Remove Unused Packages"
 descunusedpackage=$"Remove unused packages such as unused localization and unused hardware packages"
+titlekbackup=$"KBackup"
+desckbackup=$"Backup your data with an easy to use user interface"
+titlekdiskfree=$"KDiskFree"
+desckdiskfree=$"Displays information about hard disks and other storage devices"
 #
 #section 02 Hardware
 titlepage02=$"Devices Configurations"
@@ -142,8 +146,7 @@ descdrakedm=$"Change the display manager that you use (KDM, GDM)"
 #04-Configure Keyboard
 titlekeyboard=$"Configure keyboard"
 desckeyboard=$"Change or configure keyboard layout"
-
-
+#
 #04-Themes management
 titlechangethemes=$"Configure a theme "
 descchangethemes=$"Install or change theme "
@@ -169,7 +172,7 @@ descdraksec=$"Configure users Autorization to the OpenMandriva configuration too
 #About.sh.htm
 about=$"About "
 license=$"This software is licensed under the GNU General Public License version 2 (GPLv2)."
-dependency=$"It uses python-qt4-webkit, web.py, and bigbashview."
+dependency=$"It uses Qt5 WebEngine and htmlscript."
 bugs=$"For bugs, suggestions and improvements, please head to "
 endapp=$"Exit"
 #Additional
