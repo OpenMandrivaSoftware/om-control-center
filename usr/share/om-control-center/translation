@@ -39,8 +39,8 @@ In each section you will find the programs to configure: <br/>
 #section 01 sw-management
 titlepage01=$"Software and media management"
 #01-Install & Remove software
-titleaddremovesw=$"Install additional applications with dnfdragora"
-descaddremovesw=$"Find and install applications available in the repositories"
+titlednfdragora=$"Install additional applications with dnfdragora"
+descdnfdragora=$"Find and install applications available in the repositories"
 #01-Edit media Sorces
 titleeditmedia=$"Add Media"
 descaddmedia=$"Repository management, add new media"
