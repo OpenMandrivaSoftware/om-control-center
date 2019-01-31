@@ -149,11 +149,11 @@ titlekeyboard=$"Configure keyboard"
 desckeyboard=$"Change or configure keyboard layout"
 #
 #04-Themes management
-titlechangethemes=$"Configure a theme "
-descchangethemes=$"Install or change theme "
+titlechangethemes=$"Desktop Themes"
+descchangethemes=$"Change or install your favorite Plasma theme"
 #04-Change icons theme
-titlechangeicons=$"Configure Desktop Icons"
-descchangeicons=$"Change or configure your desktop icons or install your favorite icons"
+titlechangeicons=$"Desktop Icons"
+descchangeicons=$"Change or install your favorite icons theme"
 #04-boot configuration
 titleconfigboot=$"Configure the system boot"
 descconfigboot=$"If you need to change the boot order of the system or repair grub2 manually or later add another operating system"
