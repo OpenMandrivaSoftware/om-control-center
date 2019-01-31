@@ -61,7 +61,8 @@ desckdiskfree=$"Displays information about hard disks and other storage devices"
 #section 02 Hardware
 titlepage02=$"Devices Configurations"
 #02-Configure video
-titlexfdrake=$"Configure your graphical video card"
+titlexfdrake=$"Display and Monitor"
+descxfdrake=$"Manage and configure monitor and display"
 #02-Configure printer
 titleconfigprint=$"Configure your printer"
 descconfigprint=$"Configure your printer, add drivers for HP, EPSON, etc"
