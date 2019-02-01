@@ -1,1 +1,2 @@
-drakboot --boot
+#!/bin/sh
+exec kcm_grub2
