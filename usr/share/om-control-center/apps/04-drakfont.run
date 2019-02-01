@@ -1,1 +1,2 @@
-drakfont
+#!/bin/sh
+exec kcmshell5 fontinst
