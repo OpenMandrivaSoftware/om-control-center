@@ -78,6 +78,10 @@ titlepage06=$"Local Disk Configurations"
 #02B-disk management
 titlediskdrake=$"Configure your local drives"
 descdiskdrake=$"Change, configure and manage your local drives";
+titleaudio=$"Audio Volume"
+descaudio=$"Configure Audio"
+titleaudiovideo=$"Audio and Video"
+descaudiovideo=$"Phonon Audio and Video"
 #
 #section 03 Networks
 titlepage03=$"Nertworks Configurations"
