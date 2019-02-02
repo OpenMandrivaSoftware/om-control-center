@@ -1,0 +1,2 @@
+#!/bin/sh
+exec kcmshell5 kcm_phonon
