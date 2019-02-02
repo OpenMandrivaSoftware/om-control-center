@@ -1,7 +1,7 @@
 om-control-center
 ===========
 
-version: 1.0.0
+version: 2.1.1
 
 This is the om-control-center for test
 
