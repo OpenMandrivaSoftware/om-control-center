@@ -10,9 +10,9 @@ requires the following dependencies:
 - htmlscript
 
 ##### Installing Dependencies
-to install htmlscript, we can use urpmi:
+to install htmlscript, we can use dnf:
 ```sh
-urpmi htmlscript
+dnf install htmlscript
 ```
 
 ##### Running om-control-center
