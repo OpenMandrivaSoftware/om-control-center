@@ -55,8 +55,8 @@ titleunusedpackage=$"Remove Unused Packages"
 descunusedpackage=$"Remove unused packages such as unused localization and unused hardware packages"
 titlekbackup=$"KBackup"
 desckbackup=$"Backup your data with an easy to use user interface"
-titlekdiskfree=$"KDiskFree"
-desckdiskfree=$"Displays information about hard disks and other storage devices"
+titlekdiskfree=$"Storage Devices"
+desckdiskfree=$"Shows the disk usage of the mounted devices"
 #
 #section 02 Hardware
 titlepage02=$"Devices Configurations"
