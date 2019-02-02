@@ -1,1 +1,2 @@
-/usr/bin/kdf
+#!/bin/sh
+exec kcmshell5 kcmdf
