@@ -147,6 +147,8 @@ descdrakedm=$"Change the display manager that you use (KDM, GDM)"
 #04-Configure Keyboard
 titlekeyboard=$"Configure keyboard"
 desckeyboard=$"Change or configure keyboard layout"
+titleombugreport=$"Bug report tool"
+descombugreport=$"The simple shell script will help in bug fixing process. The file generated should be attached to any bugreport"
 #
 #04-Themes management
 titlechangethemes=$"Desktop Themes"
