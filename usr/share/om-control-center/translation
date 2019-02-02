@@ -82,8 +82,8 @@ descdiskdrake=$"Change, configure and manage your local drives";
 #section 03 Networks
 titlepage03=$"Nertworks Configurations"
 #03-Configure LAN
-titleconfiglan=$"Configure the network"
-descconfiglan=$"All the necessary tools to change or settings your networks, such as configuring static IP, PPPoE, 3G, etc"
+titleconfiglan=$"Connections"
+descconfiglan=$"Edit your Network Connections"
 #03-Configure hosts
 titledrakhosts=$"Add network hosts "
 descdrakhosts=$"Add all the known hosts of your network "
