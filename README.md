@@ -1,8 +1,6 @@
 om-control-center
 ===========
 
-version: 2.1.1
-
 This is the om-control-center for test
 
 requires the following dependencies:
