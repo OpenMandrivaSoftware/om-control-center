@@ -1,2 +1,2 @@
 #!/bin/bash
-firefox https://issues.openmandriva.org/
+xdg-open https://issues.openmandriva.org/
