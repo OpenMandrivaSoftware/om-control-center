@@ -1,2 +1,2 @@
 #!/bin/sh
-exec kcm_grub2
+exec kcmshell5 kcm_grub2
