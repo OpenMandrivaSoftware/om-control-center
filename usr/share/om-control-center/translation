@@ -41,7 +41,19 @@ titlepage01=$"Software and media management"
 #01-Install & Remove software
 titlednfdragora=$"Install additional applications with dnfdragora"
 descdnfdragora=$"Find and install applications available in the repositories"
-#01-Edit media Sorces
+#01-Edit media Sources
+titleenrestrict=$"Add restricted"
+descenrestrict=$"Enable restricted repository"
+titleremrestrict=$"Remove restricted"
+descremrestrict=$"Disable restricted repository"
+titleencontrib=$"Add contrib"
+descencontrib=$"Enable contrib/unsupported repository"
+titleremcontrib=$"Remove contrib"
+descremcontrib=$"Disable contrib/unsupported repository"
+titleennonfree=$"Add non-free"
+descennonfree=$"Enable non-free repository"
+titleremnonfree=$"Remove non-free"
+descremnonfree=$"Disable non-free repository"
 titleeditmedia=$"Add Media"
 descaddmedia=$"Repository management, add new media"
 #01-add 32bit support Sorces
