@@ -45,11 +45,32 @@ cat << EOF
 				<p><a class="title" target="hidden" href="./apps/abrir-dnfdragora.run"><img src="images/install-remove.png" class="alignleft"/>
 				<span><a class="title" target="hidden" href="./apps/abrir-dnfdragora.run">$titlednfdragora</a></span><br/>$descdnfdragora</p>
 			</li>
-<!-- 			<li>
-				<p><a href=./apps/01-drakrpm-update.run><img src="/usr/share/icons/oxygen/base/128x128/apps/system-software-update.png" class="alignleft"/></a>
-				<span><a class="title" href=./apps/01-drakrpm-update.run>$titleupdate $(lsb_release -d | cut -d":" -f2)</a></span><br/>
-				$descupdate<br/><br/></p>
-			</li> -->
+<!-- Manage repositories -->
+            		<li>
+				<p><a href=./apps/01-enable-restricted.run><img src="images/repoadd.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/01-enable-restricted.run>$titleenrestrict</a></span><br/>$descenrestrict</p>
+			</li>
+            		<li>
+				<p><a href=./apps/01-disable-restricted.run><img src="images/reporem.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/01-disable-restricted.run>$titleremrestrict</a></span><br/>$descremrestrict</p>
+			</li>
+            		<li>
+				<p><a href=./apps/01-enable-contrib.run><img src="images/repoadd.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/01-enable-contrib.run>$titleencontrib</a></span><br/>$descencontrib</p>
+			</li>
+            		<li>
+				<p><a href=./apps/01-disable-contrib.run><img src="images/reporem.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/01-disable-contrib.run>$titleremcontrib</a></span><br/>$descremcontrib</p>
+			</li>
+            		<li>
+				<p><a href=./apps/01-enable-nonfree.run><img src="images/repoadd.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/01-enable-nonfree.run>$titleennonfree</a></span><br/>$descennonfree</p>
+			</li>
+            		<li>
+				<p><a href=./apps/01-disable-nonfree.run><img src="images/reporem.png" class="alignleft"/></a>
+				<span><a class="title" href=./apps/01-disable-nonfree.run>$titleremnonfree</a></span><br/>$descremnonfree</p>
+			</li>
+<!-- end Manage repositories -->
 			<li>
 				<p><a class="title" href=./apps/01-kbackup.run><img src="images/system-backup.svg" class="alignleft"/></a>
 				<span><a class="title" href=./apps/01-kbackup.run>$titlekbackup</a></span><br/>$desckbackup</p>
