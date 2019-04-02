@@ -12,3 +12,5 @@ if [ -n "$IS_COOKER" ]; then
 else
 	dnf config-manager --set-disabled "openmandriva-${DISTRO_ARCH}-non-free" "updates-${DISTRO_ARCH}-non-free"
 fi
+
+kdialog --title $"OpenMandriva"  --msgbox  $" Non-free repository has been disabled"

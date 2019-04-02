@@ -12,3 +12,5 @@ if [ -n "$IS_COOKER" ]; then
 else
 	dnf config-manager --set-enabled "openmandriva-${DISTRO_ARCH}-restricted" "updates-${DISTRO_ARCH}-restricted"
 fi
+
+kdialog --title $"OpenMandriva"  --msgbox  $" Restricted repository has been enabled"

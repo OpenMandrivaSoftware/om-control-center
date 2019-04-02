@@ -12,3 +12,5 @@ if [ -n "$IS_COOKER" ]; then
 else
 	dnf config-manager --set-enabled "openmandriva-${DISTRO_ARCH}-contrib" "updates-${DISTRO_ARCH}-contrib"
 fi
+
+kdialog --title $"OpenMandriva"  --msgbox  $" Contrib/unsupported repository has been enabled"
