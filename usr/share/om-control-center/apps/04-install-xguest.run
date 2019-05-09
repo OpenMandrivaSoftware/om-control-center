@@ -1,0 +1,11 @@
+#!/bin/bash
+if which xguest &>/dev/null; then 
+	kdialog --title $"OpenMandriva" --msgbox $"Guest Account is already installed."
+else 
+	kdesu -- dnf install --assumeyes xguest
+	if which xguest &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
