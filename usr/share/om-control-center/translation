@@ -54,6 +54,8 @@ titleennonfree=$"Add non-free"
 descennonfree=$"Enable non-free repository"
 titleremnonfree=$"Remove non-free"
 descremnonfree=$"Disable non-free repository"
+titlerepopicker=$"OpenMandriva repo-picker"
+descrepopicker=$"Enable and disable repositories the easy way"
 titleeditmedia=$"Add Media"
 descaddmedia=$"Repository management, add new media"
 #01-add 32bit support Sorces
