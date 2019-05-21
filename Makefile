@@ -19,7 +19,7 @@ install:
 	mkdir -p $(DESTDIR)$(prefix)/$(sharedir)/$(NAME)
 	mkdir -p $(DESTDIR)$(prefix)/$(sharedir)/applications
 	mkdir -p $(DESTDIR)$(prefix)/$(localedir)
-	install -m 644 etc/skel/om-control-center.desktop $(DESTDIR)$(prefix)/$(sharedir)/applications
+	install -m 644 om-control-center.desktop $(DESTDIR)$(prefix)/$(sharedir)/applications
 	install -m 755 usr/bin/* $(DESTDIR)$(prefix)/$(bindir)
 	cp -avx usr/share/$(NAME)/* $(DESTDIR)$(prefix)/$(sharedir)/$(NAME)
 	@for l in $(TRANSLATIONS); do \
