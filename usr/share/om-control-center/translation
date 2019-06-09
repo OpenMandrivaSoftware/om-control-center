@@ -27,9 +27,9 @@ text=$"OpenMandriva Control Center is a set of tools to help you to configure yo
 All in the same place and in the easiest way possible: <br/>
 In each section you will find the programs to configure: <br/>
 - Software Management<br/>
-- Hardware<br/>
+- Devices, Local Disks and Partition Manager<br/>
 - Network and Internet<br/>
-- Local Disks/Partition Manager<br/>
+- System Configuration<br/>
 - System Security<br/>
 - and other parts of your system.<br/>"
 # OpenMandriva Control Center
