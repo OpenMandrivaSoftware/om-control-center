@@ -57,8 +57,8 @@ cat << EOF
 		 <br/>
 		 <article class="articles">
 			<p>
-				$you_are_using <span class="bold">$(head -1 /README |fmt -w 28|head -1)</span> codename <span class="bold">$(lsb_release -c | cut -d":" -f2)</span>
-				$with_kernel $(uname -r) 
+				$you_are_using <span class="bold">$(lsb_release -d | cut -d":" -f2)</span> codename <span class="bold">$(lsb_release -c | cut -d":" -f2)</span>
+				$with_kernel $(uname -r)
 				$arch $(uname -i).
 			</p>
 		 </article>
