@@ -56,17 +56,8 @@ titleremnonfree=$"Remove non-free"
 descremnonfree=$"Disable non-free repository"
 titlerepopicker=$"OpenMandriva repo-picker"
 descrepopicker=$"Enable and disable repositories the easy way"
-titleeditmedia=$"Add Media"
-descaddmedia=$"Repository management, add new media"
-#01-add 32bit support Sorces
-titlerepo32bit=$"Add 32bits repositories"
-descrepo32bit=$"Add the 32 bits repositories on a 64 bit architecture for the back compatibility"
-#01-System update
-titleupdate=$"Update of"
-descupdate=$"To get the latest bug fixes and enhancements for your system"
+#
 #01-KBackup
-titleunusedpackage=$"Remove Unused Packages"
-descunusedpackage=$"Remove unused packages such as unused localization and unused hardware packages"
 titlekbackup=$"KBackup"
 desckbackup=$"Backup your data with an easy to use user interface"
 titlekdiskfree=$"Storage Devices"
@@ -80,12 +71,6 @@ descxfdrake=$"Manage and configure monitor and display"
 #02-Configure printer
 titleconfigprint=$"Configure your printer"
 descconfigprint=$"Configure your printer, add drivers for HP, EPSON, etc"
-#02-DVB devices
-titledrakdvb=$"Configure your dvb devices"
-descdrakdvb=$"Install all the necessary dirver to use your dvb devices"
-#02-UPS devices
-titledrakups=$"Configure an UPS"
-descdrakups=$"Install all the necessary program to manage and configure your UPS"
 #
 #section 02B local Disk configuration
 titlepage06=$"Local Disk Configurations"
@@ -102,48 +87,6 @@ titlepage03=$"Nertworks Configurations"
 #03-Configure LAN
 titleconfiglan=$"Connections"
 descconfiglan=$"Edit your Network Connections"
-#03-Configure hosts
-titledrakhosts=$"Add network hosts "
-descdrakhosts=$"Add all the known hosts of your network "
-#03-Configure hostname
-titlehostname=$"Change the hostname "
-deschostname=$"Change the name of your computer, or set particular DNS"
-#03-Configure internet Sharing
-titledrakgw=$"Configure internet Sharing"
-descdrakgw=$"Share your internet connection"
-#03-Configure a proxy
-titledrakproxy=$"Configure a proxy "
-descdrakproxy=$"If you are into a company network, probably you should set the right proxy"
-#03-Configure a VPN
-titledrakvpn=$"Configure a VPN"
-descdrakvpn=$"All the necessary to create and manage a VPN"
-#
-#section 03B sharing Configurations
-titlepage05=$"Directory sharing configurations"
-#03B-nfs
-titledraknfs=$"Configure a NFS share"
-descdraknfs=$"Change or configure your NFS directory scharing";
-#03B-samba
-titledraksambashare=$"Configure a SMB share"
-descdraksambashare=$"Change or configure your SMB directory scharing";
-#03C-servproftp
-titleservproftp=$"Configure a FTP Server"
-descservproftp=$"Install and configure your FTP server"
-#03C-servopenssh
-titleservopenssh=$"Configure a SSH Server"
-descservopenssh=$"Install and configure a SSH server"
-#03C-servapache
-titleservapache2=$"Configure an Apache2 Server"
-descservapache2=$"Install and configure your http server"
-#03C-servdhcp
-titleservdhcp=$"Configure a DHCP Server"
-descservdhcp=$"Install and configure your DHCP server"
-#03C-servdnsbind
-titleservdnsbind=$"Configure a DNS Server"
-descservdnsbind=$"Install and configure your DNS server"
-#03C-servtimentp
-titleservtimentp=$"Configure a TIME Server"
-descservtimentp=$"Install and configure your NTP server"
 #
 #section 04 System Configurations
 titlepage04=$"System Configurations"
@@ -159,9 +102,7 @@ descdrakfont=$"Add new set of fonts"
 #04-Configure time
 titledrakclock=$"Configure time"
 descdrakclock=$"Change time, configure the nts"
-#04-Configure DM
-titledrakedm=$"Change the Display Manager"
-descdrakedm=$"Change the display manager that you use (KDM, GDM)"
+#
 #04-Configure Keyboard
 titlekeyboard=$"Configure keyboard"
 desckeyboard=$"Change or configure keyboard layout"
@@ -194,7 +135,7 @@ descfirewall2=$"Change, configure and manage your firewall settings from the app
 #04-Autorization management
 titledraksec=$"Autorization management"
 descdraksec=$"Configure users Autorization to the OpenMandriva configuration tools"
-
+#
 #About.sh.htm
 about=$"About "
 license=$"This software is licensed under the GNU General Public License version 2 (GPLv2)."
