@@ -14,7 +14,7 @@ msgstr ""
 msgid "Hardware"
 msgstr ""
 #: translation:15
-msgid "Devices Configurations"
+msgid "Devices Configuration"
 msgstr ""
 #: translation:16
 msgid "Local Disk configuration"
