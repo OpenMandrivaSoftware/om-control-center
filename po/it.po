@@ -32,7 +32,6 @@ msgid "Hardware"
 msgstr "Hardware"
 
 #: usr/share/om-control-center/translation:15
-#: usr/share/om-control-center/translation:58
 msgid "Devices Configuration"
 msgstr "Configurazione Dispositivi"
 
@@ -141,8 +140,9 @@ msgid ""
 msgstr ""
 "Rimuovi i pacchetti non utilizzati come localizzazioni e driver hardware"
 
-# msgid "Devices Configurations"
-# msgstr "Configura i dispositivi"
+#: usr/share/om-control-center/translation:58
+msgid "Devices Configurations"
+msgstr "Configura i dispositivi"
 #: usr/share/om-control-center/translation:60
 msgid "Configure your graphical video card"
 msgstr "Configura la tua scheda video"
