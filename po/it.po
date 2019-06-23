@@ -33,7 +33,7 @@ msgstr "Hardware"
 
 #: usr/share/om-control-center/translation:15
 #: usr/share/om-control-center/translation:58
-msgid "Devices Configurations"
+msgid "Devices Configuration"
 msgstr "Configurazione Dispositivi"
 
 #: usr/share/om-control-center/translation:16
@@ -189,7 +189,7 @@ msgstr "Cambia, configura e gestisci i tuoi dischi"
 
 #: usr/share/om-control-center/translation:78
 msgid "Nertworks Configurations"
-msgstr "Configurazione della ret"
+msgstr "Configurazione della rete"
 
 #: usr/share/om-control-center/translation:80
 msgid "Configure the network"
