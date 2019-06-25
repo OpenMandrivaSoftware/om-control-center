@@ -83,7 +83,7 @@ titleaudiovideo=$"Audio and Video"
 descaudiovideo=$"Phonon Audio and Video"
 #
 #section 03 Networks
-titlepage03=$"Nertworks Configurations"
+titlepage03=$"Networks Configurations"
 #03-Configure LAN
 titleconfiglan=$"Connections"
 descconfiglan=$"Edit your Network Connections"
