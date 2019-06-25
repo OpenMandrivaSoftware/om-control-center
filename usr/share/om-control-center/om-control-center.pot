@@ -152,7 +152,7 @@ msgstr ""
 msgid "Phonon Audio and Video"
 msgstr ""
 #: translation:86
-msgid "Nertworks Configurations"
+msgid "Networks Configurations"
 msgstr ""
 #: translation:88
 msgid "Connections"
