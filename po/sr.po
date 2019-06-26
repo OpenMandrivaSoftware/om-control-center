@@ -1,0 +1,402 @@
+# Translators:
+# tomaja <toma.jankovic@gmail.com>, 2019
+# OpenMandrivaAssociation <i10n@openmandriva.org>, 2019
+# 
+msgid ""
+msgstr ""
+"Last-Translator: OpenMandrivaAssociation <i10n@openmandriva.org>, 2019\n"
+"Language-Team: Serbian (https://www.transifex.com/openmandriva/teams/1818/sr/)\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: translation:8
+msgid "Hi"
+msgstr "Здраво"
+
+#: translation:9
+msgid "OpenMandriva Control Center"
+msgstr "OpenMandriva Контролни Центар"
+
+#: translation:12
+msgid "Welcome"
+msgstr "Добродошли"
+
+#: translation:13
+msgid "Software"
+msgstr "Софтвер"
+
+#: translation:14
+msgid "Hardware"
+msgstr "Хардвер"
+
+#: translation:15
+msgid "Devices Configuration"
+msgstr "Подешавање уређаја"
+
+#: translation:16
+msgid "Local Disk configuration"
+msgstr "Подешавање локалних дискова"
+
+#: translation:17
+msgid "Networks"
+msgstr "Мреже"
+
+#: translation:18
+msgid "Network Sharing"
+msgstr "Мрежно дељење"
+
+#: translation:19
+msgid "Network servers"
+msgstr "Мрежни сервери"
+
+#: translation:20
+msgid "System"
+msgstr "Систем"
+
+#: translation:21
+msgid "Desktop"
+msgstr "Десктоп"
+
+#: translation:22
+msgid "Security"
+msgstr "Сигурност"
+
+#: translation:23
+msgid "About"
+msgstr "О"
+
+#: translation:26
+msgid ""
+"OpenMandriva Control Center is a set of tools to help you to configure your system, in each its part.\n"
+"All in the same place and in the easiest way possible: <br/>\n"
+"In each section you will find the programs to configure: <br/>\n"
+"- Software Management<br/>\n"
+"- Devices, Local Disks and Partition Manager<br/>\n"
+"- Network and Internet<br/>\n"
+"- System Configuration<br/>\n"
+"- System Security<br/>\n"
+"- and other parts of your system.<br/>"
+msgstr ""
+"OpenMandriva Контролни Центар представља групу алата који ти помажу да подесите свој систем, у сваком његовом делу..\n"
+"Све на једном месту и на најлакши могући начин: <br/>\n"
+"У свакој секцији ћеш пронаћи програме за подешавања: <br/>\n"
+"- Управљање софтвером<br/>\n"
+"- Уређаји, Локални дискови и менаџер за партиције<br/>\n"
+"- Мрежа и Интернет<br/>\n"
+"- Подешавање система<br/>\n"
+"- Сигурност система<br/>\n"
+"- и остали делови твог система.<br/>"
+
+#: translation:40
+msgid "Software and media management"
+msgstr "Управљање Софтвером и медији"
+
+#: translation:42
+msgid "Install additional applications with dnfdragora"
+msgstr "Инсталирај додатне апликације са dnfdragora"
+
+#: translation:43
+msgid "Find and install applications available in the repositories"
+msgstr "Пронађи и инсталирај апликације доступне у складиштима"
+
+#: translation:45
+msgid "Add restricted"
+msgstr "Додај ограничена"
+
+#: translation:46
+msgid "Enable restricted repository"
+msgstr "Омогући ограничена складишта"
+
+#: translation:47
+msgid "Remove restricted"
+msgstr "Уклони ограничена"
+
+#: translation:48
+msgid "Disable restricted repository"
+msgstr "Онемогући ограничена складишта"
+
+#: translation:49
+msgid "Add unsupported"
+msgstr "Додај неподржана"
+
+#: translation:50
+msgid "Enable unsupported repository"
+msgstr "Омогући неподржана складишта"
+
+#: translation:51
+msgid "Remove unsupported"
+msgstr "Уклони неподржана"
+
+#: translation:52
+msgid "Disable unsupported repository"
+msgstr "Онемогући неподржана складишта"
+
+#: translation:53
+msgid "Add non-free"
+msgstr "Додај не-слободна"
+
+#: translation:54
+msgid "Enable non-free repository"
+msgstr "Омогући не-слободна складишта"
+
+#: translation:55
+msgid "Remove non-free"
+msgstr "Уклони не-слободна"
+
+#: translation:56
+msgid "Disable non-free repository"
+msgstr "Онемогући не-слободна складишта"
+
+#: translation:57
+msgid "OpenMandriva repo-picker"
+msgstr "OpenMandriva изборник складишта"
+
+#: translation:58
+msgid "Enable and disable repositories the easy way"
+msgstr "Омогући и онемогући складишта на једноставан начин"
+
+#: translation:61
+msgid "KBackup"
+msgstr "KBackup"
+
+#: translation:62
+msgid "Backup your data with an easy to use user interface"
+msgstr ""
+"Направите резервну копију својих података помоћу једноставног корисничког "
+"интефејса"
+
+#: translation:63
+msgid "Storage Devices"
+msgstr "Уређаји за складиштење података"
+
+#: translation:64
+msgid "Shows the disk usage of the mounted devices"
+msgstr "Приказује заузеће дискова монтираних уређаја"
+
+#: translation:67
+msgid "Devices Configurations"
+msgstr "Подешавања уређаја"
+
+#: translation:69
+msgid "Display and Monitor"
+msgstr "Приказ и Монитор"
+
+#: translation:70
+msgid "Manage and configure monitor and display"
+msgstr "Управљајте и подесите монитор и приказ "
+
+#: translation:72
+msgid "Configure your printer"
+msgstr "Подесите свој штампач"
+
+#: translation:73
+msgid "Configure your printer, add drivers for HP, EPSON, etc"
+msgstr "Подесите свој штампач, додајте драјвере за HP, EPSON, итд."
+
+#: translation:76
+msgid "Local Disk Configurations"
+msgstr "Подешавање локалног диска"
+
+#: translation:78
+msgid "Configure your local drives"
+msgstr "Подеси своје локалне дискове"
+
+#: translation:79
+msgid "Change, configure and manage your local drives"
+msgstr "Измените, подесите и управљајте својим локалним дисковима"
+
+#: translation:80
+msgid "Audio Volume"
+msgstr "Јачина звука"
+
+#: translation:81
+msgid "Configure Audio"
+msgstr "Подеси звук"
+
+#: translation:82
+msgid "Audio and Video"
+msgstr "Аудио и Видео"
+
+#: translation:83
+msgid "Phonon Audio and Video"
+msgstr "Phonon Аудио и Видео"
+
+#: translation:86
+msgid "Networks Configurations"
+msgstr "Мрежна подешавања"
+
+#: translation:88
+msgid "Connections"
+msgstr "Конекције"
+
+#: translation:89
+msgid "Edit your Network Connections"
+msgstr "Уреди своје Мрежне конекције"
+
+#: translation:92
+msgid "System Configurations"
+msgstr "Системска подешавања"
+
+#: translation:94
+msgid "Add & Configure user and groups"
+msgstr "Додај & Подеси кориснике и групе"
+
+#: translation:95
+msgid "Here you can configure new users add groups etc"
+msgstr "Овде можеш подесити нове кориснике додати групе итд"
+
+#: translation:97
+msgid "Services management"
+msgstr "Управљање Сервисима"
+
+#: translation:98
+msgid "Start and stop of the entire services available on the system"
+msgstr "Покретање и заустављање свих сервиса доступних на систему"
+
+#: translation:100
+msgid "Add other fonts"
+msgstr "Додај друге фонтове"
+
+#: translation:101
+msgid "Add new set of fonts"
+msgstr "Додај нови сет фонтова"
+
+#: translation:103
+msgid "Configure time"
+msgstr "Подеси време"
+
+#: translation:104
+msgid "Change time, configure the nts"
+msgstr "Промени време, подеси nts"
+
+#: translation:107
+msgid "Configure keyboard"
+msgstr "Подеси тастатуру"
+
+#: translation:108
+msgid "Change or configure keyboard layout"
+msgstr "Промени или подеси распоред на тастатури"
+
+#: translation:110
+msgid "Install Guest Account"
+msgstr "Инсталирај налог Госта"
+
+#: translation:111
+msgid "Creates xguest user as a locked down user"
+msgstr "Креира xguest корисника као закључаног корисника"
+
+#: translation:112
+msgid "Bug report tool"
+msgstr "Алат за пријаву грешака"
+
+#: translation:113
+msgid ""
+"The simple shell script will help in bug fixing process. The file generated "
+"should be attached to any bugreport"
+msgstr ""
+"Једноставна конзолна скрипта која помаже процесу пријаве грешала. Креирани "
+"фајл би требао да буде закачен уз сваку пријаву грешке"
+
+#: translation:114
+msgid "Install Discover"
+msgstr "Инсталирај Discover"
+
+#: translation:115
+msgid "Plasma 5 package manager"
+msgstr "Plasma 5 менаџер за пакете"
+
+#: translation:118
+msgid "Desktop Themes"
+msgstr "Десктоп теме"
+
+#: translation:119
+msgid "Change or install your favorite Plasma theme"
+msgstr "Промени или инсталирај своју омиљену Плазма тему"
+
+#: translation:121
+msgid "Desktop Icons"
+msgstr "Десктоп иконице"
+
+#: translation:122
+msgid "Change or install your favorite icons theme"
+msgstr "Промени или инсталирај своју омиљену тему иконица"
+
+#: translation:124
+msgid "Configure the system boot"
+msgstr "Подеси подизање система"
+
+#: translation:125
+msgid ""
+"If you need to change the boot order of the system or repair grub2 manually "
+"or later add another operating system"
+msgstr ""
+"Уколико треба да промениш редослед подизања система или ручно поправиш grub2"
+" или касније додаш још један оперативни систем"
+
+#: translation:128
+msgid "Security Configurations"
+msgstr "Сигурносна подешавања"
+
+#: translation:130
+msgid "Configure your firewall"
+msgstr "Подеси свој заштитни зид"
+
+#: translation:131
+msgid "Change, configure and manage your firewall settings"
+msgstr "Промени, подеси и управљај опцијама свог заштитног зида"
+
+#: translation:133
+msgid "Open your firewall applet"
+msgstr "Отвори аплет свог заштитног зида"
+
+#: translation:134
+msgid "Change, configure and manage your firewall settings from the applet"
+msgstr "Измени, подеси и управљај опцијама свог заштитног зида преко аплета"
+
+#: translation:136
+msgid "Autorization management"
+msgstr "Управљање Ауторизацијом"
+
+#: translation:137
+msgid "Configure users Autorization to the OpenMandriva configuration tools"
+msgstr "Подеси Ауторизацију корисника за OpenMandriva конфигурационе алате"
+
+#: translation:140
+msgid "About "
+msgstr "О"
+
+#: translation:141
+msgid ""
+"This software is licensed under the GNU General Public License version 2 "
+"(GPLv2)."
+msgstr ""
+"Овај софтвер је објављен под условима ГНУ Опште Јавне Лиценце верзије 2 "
+"(GPLv2). "
+
+#: translation:142
+msgid "It uses Qt5 WebEngine and htmlscript."
+msgstr "Користи Qt5 веб мотор и htmlscript."
+
+#: translation:143
+msgid "For bugs, suggestions and improvements, please head to "
+msgstr "За грешке, сугестине и унапређења, идите на"
+
+#: translation:144
+msgid "Exit"
+msgstr "Излаз"
+
+#: translation:146
+msgid "You are using"
+msgstr "Ви користите"
+
+#: translation:147
+msgid "with kernel"
+msgstr "са кернелом"
+
+#: translation:148
+msgid "architecture"
+msgstr "архитектура"
+
+#: translation:149
+msgid "Next"
+msgstr "Следеће"
