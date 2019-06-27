@@ -1,396 +1,330 @@
+# Translators:
+# OpenMandrivaAssociation <i10n@openmandriva.org>, 2019
+# rugyada <rugyada@gmail.com>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenMandriva Linux\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-28 22:55+0200\n"
-"PO-Revision-Date: 2014-09-26 08:49-0500\n"
-"Last-Translator: Bernhard Rosenkraenzer <bero@lindev.ch>\n"
+"Last-Translator: rugyada <rugyada@gmail.com>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/openmandriva/teams/1818/it/)\n"
 "Language: it\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: usr/share/om-control-center/translation:8
+#: translation:8
 msgid "Hi"
 msgstr "Ciao"
 
-#: usr/share/om-control-center/translation:9
+#: translation:9
 msgid "OpenMandriva Control Center"
 msgstr "Centro di Controllo OpenMandriva"
 
-#: usr/share/om-control-center/translation:12
+#: translation:12
 msgid "Welcome"
 msgstr "Benvenuto"
 
-#: usr/share/om-control-center/translation:13
+#: translation:13
 msgid "Software"
 msgstr "Software"
 
-#: usr/share/om-control-center/translation:14
+#: translation:14
 msgid "Hardware"
 msgstr "Hardware"
 
-#: usr/share/om-control-center/translation:15
+#: translation:15
 msgid "Devices Configuration"
 msgstr "Configurazione Dispositivi"
 
-#: usr/share/om-control-center/translation:16
+#: translation:16
 msgid "Local Disk configuration"
 msgstr "Configurazione dischi locali"
 
-#: usr/share/om-control-center/translation:17
+#: translation:17
 msgid "Networks"
 msgstr "Rete"
 
-#: usr/share/om-control-center/translation:18
+#: translation:18
 msgid "Network Sharing"
-msgstr "Condivisioni in ret"
+msgstr "Condivisioni in rete"
 
-#: usr/share/om-control-center/translation:19
+#: translation:19
 msgid "Network servers"
 msgstr "Server di rete"
 
-#: usr/share/om-control-center/translation:20
+#: translation:20
 msgid "System"
 msgstr "Sistema"
 
-#: usr/share/om-control-center/translation:21
+#: translation:21
 msgid "Desktop"
 msgstr "Desktop"
 
-#: usr/share/om-control-center/translation:22
+#: translation:22
 msgid "Security"
 msgstr "Sicurezza"
 
-#: usr/share/om-control-center/translation:23
+#: translation:23
 msgid "About"
-msgstr "About"
+msgstr "Informazioni su"
 
-#: usr/share/om-control-center/translation:26
+#: translation:26
 msgid ""
-"OpenMandriva Control Center is a set of tools to help you to configure your "
-"system, in each its part.\n"
+"OpenMandriva Control Center is a set of tools to help you to configure your system, in each its part.\n"
 "All in the same place and in the easiest way possible: <br/>\n"
 "In each section you will find the programs to configure: <br/>\n"
 "- Software Management<br/>\n"
-"- Hardware<br/>\n"
-"- Network, Internet & Sharing<br/>\n"
-"- Local Disks/Partition Manager<br/>\n"
+"- Devices, Local Disks and Partition Manager<br/>\n"
+"- Network and Internet<br/>\n"
+"- System Configuration<br/>\n"
 "- System Security<br/>\n"
-"- ans other parts of your system.<br/>"
+"- and other parts of your system.<br/>"
 msgstr ""
-"OpenMandriva Control Center fornisce un set di strumenti per aiutarti nella "
-"Configurazione del tuo sistema, in ogni sua parte.\n"
-"Tutto in un unico posto e nel modo più semplice possibile: <br/>\n"
-"In ogni sezione troverai programmi per configurare: <br/>\n"
-"- Gestione Software <br/>\n"
-"- Hardware<br/>\n"
-"- Rete, Internet e Condivisioni<br/>\n"
-"- Dischi locali/Partizionamento<br/>\n"
-"- Sicurezza del sistema<br/>\n"
-"- e altri parti.<br/>"
+"OpenMandriva Control Center fornisce un set di strumenti per aiutarti nella configurazione del tuo sistema, in ogni sua parte.\n"
+"Tutto in un unico posto e nel modo più semplice possibile:\n"
+"In ogni sezione troverai programmi per configurare:\n"
+"- Gestione Software\n"
+"- Dispositivi, Dischi locali e Gestore delle partizioni\n"
+"- Rete e Connessioni Internet\n"
+"- Configurazioni del Sistema\n"
+"- Sicurezza del sistema\n"
+"e altri strumenti utili."
 
-#: usr/share/om-control-center/translation:40
+#: translation:40
 msgid "Software and media management"
 msgstr "Gestione applicazioni e repository"
 
-#: usr/share/om-control-center/translation:42
-msgid "Add & Remove Software"
-msgstr "Aggiungi e rimuovi applicazioni"
+#: translation:42
+msgid "Install additional applications with dnfdragora"
+msgstr "Installa altre applicazioni con dnfdragora"
 
-#: usr/share/om-control-center/translation:43
-msgid "Search, discover and install additional programs "
-msgstr "Cerca, scopri e installa programmi aggiuntivi"
+#: translation:43
+msgid "Find and install applications available in the repositories"
+msgstr "Trova e installa applicazioni disponibili nei repository"
 
-#: usr/share/om-control-center/translation:45
-msgid "Add Media"
-msgstr "Aggiungi repository"
+#: translation:45
+msgid "Add restricted"
+msgstr "Aggiungi restricted"
 
-#: usr/share/om-control-center/translation:46
-msgid "Repository management, add new media"
-msgstr "Gestione Repository, and new media"
+#: translation:46
+msgid "Enable restricted repository"
+msgstr "Abilita il repository restricted"
 
-#: usr/share/om-control-center/translation:48
-msgid "Add 32bits repositories"
+#: translation:47
+msgid "Remove restricted"
+msgstr "Rimuovi restricted"
+
+#: translation:48
+msgid "Disable restricted repository"
+msgstr "Disabilita il repository restricted"
+
+#: translation:49
+msgid "Add unsupported"
+msgstr "Aggiungi unsupported"
+
+#: translation:50
+msgid "Enable unsupported repository"
+msgstr "Abilita il repository unsupported"
+
+#: translation:51
+msgid "Remove unsupported"
+msgstr "Rimuovi unsupported"
+
+#: translation:52
+msgid "Disable unsupported repository"
+msgstr "Disabilita il repository unsupported"
+
+#: translation:53
+msgid "Add non-free"
+msgstr "Aggiungi non-free"
+
+#: translation:54
+msgid "Enable non-free repository"
+msgstr "Abilita il repository non-free"
+
+#: translation:55
+msgid "Remove non-free"
+msgstr "Rimuovi non-free"
+
+#: translation:56
+msgid "Disable non-free repository"
+msgstr "Disabilita il repository non-free"
+
+#: translation:57
+msgid "OpenMandriva repo-picker"
+msgstr "OpenMandriva repo-picker"
+
+#: translation:58
+msgid "Enable and disable repositories the easy way"
+msgstr "Abilita e disabilita i repository facilmente"
+
+#: translation:61
+msgid "KBackup"
+msgstr "KBackup"
+
+#: translation:62
+msgid "Backup your data with an easy to use user interface"
 msgstr ""
+"Esegue il backup dei tuoi dati tramite una semplice interfaccia grafica"
 
-#: usr/share/om-control-center/translation:49
-msgid ""
-"Add the 32 bits repositories on a 64 bit architecture for the back "
-"compatibility"
-msgstr ""
+#: translation:63
+msgid "Storage Devices"
+msgstr "Dispositivi di memorizzazione"
 
-#: usr/share/om-control-center/translation:51
-msgid "Update of"
-msgstr "Aggiornamento di"
+#: translation:64
+msgid "Shows the disk usage of the mounted devices"
+msgstr "Mostra l'uso del disco dei dispositivi montati"
 
-#: usr/share/om-control-center/translation:52
-msgid "To get the latest bug fixes and enhancements for your system"
-msgstr "Prendi gli ultimi Aggiornamenti e migliorie per il tuo sistema"
-
-#: usr/share/om-control-center/translation:54
-msgid "Remove Unused Packages"
-msgstr "Rimuovi i pacchetti non utilizzati"
-
-#: usr/share/om-control-center/translation:55
-msgid ""
-"Remove unused packages such as unused localization and unused hardware "
-"packages"
-msgstr ""
-"Rimuovi i pacchetti non utilizzati come localizzazioni e driver hardware"
-
-#: usr/share/om-control-center/translation:58
+#: translation:67
 msgid "Devices Configurations"
 msgstr "Configura i dispositivi"
 
-#: usr/share/om-control-center/translation:60
-msgid "Configure your graphical video card"
-msgstr "Configura la tua scheda video"
+#: translation:69
+msgid "Display and Monitor"
+msgstr "Schermo e Video"
 
-#: usr/share/om-control-center/translation:62
+#: translation:70
+msgid "Manage and configure monitor and display"
+msgstr "Gestisce e configura i monitor e gli schermi"
+
+#: translation:72
 msgid "Configure your printer"
 msgstr "Configura la tua stampante"
 
-#: usr/share/om-control-center/translation:63
+#: translation:73
 msgid "Configure your printer, add drivers for HP, EPSON, etc"
-msgstr "Configura la tua stampante, aggiungi drivers per HP, EPSON, etc"
+msgstr "Configura la tua stampante, installa i driver per HP, Epson, ecc."
 
-#: usr/share/om-control-center/translation:65
-msgid "Configure your dvb devices"
-msgstr "Configura il tuo dispositivo dvb"
-
-#: usr/share/om-control-center/translation:66
-#, fuzzy
-msgid "Install all the necessary dirver to use your dvb devices"
-msgstr "Gestisci e usa il tuo ricevitore dvb"
-
-#: usr/share/om-control-center/translation:68
-msgid "Configure an UPS"
-msgstr "Configura un UPS"
-
-#: usr/share/om-control-center/translation:69
-msgid "Install all the necessary program to manage and configure your UPS"
-msgstr "Installa tutto il necessario per gestire e configurare il tuo UPS"
-
-#: usr/share/om-control-center/translation:72
-#, fuzzy
+#: translation:76
 msgid "Local Disk Configurations"
 msgstr "Configurazione dischi locali"
 
-# msgid "Local Disk Configurations"
-# msgstr "Configurazione dischi locali"
-#: usr/share/om-control-center/translation:74
+#: translation:78
 msgid "Configure your local drives"
 msgstr "Configura i tuoi dischi locali"
 
-#: usr/share/om-control-center/translation:75
+#: translation:79
 msgid "Change, configure and manage your local drives"
 msgstr "Cambia, configura e gestisci i tuoi dischi"
 
-#: usr/share/om-control-center/translation:78
-msgid "Nertworks Configurations"
+#: translation:80
+msgid "Audio Volume"
+msgstr "Volume Audio"
+
+#: translation:81
+msgid "Configure Audio"
+msgstr "Configura il volume audio"
+
+#: translation:82
+msgid "Audio and Video"
+msgstr "Audio e video"
+
+#: translation:83
+msgid "Phonon Audio and Video"
+msgstr "Audio e video di Phonon"
+
+#: translation:86
+msgid "Networks Configurations"
 msgstr "Configurazione della rete"
 
-#: usr/share/om-control-center/translation:80
-msgid "Configure the network"
-msgstr "Configura la rete"
+#: translation:88
+msgid "Connections"
+msgstr "Connessioni"
 
-#: usr/share/om-control-center/translation:81
-msgid ""
-"All the necessary tools to change or settings your networks, such as "
-"configuring static IP, PPPoE, 3G, etc"
-msgstr ""
-"Tutti i programmi necessari all modifica e alla configurazione della rete, "
-"per esempio configurare un indirizzo statico, PPPoE, 3G, etc"
+#: translation:89
+msgid "Edit your Network Connections"
+msgstr "Modifica le tue connessioni di rete"
 
-#: usr/share/om-control-center/translation:83
-msgid "Add network hosts "
-msgstr "Aggiungi altri hosts della rete"
-
-#: usr/share/om-control-center/translation:84
-msgid "Add all the known hosts of your network "
-msgstr "Aggiungi tutti gli hosts della tua rete"
-
-#: usr/share/om-control-center/translation:86
-msgid "Change the hostname "
-msgstr "Cambia il tuo hostname"
-
-#: usr/share/om-control-center/translation:87
-msgid "Change the name of your computer, or set particular DNS"
-msgstr "Cambia il nome del tuo comupet, o imposta DNS particolari"
-
-#: usr/share/om-control-center/translation:89
-msgid "Configure internet Sharing"
-msgstr "Configura la condivisione della connessione internet"
-
-#: usr/share/om-control-center/translation:90
-msgid "Share your internet connection"
-msgstr "Condiviti la tua connessione interne"
-
-#: usr/share/om-control-center/translation:92
-msgid "Configure a proxy "
-msgstr "Configura un proxy"
-
-#: usr/share/om-control-center/translation:93
-msgid ""
-"If you are into a company network, probably you should set the right proxy"
-msgstr ""
-"Se sei all'interno di una rete aziendale probabilmente dovrai configurare un "
-"proxy."
-
-#: usr/share/om-control-center/translation:95
-msgid "Configure a VPN"
-msgstr "Configura una VPN"
-
-#: usr/share/om-control-center/translation:96
-msgid "All the necessary to create and manage a VPN"
-msgstr "Tutto il necessario per creare e gestire una VP"
-
-#: usr/share/om-control-center/translation:99
-msgid "Directory sharing configurations"
-msgstr "Configurazione delle directory condivise"
-
-#: usr/share/om-control-center/translation:101
-msgid "Configure a NFS share"
-msgstr "Configura una condivisione NFS"
-
-#: usr/share/om-control-center/translation:102
-msgid "Change or configure your NFS directory scharing"
-msgstr "Cambia e gestisci la tua directory condivisa NFS"
-
-#: usr/share/om-control-center/translation:104
-msgid "Configure a SMB share"
-msgstr "Configura una condivisione SMB"
-
-#: usr/share/om-control-center/translation:105
-msgid "Change or configure your SMB directory scharing"
-msgstr "Cambia e gestisci la tua directory condivisa Samba"
-
-#: usr/share/om-control-center/translation:107
-msgid "Configure a FTP Server"
-msgstr "Configura un server FTP"
-
-#: usr/share/om-control-center/translation:108
-#, fuzzy
-msgid "Install and configure your FTP server"
-msgstr "Installa e configura il tuo server FTP"
-
-#: usr/share/om-control-center/translation:110
-msgid "Configure a SSH Server"
-msgstr "Configura un server SSH"
-
-#: usr/share/om-control-center/translation:111
-#, fuzzy
-msgid "Install and configure a SSH server"
-msgstr "Installa e configura il tuo server SSH"
-
-#: usr/share/om-control-center/translation:113
-msgid "Configure an Apache2 Server"
-msgstr "Configura un server Apache2"
-
-#: usr/share/om-control-center/translation:114
-msgid "Install and configure your http server"
-msgstr "Installa e configura il tuo server http"
-
-#: usr/share/om-control-center/translation:116
-msgid "Configure a DHCP Server"
-msgstr "Configura un server DHCP"
-
-#: usr/share/om-control-center/translation:117
-msgid "Install and configure your DHCP server"
-msgstr "Installa e configura il tuo server DHCP"
-
-#: usr/share/om-control-center/translation:119
-msgid "Configure a DNS Server"
-msgstr "Configura un server DN"
-
-#: usr/share/om-control-center/translation:120
-msgid "Install and configure your DNS server"
-msgstr "Installa e configura il tuo server DNS"
-
-#: usr/share/om-control-center/translation:122
-msgid "Configure a TIME Server"
-msgstr "Configura un server TIME"
-
-#: usr/share/om-control-center/translation:123
-msgid "Install and configure your NTP server"
-msgstr "Installa e configura il tuo server NTP"
-
-#: usr/share/om-control-center/translation:126
+#: translation:92
 msgid "System Configurations"
 msgstr "Configurazione sistema"
 
-#: usr/share/om-control-center/translation:128
+#: translation:94
 msgid "Add & Configure user and groups"
 msgstr "Aggiungi e configura utenti e gruppi"
 
-#: usr/share/om-control-center/translation:129
+#: translation:95
 msgid "Here you can configure new users add groups etc"
 msgstr "Qui puoi configurare nuovi utenti e gruppi"
 
-#: usr/share/om-control-center/translation:131
+#: translation:97
 msgid "Services management"
 msgstr "Gestione Servizi"
 
-#: usr/share/om-control-center/translation:132
+#: translation:98
 msgid "Start and stop of the entire services available on the system"
 msgstr "Start e stop di tutti i servizi disponibili nel tuo sistem"
 
-#: usr/share/om-control-center/translation:134
+#: translation:100
 msgid "Add other fonts"
 msgstr "Aggiunti altri Fonts"
 
-#: usr/share/om-control-center/translation:135
+#: translation:101
 msgid "Add new set of fonts"
 msgstr "Aggiungi nuovi set di Caratteri"
 
-#: usr/share/om-control-center/translation:137
+#: translation:103
 msgid "Configure time"
 msgstr "Configura l'orario"
 
-#: usr/share/om-control-center/translation:138
+#: translation:104
 msgid "Change time, configure the nts"
 msgstr "Cambia l'orario, configura un NTP"
 
-#: usr/share/om-control-center/translation:140
-msgid "Change the Display Manager"
-msgstr "Cambia il Display Manager"
-
-#: usr/share/om-control-center/translation:141
-msgid "Change the display manager that you use (KDM, GDM)"
-msgstr "Cambia il display manager in uso (KDM, GDM)"
-
-#: usr/share/om-control-center/translation:143
+#: translation:107
 msgid "Configure keyboard"
 msgstr "Configura la tastiera"
 
-#: usr/share/om-control-center/translation:144
+#: translation:108
 msgid "Change or configure keyboard layout"
 msgstr "Cambia o configura il layout della tastiera"
 
-#: usr/share/om-control-center/translation:148
-msgid "Configure a theme "
-msgstr "Configura un tema"
+#: translation:110
+msgid "Install Guest Account"
+msgstr "Installa l'utente Ospite"
 
-#: usr/share/om-control-center/translation:149
-msgid "Install or change theme "
-msgstr "Installa o cambia il tema"
+#: translation:111
+msgid "Creates xguest user as a locked down user"
+msgstr "Crea un utente Ospite che può essere utilizzato temporaneamente"
 
-#: usr/share/om-control-center/translation:151
-msgid "Configure Desktop Icons"
-msgstr "Configura le icone del desktop"
+#: translation:112
+msgid "Bug report tool"
+msgstr "Bug report tool"
 
-#: usr/share/om-control-center/translation:152
-msgid "Change or configure your desktop icons or install your favorite icons"
+#: translation:113
+msgid ""
+"The simple shell script will help in bug fixing process. The file generated "
+"should be attached to any bugreport"
 msgstr ""
-"Cambia o configura le icone del tuo desktop, o installa le tuo icone favorite"
+"Semplice script che aiuta nel processo di correzione dei bug. Il file "
+"generato deve essere allegato ad ogni bugreport"
 
-#: usr/share/om-control-center/translation:154
+#: translation:114
+msgid "Install Discover"
+msgstr "Installa Discover"
+
+#: translation:115
+msgid "Plasma 5 package manager"
+msgstr "Gestore software di Plasma 5"
+
+#: translation:118
+msgid "Desktop Themes"
+msgstr "Tema di Plasma"
+
+#: translation:119
+msgid "Change or install your favorite Plasma theme"
+msgstr "Scegli o installa il tuo tema di Plasma preferito"
+
+#: translation:121
+msgid "Desktop Icons"
+msgstr "Icone"
+
+#: translation:122
+msgid "Change or install your favorite icons theme"
+msgstr "Scegli o installa il tuo tema di icone preferito"
+
+#: translation:124
 msgid "Configure the system boot"
 msgstr "Configura l'avvio del sistema"
 
-#: usr/share/om-control-center/translation:155
+#: translation:125
 msgid ""
 "If you need to change the boot order of the system or repair grub2 manually "
 "or later add another operating system"
@@ -398,43 +332,40 @@ msgstr ""
 "Se hai bisogno di cambiare l'ordine di avvio dei sistemi o riparare "
 "manualmente grub2 o ancora aggiungere un altro sistema operativo"
 
-#: usr/share/om-control-center/translation:158
+#: translation:128
 msgid "Security Configurations"
-msgstr "Configurazione sicurezza"
+msgstr "Configurazioni di sicurezza"
 
-#: usr/share/om-control-center/translation:160
+#: translation:130
 msgid "Configure your firewall"
 msgstr "Configura il tuo firewall"
 
-#: usr/share/om-control-center/translation:161
+#: translation:131
 msgid "Change, configure and manage your firewall settings"
 msgstr "Cambia, configura e gestisci il tuo firewall"
 
-#: usr/share/om-control-center/translation:163
+#: translation:133
 msgid "Open your firewall applet"
 msgstr "Apri l'applet per il tuo firewall"
 
-#: usr/share/om-control-center/translation:164
+#: translation:134
 msgid "Change, configure and manage your firewall settings from the applet"
 msgstr "Cambia, configura e gestisci il tuo firewalld dalla applet"
 
-#: usr/share/om-control-center/translation:166
+#: translation:136
 msgid "Autorization management"
 msgstr "Gestione autorizzazioni"
 
-#: usr/share/om-control-center/translation:167
+#: translation:137
 msgid "Configure users Autorization to the OpenMandriva configuration tools"
 msgstr ""
 "Configura le autorizzazioni utente ai tool di configurazione OpenMandriva"
 
-#: usr/share/om-control-center/translation:170
-#, fuzzy
+#: translation:140
 msgid "About "
-msgstr "About"
+msgstr "Informazioni su"
 
-# msgid "About"
-# msgstr "About"
-#: usr/share/om-control-center/translation:171
+#: translation:141
 msgid ""
 "This software is licensed under the GNU General Public License version 2 "
 "(GPLv2)."
@@ -442,30 +373,30 @@ msgstr ""
 "Questo software e licenziato sotto la GNU General Public License version 2 "
 "(GPLv2)."
 
-#: usr/share/om-control-center/translation:172
-msgid "It uses python-qt4-webkit, web.py, and bigbashview."
-msgstr "Usa python-qt4-webkit, web.py, e bigbashview."
+#: translation:142
+msgid "It uses Qt5 WebEngine and htmlscript."
+msgstr "Usa Qt5 WebEngine e htmlscript."
 
-#: usr/share/om-control-center/translation:173
+#: translation:143
 msgid "For bugs, suggestions and improvements, please head to "
-msgstr "Per bugs, suggerimenti e miglioramenti, rivolgersi "
+msgstr "Per segnalazione di bug, suggerimenti e miglioramenti, visitare"
 
-#: usr/share/om-control-center/translation:174
+#: translation:144
 msgid "Exit"
 msgstr "Uscita"
 
-#: usr/share/om-control-center/translation:176
+#: translation:146
 msgid "You are using"
 msgstr "Stai usando"
 
-#: usr/share/om-control-center/translation:177
+#: translation:147
 msgid "with kernel"
 msgstr "con il kernel"
 
-#: usr/share/om-control-center/translation:178
+#: translation:148
 msgid "architecture"
-msgstr "Archittettura"
+msgstr "archittettura"
 
-#: usr/share/om-control-center/translation:179
+#: translation:149
 msgid "Next"
 msgstr "Prossimo"
