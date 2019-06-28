@@ -1,4 +1,5 @@
 # Translators:
+# OpenMandrivaAssociation <i10n@openmandriva.org>, 2019
 # Raphaël Jadot <rj@hodo.fr>, 2019
 # 
 msgid ""
@@ -219,8 +220,8 @@ msgid "Phonon Audio and Video"
 msgstr "Audio et vidéo Phonon"
 
 #: translation:86
-msgid "Nertworks Configurations"
-msgstr "Configuration du réseau"
+msgid "Networks Configurations"
+msgstr "Configuration des réseaux"
 
 #: translation:88
 msgid "Connections"
