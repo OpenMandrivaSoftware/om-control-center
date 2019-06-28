@@ -91,7 +91,7 @@ msgstr ""
 
 #: translation:40
 msgid "Software and media management"
-msgstr "Gestione applicazioni e repository"
+msgstr "Gestione delle applicazioni e dei repository"
 
 #: translation:42
 msgid "Install additional applications with dnfdragora"
@@ -260,7 +260,7 @@ msgstr "Aggiunti altri Fonts"
 
 #: translation:101
 msgid "Add new set of fonts"
-msgstr "Aggiungi nuovi set di Caratteri"
+msgstr "Aggiungi nuovi set di caratteri"
 
 #: translation:103
 msgid "Configure time"
@@ -352,7 +352,7 @@ msgstr "Apri l'applet per il tuo firewall"
 
 #: translation:134
 msgid "Change, configure and manage your firewall settings from the applet"
-msgstr "Cambia, configura e gestisci il tuo firewalld dalla applet"
+msgstr "Cambia, configura e gestisci il tuo firewall dalla applet"
 
 #: translation:136
 msgid "Autorization management"
