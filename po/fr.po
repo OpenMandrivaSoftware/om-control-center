@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Last-Translator: Raphaël Jadot <rj@hodo.fr>, 2019\n"
 "Language-Team: French (France) (https://www.transifex.com/openmandriva/teams/1818/fr_FR/)\n"
-"Language: fr_FR\n"
+"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: translation:8
