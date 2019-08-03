@@ -132,9 +132,9 @@ descfirewall=$"Change, configure and manage your firewall settings";
 #05-firewall applet
 titlefirewall2=$"Open your firewall applet"
 descfirewall2=$"Change, configure and manage your firewall settings from the applet";
-#04-Autorization management
-titledraksec=$"Autorization management"
-descdraksec=$"Configure users Autorization to the OpenMandriva configuration tools"
+#05-Keys
+titlekeys=$"Passwords and Keys"
+desckeys=$"Manage your passwords and encryption keys"
 #
 #About.sh.htm
 about=$"About "
