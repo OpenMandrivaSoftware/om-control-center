@@ -2,8 +2,8 @@
 if rpm -q discover &>/dev/null; then 
 	kdialog --title $"OpenMandriva" --msgbox $"Discover is already installed."
 else 
-	kdesu -- dnf install --assumeyes discover
-	if rpm -q discover &>/dev/null; then
+	kdesu -- dnf install --assumeyes discover discover-backend-packagekit
+	if rpm -q discover-backend-packagekit &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
