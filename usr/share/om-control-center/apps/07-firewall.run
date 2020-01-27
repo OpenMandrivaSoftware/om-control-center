@@ -1,1 +1,2 @@
-firewall-config
+#!/bin/sh
+exec kcmshell5 org_nxos_firewall
