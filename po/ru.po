@@ -1,0 +1,401 @@
+# Translators:
+# Danil Yarantsev, 2019
+# 
+msgid ""
+msgstr ""
+"Last-Translator: Danil Yarantsev, 2019\n"
+"Language-Team: Russian (https://www.transifex.com/openmandriva/teams/1818/ru/)\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: translation:8
+msgid "Hi"
+msgstr "Привет"
+
+#: translation:9
+msgid "OpenMandriva Control Center"
+msgstr "OpenMandriva Control Center"
+
+#: translation:12
+msgid "Welcome"
+msgstr "Приветствие"
+
+#: translation:13
+msgid "Software"
+msgstr "Приложения"
+
+#: translation:14
+msgid "Hardware"
+msgstr "Оборудование"
+
+#: translation:15
+msgid "Devices Configuration"
+msgstr "Настройка устройств"
+
+#: translation:16
+msgid "Local Disk configuration"
+msgstr "Настройка дисков"
+
+#: translation:17
+msgid "Networks"
+msgstr "Сети"
+
+#: translation:18
+msgid "Network Sharing"
+msgstr "Общий доступ к сети"
+
+#: translation:19
+msgid "Network servers"
+msgstr "Сервера"
+
+#: translation:20
+msgid "System"
+msgstr "Система"
+
+#: translation:21
+msgid "Desktop"
+msgstr "Рабочий стол"
+
+#: translation:22
+msgid "Security"
+msgstr "Безопасность"
+
+#: translation:23
+msgid "About"
+msgstr "О программе"
+
+#: translation:26
+msgid ""
+"OpenMandriva Control Center is a set of tools to help you to configure your system, in each its part.\n"
+"All in the same place and in the easiest way possible: <br/>\n"
+"In each section you will find the programs to configure: <br/>\n"
+"- Software Management<br/>\n"
+"- Devices, Local Disks and Partition Manager<br/>\n"
+"- Network and Internet<br/>\n"
+"- System Configuration<br/>\n"
+"- System Security<br/>\n"
+"- and other parts of your system.<br/>"
+msgstr ""
+"OpenMandriva Control Center это набор инструментов для того, чтобы помочь вам настроить любые части системы.\n"
+"Всё в одном месте и самым простым способом: <br/>\n"
+"В каждой вкладке вы найдёте программы для настройки: <br/>\n"
+"- Управления приложениями<br/>\n"
+"- Устройств, дисков и менеджеров разделов<br/>\n"
+"- Сети и интернета<br/>\n"
+"- Конфигурации системы<br/>\n"
+"- Безопасности системы<br/>\n"
+"- и других частей вашей системы.<br/>"
+
+#: translation:40
+msgid "Software and media management"
+msgstr "Управление приложениями и медиа"
+
+#: translation:42
+msgid "Install additional applications with dnfdragora"
+msgstr "Установите дополнительные приложение с dnfdragora"
+
+#: translation:43
+msgid "Find and install applications available in the repositories"
+msgstr "Ищите и устанавливайте приложения, которые доступны в репозиториях"
+
+#: translation:45
+msgid "Add restricted"
+msgstr "Добавить Restricted"
+
+#: translation:46
+msgid "Enable restricted repository"
+msgstr "Включить Restricted репозиторий"
+
+#: translation:47
+msgid "Remove restricted"
+msgstr "Удалить Restricted"
+
+#: translation:48
+msgid "Disable restricted repository"
+msgstr "Выключить Restricted репозиторий"
+
+#: translation:49
+msgid "Add unsupported"
+msgstr "Добавить Unsupported"
+
+#: translation:50
+msgid "Enable unsupported repository"
+msgstr "Включить Unsupported репозиторий"
+
+#: translation:51
+msgid "Remove unsupported"
+msgstr "Удалить Unsupported"
+
+#: translation:52
+msgid "Disable unsupported repository"
+msgstr "Выключить Unsupported репозиторий"
+
+#: translation:53
+msgid "Add non-free"
+msgstr "Добавить Non-free"
+
+#: translation:54
+msgid "Enable non-free repository"
+msgstr "Включить Non-free репозиторий"
+
+#: translation:55
+msgid "Remove non-free"
+msgstr "Удалить Non-free"
+
+#: translation:56
+msgid "Disable non-free repository"
+msgstr "Выключить несвободный репозиторий"
+
+#: translation:57
+msgid "OpenMandriva repo-picker"
+msgstr "Выбор репозиториев для OpenMandriva"
+
+#: translation:58
+msgid "Enable and disable repositories the easy way"
+msgstr "Включайте и отключайте репозитории простым путём"
+
+#: translation:61
+msgid "KBackup"
+msgstr "KBackup"
+
+#: translation:62
+msgid "Backup your data with an easy to use user interface"
+msgstr "Создавайте резервные копии с интерфейсом, который легко использовать"
+
+#: translation:63
+msgid "Storage Devices"
+msgstr "Устройства хранения данных"
+
+#: translation:64
+msgid "Shows the disk usage of the mounted devices"
+msgstr "Показывает использование пространства примонтированных устройств "
+
+#: translation:67
+msgid "Devices Configurations"
+msgstr "Настройки устройств"
+
+#: translation:69
+msgid "Display and Monitor"
+msgstr "Дисплей и монитор"
+
+#: translation:70
+msgid "Manage and configure monitor and display"
+msgstr "Управление и настройка дисплеев и мониторов"
+
+#: translation:72
+msgid "Configure your printer"
+msgstr "Настройка принтера"
+
+#: translation:73
+msgid "Configure your printer, add drivers for HP, EPSON, etc"
+msgstr "Настройте свой принтер, добавьте драйвера для HP, EPSON и т.д"
+
+#: translation:76
+msgid "Local Disk Configurations"
+msgstr "Дисковые настройки"
+
+#: translation:78
+msgid "Configure your local drives"
+msgstr "Настройка локальных дисков"
+
+#: translation:79
+msgid "Change, configure and manage your local drives"
+msgstr "Измените, настраивайте и управляйте вашими локальными дисками"
+
+#: translation:80
+msgid "Audio Volume"
+msgstr "Громкость звука"
+
+#: translation:81
+msgid "Configure Audio"
+msgstr "Настройка звука"
+
+#: translation:82
+msgid "Audio and Video"
+msgstr "Видео и звук"
+
+#: translation:83
+msgid "Phonon Audio and Video"
+msgstr "Видео и звук с Phonon"
+
+#: translation:86
+msgid "Networks Configurations"
+msgstr "Настройки сети"
+
+#: translation:88
+msgid "Connections"
+msgstr "Соединения"
+
+#: translation:89
+msgid "Edit your Network Connections"
+msgstr "Измените ваши сетевые соединения"
+
+#: translation:92
+msgid "System Configurations"
+msgstr "Настройки системы"
+
+#: translation:94
+msgid "Add & Configure user and groups"
+msgstr "Добавление и настройка пользователей и групп"
+
+#: translation:95
+msgid "Here you can configure new users add groups etc"
+msgstr "Здесь вы можете настроить новых пользователей, добавить группы и т.д"
+
+#: translation:97
+msgid "Services management"
+msgstr "Настройка сервисов"
+
+#: translation:98
+msgid "Start and stop of the entire services available on the system"
+msgstr "Запускайте и останавливайте любые сервисы, доступные в системе"
+
+#: translation:100
+msgid "Add other fonts"
+msgstr "Добавить дополнительные шрифты"
+
+#: translation:101
+msgid "Add new set of fonts"
+msgstr "Добавить новую коллекцию шрифтов"
+
+#: translation:103
+msgid "Configure time"
+msgstr "Настройка времени"
+
+#: translation:104
+msgid "Change time, configure the nts"
+msgstr "Измените время, настройте NTS"
+
+#: translation:107
+msgid "Configure keyboard"
+msgstr "Настройка клавиатуры"
+
+#: translation:108
+msgid "Change or configure keyboard layout"
+msgstr "Измените или настройте раскладку клавиатуры"
+
+#: translation:110
+msgid "Install Guest Account"
+msgstr "Добавить гостевой аккаунт"
+
+#: translation:111
+msgid "Creates xguest user as a locked down user"
+msgstr "Создаёт пользователя xguest с ограниченными правами."
+
+#: translation:112
+msgid "Bug report tool"
+msgstr "Инструмент для репорта багов"
+
+#: translation:113
+msgid ""
+"The simple shell script will help in bug fixing process. The file generated "
+"should be attached to any bugreport"
+msgstr ""
+"Этот простой шелл-скрипт поможет в исправлении багов. Файл, сгенерированный "
+"им должен быть прикреплён к любому баг-репорту"
+
+#: translation:114
+msgid "Install Discover"
+msgstr "Установить Discover"
+
+#: translation:115
+msgid "Plasma 5 package manager"
+msgstr "Пакетный менеджер Plasma 5"
+
+#: translation:118
+msgid "Desktop Themes"
+msgstr "Темы рабочего стола"
+
+#: translation:119
+msgid "Change or install your favorite Plasma theme"
+msgstr "Измените или установите вашу любимую тему Plasma"
+
+#: translation:121
+msgid "Desktop Icons"
+msgstr "Значки рабочего стола"
+
+#: translation:122
+msgid "Change or install your favorite icons theme"
+msgstr "Измените или установите вашу любимую тему значков"
+
+#: translation:124
+msgid "Configure the system boot"
+msgstr "Настроить запуск системы"
+
+#: translation:125
+msgid ""
+"If you need to change the boot order of the system or repair grub2 manually "
+"or later add another operating system"
+msgstr ""
+"Если вам необходимо изменить порядок загрузки системы, или исправить grub2 "
+"вручную, или потом добавить другую операционную систему"
+
+#: translation:128
+msgid "Security Configurations"
+msgstr "Настройки безопасности"
+
+#: translation:130
+msgid "Configure your firewall"
+msgstr "Конфигурация брандмауэра"
+
+#: translation:131
+msgid "Change, configure and manage your firewall settings"
+msgstr "Изменяйте, конфигурируйте и управляйте вашими настройками брандмауэра"
+
+#: translation:133
+msgid "Open your firewall applet"
+msgstr "Откройте апплет для брандмауэра"
+
+#: translation:134
+msgid "Change, configure and manage your firewall settings from the applet"
+msgstr ""
+"Изменяйте, конфигурируйте и управляйте вашими настройками брандмауэра из "
+"апплета. "
+
+#: translation:136
+msgid "Autorization management"
+msgstr "Настройка авторизации"
+
+#: translation:137
+msgid "Configure users Autorization to the OpenMandriva configuration tools"
+msgstr "Настройте доступ пользователей к программам настройки OpenMandriva"
+
+#: translation:140
+msgid "About "
+msgstr "О программе"
+
+#: translation:141
+msgid ""
+"This software is licensed under the GNU General Public License version 2 "
+"(GPLv2)."
+msgstr ""
+"Это программное обеспечение предоставляется по лицензии GNU General Public "
+"License версии 2 (GPLv2)."
+
+#: translation:142
+msgid "It uses Qt5 WebEngine and htmlscript."
+msgstr "Оно использует Qt5 WebEngine и htmlscript."
+
+#: translation:143
+msgid "For bugs, suggestions and improvements, please head to "
+msgstr "Для баг-репортов, предложений и улучшений пожалуйста перейдите на"
+
+#: translation:144
+msgid "Exit"
+msgstr "Выход"
+
+#: translation:146
+msgid "You are using"
+msgstr "Вы используете"
+
+#: translation:147
+msgid "with kernel"
+msgstr "с ядром"
+
+#: translation:148
+msgid "architecture"
+msgstr "архитектура"
+
+#: translation:149
+msgid "Next"
+msgstr "Далее"
