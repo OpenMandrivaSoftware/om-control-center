@@ -1,0 +1,401 @@
+# 
+# Translators:
+# Heimen Stoffels <vistausss@outlook.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>, 2020\n"
+"Language-Team: Dutch (https://www.transifex.com/openmandriva/teams/1818/nl/)\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: translation:8
+msgid "Hi"
+msgstr "Hoi"
+
+#: translation:9
+msgid "OpenMandriva Control Center"
+msgstr "OpenMandriva-configuratiescherm"
+
+#: translation:12
+msgid "Welcome"
+msgstr "Welkom"
+
+#: translation:13
+msgid "Software"
+msgstr "Software"
+
+#: translation:14
+msgid "Hardware"
+msgstr "Hardware"
+
+#: translation:15
+msgid "Devices Configuration"
+msgstr "Apparaten instellen"
+
+#: translation:16
+msgid "Local Disk configuration"
+msgstr "Lokale schijf instellen"
+
+#: translation:17
+msgid "Networks"
+msgstr "Netwerken"
+
+#: translation:18
+msgid "Network Sharing"
+msgstr "Netwerkdeling"
+
+#: translation:19
+msgid "Network servers"
+msgstr "Netwerkservers"
+
+#: translation:20
+msgid "System"
+msgstr "Systeem"
+
+#: translation:21
+msgid "Desktop"
+msgstr "Werkomgeving"
+
+#: translation:22
+msgid "Security"
+msgstr "Beveiliging"
+
+#: translation:23
+msgid "About"
+msgstr "Over"
+
+#: translation:26
+msgid ""
+"OpenMandriva Control Center is a set of tools to help you to configure your system, in each its part.\n"
+"All in the same place and in the easiest way possible: <br/>\n"
+"In each section you will find the programs to configure: <br/>\n"
+"- Software Management<br/>\n"
+"- Devices, Local Disks and Partition Manager<br/>\n"
+"- Network and Internet<br/>\n"
+"- System Configuration<br/>\n"
+"- System Security<br/>\n"
+"- and other parts of your system.<br/>"
+msgstr ""
+"Op het OpenMandriva-configuratiescherm vind je hulpmiddelen omtrent het instellen van je systeem.\n"
+"Alles staat op één plek en is makkelijk te vinden. <br/>\n"
+"Op elk scherm vind je de volgende instellingen: <br/>\n"
+"- Softwarebeheer;<br/>\n"
+"- Apparaten, lokale schijven en partitiebeheer;<br/>\n"
+"- Netwerk en internet;<br/>\n"
+"- Systeeminstellingen;<br/>\n"
+"- Systeembeveiliging;<br/>\n"
+"- en andere systeemonderdelen.<br/>"
+
+#: translation:40
+msgid "Software and media management"
+msgstr "Software- en mediabeheer"
+
+#: translation:42
+msgid "Install additional applications with dnfdragora"
+msgstr "Installeer aanvullende programma's met dnfdragora"
+
+#: translation:43
+msgid "Find and install applications available in the repositories"
+msgstr "Zoek naar en installeer beschikbare programma's uit de pakketbronnen"
+
+#: translation:45
+msgid "Add restricted"
+msgstr "Beperkt-gebruiksbron toevoegen"
+
+#: translation:46
+msgid "Enable restricted repository"
+msgstr "Schakel de pakketbron met beperkt te gebruiken bibliotheken in"
+
+#: translation:47
+msgid "Remove restricted"
+msgstr "Beperkt-gebruiksbron verwijderen"
+
+#: translation:48
+msgid "Disable restricted repository"
+msgstr "Schakel de pakketbron met beperkt te gebruiken bibliotheken uit"
+
+#: translation:49
+msgid "Add unsupported"
+msgstr "Niet-ondersteunde bron toevoegen"
+
+#: translation:50
+msgid "Enable unsupported repository"
+msgstr "Schakel de pakketbron met niet-ondersteunde software in"
+
+#: translation:51
+msgid "Remove unsupported"
+msgstr "Niet-ondersteunde bron verwijderen"
+
+#: translation:52
+msgid "Disable unsupported repository"
+msgstr "Schakel de pakketbron met niet-ondersteunde software uit"
+
+#: translation:53
+msgid "Add non-free"
+msgstr "Gesloten bron toevoegen"
+
+#: translation:54
+msgid "Enable non-free repository"
+msgstr "Schakel de pakketbron met niet-vrije software in"
+
+#: translation:55
+msgid "Remove non-free"
+msgstr "Gesloten bron verwijderen"
+
+#: translation:56
+msgid "Disable non-free repository"
+msgstr "Schakel de pakketbron met niet-vrije software uit"
+
+#: translation:57
+msgid "OpenMandriva repo-picker"
+msgstr "OpenMandriva-pakketbronkiezer"
+
+#: translation:58
+msgid "Enable and disable repositories the easy way"
+msgstr "Schakel gemakkelijk pakketbronnen in en uit"
+
+#: translation:61
+msgid "KBackup"
+msgstr "KBackup"
+
+#: translation:62
+msgid "Backup your data with an easy to use user interface"
+msgstr "Maak een back-up van je gegevens met dit eenvoudige hulpmiddel"
+
+#: translation:63
+msgid "Storage Devices"
+msgstr "Opslagapparaten"
+
+#: translation:64
+msgid "Shows the disk usage of the mounted devices"
+msgstr "Bekijk het schijfgebruik van aangekoppelde apparaten"
+
+#: translation:67
+msgid "Devices Configurations"
+msgstr "Apparaten instellen"
+
+#: translation:69
+msgid "Display and Monitor"
+msgstr "Beeldschermen"
+
+#: translation:70
+msgid "Manage and configure monitor and display"
+msgstr "Beheer je beeldschermen en stel ze in"
+
+#: translation:72
+msgid "Configure your printer"
+msgstr "Printer instellen"
+
+#: translation:73
+msgid "Configure your printer, add drivers for HP, EPSON, etc"
+msgstr "Stel je printer in en voeg stuurprogramma's van HP, EPSON, etc. toe"
+
+#: translation:76
+msgid "Local Disk Configurations"
+msgstr "Lokale schijven instellen"
+
+#: translation:78
+msgid "Configure your local drives"
+msgstr "Stel je lokale schijven in"
+
+#: translation:79
+msgid "Change, configure and manage your local drives"
+msgstr "Beheer je lokale schijven, stel ze in en pas ze aan"
+
+#: translation:80
+msgid "Audio Volume"
+msgstr "Volumeniveau's"
+
+#: translation:81
+msgid "Configure Audio"
+msgstr "Stel de geluidsniveau's in"
+
+#: translation:82
+msgid "Audio and Video"
+msgstr "Audio en video"
+
+#: translation:83
+msgid "Phonon Audio and Video"
+msgstr "Phonon-audio en -video"
+
+#: translation:86
+msgid "Networks Configurations"
+msgstr "Netwerken instellen"
+
+#: translation:88
+msgid "Connections"
+msgstr "Verbindingen"
+
+#: translation:89
+msgid "Edit your Network Connections"
+msgstr "Wijzig je netwerkverbindingen"
+
+#: translation:92
+msgid "System Configurations"
+msgstr "Systeem instellen"
+
+#: translation:94
+msgid "Add & Configure user and groups"
+msgstr "Voeg gebruikers en groepen toe en stel ze in"
+
+#: translation:95
+msgid "Here you can configure new users add groups etc"
+msgstr "Hier kun je nieuwe gebruikers instellen, groepen toevoegen, etc."
+
+#: translation:97
+msgid "Services management"
+msgstr "Dienstbeheer"
+
+#: translation:98
+msgid "Start and stop of the entire services available on the system"
+msgstr "Start en stop systeemdiensten"
+
+#: translation:100
+msgid "Add other fonts"
+msgstr "Lettertypen toevoegen"
+
+#: translation:101
+msgid "Add new set of fonts"
+msgstr "Voeg nieuwe lettertypen toe"
+
+#: translation:103
+msgid "Configure time"
+msgstr "Tijd instellen"
+
+#: translation:104
+msgid "Change time, configure the nts"
+msgstr "Pas de tijd aan of stel nts in"
+
+#: translation:107
+msgid "Configure keyboard"
+msgstr "Toetsenbord instellen"
+
+#: translation:108
+msgid "Change or configure keyboard layout"
+msgstr "Wijzig de toetsenbordindeling of stel deze in"
+
+#: translation:110
+msgid "Install Guest Account"
+msgstr "Gastaccount toevoegen"
+
+#: translation:111
+msgid "Creates xguest user as a locked down user"
+msgstr "Maakt een xguest-gebruikersaccount aan met beperkte toegangsrechten"
+
+#: translation:112
+msgid "Bug report tool"
+msgstr "Bugs melden"
+
+#: translation:113
+msgid ""
+"The simple shell script will help in bug fixing process. The file generated "
+"should be attached to any bugreport"
+msgstr ""
+"Met dit eenvoudige script kun je helpen bugs op te lossen. Voeg het "
+"gegenereerde bestand toe aan bugmeldingen."
+
+#: translation:114
+msgid "Install Discover"
+msgstr "Discover installeren"
+
+#: translation:115
+msgid "Plasma 5 package manager"
+msgstr "Plasma 5-pakketbeheerder"
+
+#: translation:118
+msgid "Desktop Themes"
+msgstr "Bureaubladthema's"
+
+#: translation:119
+msgid "Change or install your favorite Plasma theme"
+msgstr "Kies of installeer je favoriete Plasma-thema"
+
+#: translation:121
+msgid "Desktop Icons"
+msgstr "Pictogramthema's"
+
+#: translation:122
+msgid "Change or install your favorite icons theme"
+msgstr "Kies of installeer je favoriete pictogramthema's"
+
+#: translation:124
+msgid "Configure the system boot"
+msgstr "Systeemopstart instellen"
+
+#: translation:125
+msgid ""
+"If you need to change the boot order of the system or repair grub2 manually "
+"or later add another operating system"
+msgstr ""
+"Hier kun je, indien nodig, de opstartvolgorde aanpassen, een ander "
+"besturingssysteem toevoegen of grub2 repareren"
+
+#: translation:128
+msgid "Security Configurations"
+msgstr "Beveiliging instellen"
+
+#: translation:130
+msgid "Configure your firewall"
+msgstr "Firewall instellen"
+
+#: translation:131
+msgid "Change, configure and manage your firewall settings"
+msgstr "Beheer je firewall of stel deze in"
+
+#: translation:133
+msgid "Open your firewall applet"
+msgstr "Firewall-systeemvakprogramma openen"
+
+#: translation:134
+msgid "Change, configure and manage your firewall settings from the applet"
+msgstr "Beheer je firewall of stel deze in middels het systeemvakprogramma"
+
+#: translation:136
+msgid "Autorization management"
+msgstr "Toegang beheren"
+
+#: translation:137
+msgid "Configure users Autorization to the OpenMandriva configuration tools"
+msgstr ""
+"Stel in welke gebruikers toegang hebben tot de OpenMandriva-instellingen"
+
+#: translation:140
+msgid "About "
+msgstr "Over"
+
+#: translation:141
+msgid ""
+"This software is licensed under the GNU General Public License version 2 "
+"(GPLv2)."
+msgstr ""
+"Deze software is uitgebracht onder de GNU General Public-licentie, versie 2 "
+"(GPLv2)."
+
+#: translation:142
+msgid "It uses Qt5 WebEngine and htmlscript."
+msgstr "Deze software maakt gebruik van Qt5 WebEngine en htmlscript."
+
+#: translation:143
+msgid "For bugs, suggestions and improvements, please head to "
+msgstr "Meld bugs of deel ideeën en verbeteringen op"
+
+#: translation:144
+msgid "Exit"
+msgstr "Afsluiten"
+
+#: translation:146
+msgid "You are using"
+msgstr "Je gebruikt"
+
+#: translation:147
+msgid "with kernel"
+msgstr "met kernelversie"
+
+#: translation:148
+msgid "architecture"
+msgstr "op de architectuur"
+
+#: translation:149
+msgid "Next"
+msgstr "Volgende"
