@@ -106,6 +106,10 @@ descdrakclock=$"Change time, configure the nts"
 #04-Configure Keyboard
 titlekeyboard=$"Configure keyboard"
 desckeyboard=$"Change or configure keyboard layout"
+#
+#04-Configure Touchpad
+titletouchpad=$"Configure touchpad"
+desctouchpad=$"Configure touchpad input device"
 #04-Other
 titlexguest=$"Install Guest Account"
 descxguest=$"Creates xguest user as a locked down user"
