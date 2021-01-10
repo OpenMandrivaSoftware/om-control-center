@@ -71,6 +71,8 @@ descxfdrake=$"Manage and configure monitor and display"
 #02-Configure printer
 titleconfigprint=$"Configure your printer"
 descconfigprint=$"Configure your printer, add drivers for HP, EPSON, etc"
+titlebluetooth=$"Bluetooth"
+descbluetooth=$"Start and enable bluetooth service"
 #
 #section 02B local Disk configuration
 titlepage06=$"Local Disk Configurations"
@@ -79,8 +81,6 @@ titlediskdrake=$"Configure your local drives"
 descdiskdrake=$"Change, configure and manage your local drives";
 titleaudio=$"Audio Volume"
 descaudio=$"Configure Audio"
-titleaudiovideo=$"Audio and Video"
-descaudiovideo=$"Phonon Audio and Video"
 #
 #section 03 Networks
 titlepage03=$"Networks Configurations"
@@ -97,8 +97,8 @@ descdrakuser=$"Here you can configure new users add groups etc"
 titleservices=$"Services management"
 descservices=$"Start and stop of the entire services available on the system"
 #04-Add fonts
-titledrakfont=$"Add other fonts"
-descdrakfont=$"Add new set of fonts"
+titledrakfont=$"Fonts"
+descdrakfont=$"Font management or install new fonts"
 #04-Configure time
 titledrakclock=$"Configure time"
 descdrakclock=$"Change time, configure the nts"
