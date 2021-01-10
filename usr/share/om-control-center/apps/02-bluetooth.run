@@ -1,0 +1,4 @@
+ #!/bin/bash
+
+pkexec sh -c "/sbin/systemctl start bluetooth; /sbin/systemctl enable bluetooth"
+kdialog --title $"OpenMandriva"  --msgbox  $" bluetooth service is enabled"
