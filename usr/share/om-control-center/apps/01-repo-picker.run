@@ -1,2 +1,2 @@
 #!/bin/sh
-exec kdesu om-repo-picker
+exec om-repo-picker
