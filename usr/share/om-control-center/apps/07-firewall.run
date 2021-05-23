@@ -1,2 +1,2 @@
 #!/bin/sh
-exec kcmshell5 org_nxos_firewall
+exec kcmshell5 kcm_firewall
