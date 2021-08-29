@@ -1,0 +1,407 @@
+# 
+# Translators:
+# Zana Attila <atti.zana@gmail.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Last-Translator: Zana Attila <atti.zana@gmail.com>, 2021\n"
+"Language-Team: Hungarian (https://www.transifex.com/openmandriva/teams/1818/hu/)\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: translation:8
+msgid "Hi"
+msgstr "Helló"
+
+#: translation:9
+msgid "OpenMandriva Control Center"
+msgstr "OpenMandriva Vezérlőközpont"
+
+#: translation:12
+msgid "Welcome"
+msgstr "Üdvözlet"
+
+#: translation:13
+msgid "Software"
+msgstr "Szoftver"
+
+#: translation:14
+msgid "Hardware"
+msgstr "Hardver"
+
+#: translation:15
+msgid "Devices Configuration"
+msgstr "Eszköz konfiguráció"
+
+#: translation:16
+msgid "Local Disk configuration"
+msgstr "Helyi lemez konfiguráció"
+
+#: translation:17
+msgid "Networks"
+msgstr "Hálózatok"
+
+#: translation:18
+msgid "Network Sharing"
+msgstr "Hálózati megosztás"
+
+#: translation:19
+msgid "Network servers"
+msgstr "Hálózati kiszolgálók"
+
+#: translation:20
+msgid "System"
+msgstr "Rendszer"
+
+#: translation:21
+msgid "Desktop"
+msgstr "Asztal"
+
+#: translation:22
+msgid "Security"
+msgstr "Biztonság"
+
+#: translation:23
+msgid "About"
+msgstr "Rólunk"
+
+#: translation:26
+msgid ""
+"OpenMandriva Control Center is a set of tools to help you to configure your system, in each its part.\n"
+"All in the same place and in the easiest way possible: <br/>\n"
+"In each section you will find the programs to configure: <br/>\n"
+"- Software Management<br/>\n"
+"- Devices, Local Disks and Partition Manager<br/>\n"
+"- Network and Internet<br/>\n"
+"- System Configuration<br/>\n"
+"- System Security<br/>\n"
+"- and other parts of your system.<br/>"
+msgstr ""
+"Az OpenMandriva vezérlőközpont egy eszközkészlet, amivel beállíthatja a rendszere minden egyes részét.\n"
+"Minden egy helyen a lehető legegyszerűbb módon:<br/>\n"
+"Az egyes szakaszokban megtalálja a programokat, amivel konfigurálhatja a:<br/>\n"
+"- Szoftverkezelést<br/>\n"
+"- Eszközöket, helyi lemezeket és partíciókat<br/>\n"
+"- Hálózati és Internetbeállításokat<br/>\n"
+"- Rendszerbeállításokat<br/>\n"
+"- Rendszerbiztonságot<br/>\n"
+"- a rendszere egyéb részeit.<br/>"
+
+#: translation:40
+msgid "Software and media management"
+msgstr "Szoftver- és médiakezelés"
+
+#: translation:42
+msgid "Install additional applications with dnfdragora"
+msgstr "Telepítsen további applikációkat a dnfdragora programmal."
+
+#: translation:43
+msgid "Find and install applications available in the repositories"
+msgstr "Keressen és telepítsen tárolókban megtalálható applikációkat."
+
+#: translation:45
+msgid "Add restricted"
+msgstr "Korlátozott hozzáadása"
+
+#: translation:46
+msgid "Enable restricted repository"
+msgstr "Korlátozott tároló engedélyezése"
+
+#: translation:47
+msgid "Remove restricted"
+msgstr "Korlátozott eltávolítása"
+
+#: translation:48
+msgid "Disable restricted repository"
+msgstr "Korlátozott tároló tiltása"
+
+#: translation:49
+msgid "Add unsupported"
+msgstr "Nem támogatott hozzáadása"
+
+#: translation:50
+msgid "Enable unsupported repository"
+msgstr "Nem támogatott tároló engedélyezése"
+
+#: translation:51
+msgid "Remove unsupported"
+msgstr "Nem támogatott eltávolítása"
+
+#: translation:52
+msgid "Disable unsupported repository"
+msgstr "Nem támogatott tároló tiltása"
+
+#: translation:53
+msgid "Add non-free"
+msgstr "Non-free hozzáadása"
+
+#: translation:54
+msgid "Enable non-free repository"
+msgstr "Non-free tároló engedélyezése"
+
+#: translation:55
+msgid "Remove non-free"
+msgstr "Non-free eltávolítása"
+
+#: translation:56
+msgid "Disable non-free repository"
+msgstr "Non-free tároló tiltása"
+
+#: translation:57
+msgid "OpenMandriva repo-picker"
+msgstr "OpenMandriva tárolóválasztó"
+
+#: translation:58
+msgid "Enable and disable repositories the easy way"
+msgstr "Engedélyezze vagy tiltsa a tárolókat egyszerűen."
+
+#: translation:61
+msgid "KBackup"
+msgstr "KBackup"
+
+#: translation:62
+msgid "Backup your data with an easy to use user interface"
+msgstr "Mentse az adatait egy egyszerűen használható felhasználói felülettel"
+
+#: translation:63
+msgid "Storage Devices"
+msgstr "Tárolóeszközök"
+
+#: translation:64
+msgid "Shows the disk usage of the mounted devices"
+msgstr "Megmutatja a felcsatolt eszközök lemezhasználatát"
+
+#: translation:67
+msgid "Devices Configurations"
+msgstr "Eszközök konfigurációi"
+
+#: translation:69
+msgid "Display and Monitor"
+msgstr "Megjelenítés és monitor"
+
+#: translation:70
+msgid "Manage and configure monitor and display"
+msgstr "Monitor és kijelző kezelése és konfigurálása"
+
+#: translation:72
+msgid "Configure your printer"
+msgstr "Nyomtató konfigurálása"
+
+#: translation:73
+msgid "Configure your printer, add drivers for HP, EPSON, etc"
+msgstr ""
+"Nyomtató konfigurálása, illesztőprogramok hozzáadása HP, EPSON stb. számára"
+
+#: translation:76
+msgid "Local Disk Configurations"
+msgstr "Helyi lemez konfigurációi"
+
+#: translation:78
+msgid "Configure your local drives"
+msgstr "Konfigurálja a helyi lemezeket"
+
+#: translation:79
+msgid "Change, configure and manage your local drives"
+msgstr "A helyi meghajtók módosítása, konfigurálása és kezelése"
+
+#: translation:80
+msgid "Audio Volume"
+msgstr "Hangerő"
+
+#: translation:81
+msgid "Configure Audio"
+msgstr "Hang beállítása"
+
+#: translation:82
+msgid "Audio and Video"
+msgstr "Hang és Videó"
+
+#: translation:83
+msgid "Phonon Audio and Video"
+msgstr "Phonon Audio és Video"
+
+#: translation:86
+msgid "Networks Configurations"
+msgstr "Hálózati beállítások"
+
+#: translation:88
+msgid "Connections"
+msgstr "Kapcsolatok"
+
+#: translation:89
+msgid "Edit your Network Connections"
+msgstr "Hálózati kapcsolatok módosítása"
+
+#: translation:92
+msgid "System Configurations"
+msgstr "Rendszerbeállítások"
+
+#: translation:94
+msgid "Add & Configure user and groups"
+msgstr "Felhasználók és csoportok hozzáadása és kezelése"
+
+#: translation:95
+msgid "Here you can configure new users add groups etc"
+msgstr ""
+"Itt konfigurálhatja az új felhasználókat, csoportokat adhat hozzá stb."
+
+#: translation:97
+msgid "Services management"
+msgstr "Szolgáltatások kezelése"
+
+#: translation:98
+msgid "Start and stop of the entire services available on the system"
+msgstr "A rendszerben elérhető összes szolgáltatás indítása és leállítása"
+
+#: translation:100
+msgid "Add other fonts"
+msgstr "További betűtípusok hozzáadása"
+
+#: translation:101
+msgid "Add new set of fonts"
+msgstr "Adjon hozzá új betűtípusokat"
+
+#: translation:103
+msgid "Configure time"
+msgstr "Idő beállítása"
+
+#: translation:104
+msgid "Change time, configure the nts"
+msgstr "Idő módosítása, a hálózati időkiszolgáló konfigurálása"
+
+#: translation:107
+msgid "Configure keyboard"
+msgstr "Billentyűzet beállítása"
+
+#: translation:108
+msgid "Change or configure keyboard layout"
+msgstr "Billentyűzetkiosztás változtatása vagy módosítása"
+
+#: translation:110
+msgid "Install Guest Account"
+msgstr "Vendégfiók telepítése"
+
+#: translation:111
+msgid "Creates xguest user as a locked down user"
+msgstr "Létrehozza az xguest felhasználót lezárt felhasználóként"
+
+#: translation:112
+msgid "Bug report tool"
+msgstr "Hibabejelentő eszköz"
+
+#: translation:113
+msgid ""
+"The simple shell script will help in bug fixing process. The file generated "
+"should be attached to any bugreport"
+msgstr ""
+"Ez az egyszerű shell script segít a hibajavításban. A generált fájlt "
+"csatolni kell minden hibajelentéshez."
+
+#: translation:114
+msgid "Install Discover"
+msgstr "Discover telepítése"
+
+#: translation:115
+msgid "Plasma 5 package manager"
+msgstr "Plasma 5 csomagkezelő"
+
+#: translation:118
+msgid "Desktop Themes"
+msgstr "Asztali témák"
+
+#: translation:119
+msgid "Change or install your favorite Plasma theme"
+msgstr "Változtassa meg vagy telepítse kedvenc Plazma témáját"
+
+#: translation:121
+msgid "Desktop Icons"
+msgstr "Asztali ikonok"
+
+#: translation:122
+msgid "Change or install your favorite icons theme"
+msgstr "Változtassa meg vagy telepítse kedvenc ikonjainak témáját"
+
+#: translation:124
+msgid "Configure the system boot"
+msgstr "Rendszerbetöltés beállítása"
+
+#: translation:125
+msgid ""
+"If you need to change the boot order of the system or repair grub2 manually "
+"or later add another operating system"
+msgstr ""
+"Ha meg kell változtatnia a rendszer indítási sorrendjét vagy manuálisan "
+"javítania kell a grub2-t, vagy később hozzá kell adnia egy másik operációs "
+"rendszert."
+
+#: translation:128
+msgid "Security Configurations"
+msgstr "Biztonsági beállítások"
+
+#: translation:130
+msgid "Configure your firewall"
+msgstr "Tűzfal beállítása"
+
+#: translation:131
+msgid "Change, configure and manage your firewall settings"
+msgstr "Tűzfalbeállítások módosítása, konfigurálása és kezelése"
+
+#: translation:133
+msgid "Open your firewall applet"
+msgstr "Tűzfal app megnyitása"
+
+#: translation:134
+msgid "Change, configure and manage your firewall settings from the applet"
+msgstr ""
+"Tűzfalbeállítások módosítása, konfigurálása és kezelése az alkalmazásból"
+
+#: translation:136
+msgid "Autorization management"
+msgstr "Azonosítás kezelése"
+
+#: translation:137
+msgid "Configure users Autorization to the OpenMandriva configuration tools"
+msgstr ""
+"Felhasználók azonosításának kezelése az OpenMandriva konfigurációs "
+"eszközökhöz"
+
+#: translation:140
+msgid "About "
+msgstr "Az oldalról"
+
+#: translation:141
+msgid ""
+"This software is licensed under the GNU General Public License version 2 "
+"(GPLv2)."
+msgstr ""
+"Ez a szoftver a GNU General Public License 2. verziója (GPLv2) alatt áll."
+
+#: translation:142
+msgid "It uses Qt5 WebEngine and htmlscript."
+msgstr "A Qt5 WebEngine-t és htmlscriptet használ."
+
+#: translation:143
+msgid "For bugs, suggestions and improvements, please head to "
+msgstr ""
+"Hibákért, javaslatokért és fejlesztésekért kérjük, látogasson el a következő"
+" címre:"
+
+#: translation:144
+msgid "Exit"
+msgstr "Kilépés"
+
+#: translation:146
+msgid "You are using"
+msgstr "A következőt használja:"
+
+#: translation:147
+msgid "with kernel"
+msgstr "kernellel"
+
+#: translation:148
+msgid "architecture"
+msgstr "architektúra"
+
+#: translation:149
+msgid "Next"
+msgstr "Következő"
