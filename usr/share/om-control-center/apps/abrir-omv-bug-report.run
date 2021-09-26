@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd ; kdesu omv-bug-report.sh
-kdialog --title $"OpenMandriva"  --msgbox  $" omv-bug-report.log has been created in your home directory"
+cd ; kdesu omdv-bug-report
+kdialog --title $"OpenMandriva"  --msgbox  $" bug-report.log has been created in your home directory"
