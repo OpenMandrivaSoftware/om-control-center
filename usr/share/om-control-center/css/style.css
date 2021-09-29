@@ -18,7 +18,6 @@ background-image: -webkit-linear-gradient(bottom, #EDEDED 0%, #C7C7C7 100%);
 background-image: -ms-linear-gradient(bottom, #EDEDED 0%, #C7C7C7 100%);
 background-image: linear-gradient(to bottom, #EDEDED 0%, #C7C7C7 100%);
 font-family:'Droid Sans', sans-serif;
-width:750px;
 }
 
 a {
@@ -44,7 +43,7 @@ margin:10px 10px 0 0;
 }
 
 #item-list {
-margin-left:2em;
+margin-left:1em;
 position:relative;
 list-style-type:none;
 text-align:left;
@@ -54,7 +53,7 @@ padding:0;
 
 #item-list li {
 display:inline-block;
-width:230px;
+width:215px;
 vertical-align:top;
 background:rgba(255,255,255,0.4);
 border-radius:5px;
@@ -75,7 +74,7 @@ margin-right:.5em;
 
 #item-list li p {
 display:inline-block;
-width:230px;
+width:215px;
 margin:0;
 padding:0;
 }
@@ -108,7 +107,7 @@ margin:0 auto;
 }
 
 #nav {
-font-size:15px;
+font-size:14px;
 background-color:#005C9D;
 position:fixed;
 top:0;
@@ -158,7 +157,7 @@ list-style-type:none;
 width:auto;
 position:center;
 height:33px;
-font-size:16px;
+font-size:14px;
 border:1px solid #005C9D;
 margin-left:auto;
 margin-right:auto;
@@ -191,7 +190,6 @@ text-decoration:none;
 
 #cssmenu .active a {
 color:#fff;
-font-weight:700;
 }
 
 #cssmenu li a:hover,#cssmenu li.active {
@@ -206,6 +204,22 @@ border-radius:8px;
 font-size:0.85em;
 z-index:200;
 padding:3px;
+}
+
+#lodape {
+position:fixed;
+bottom:8px;
+left:8px;
+border-radius:8px;
+font-size:0.85em;
+z-index:200;
+padding:3px;
+}
+
+#donate {
+position:fixed;
+bottom:8px;
+left:8px;
 }
 
 .button {
@@ -305,7 +319,7 @@ margin:-2em 0 1em -2em;
 .nostartauto {
 position:fixed;
 bottom:10px;
-right:120px;
+right:250px;
 font-size:0.8em;
 float:left;
 margin:0 auto;
@@ -336,7 +350,6 @@ text-justify:newspaper;
 }
 
 .wrapper {
-/*background: url(images/background_tree.png) no-repeat; */
 text-align:center;
 min-width:820px;
 min-height:400px;
@@ -350,7 +363,6 @@ text-align:left;
 
 .container {
 display:block;
-width:750px;
 margin:0 auto;
 }
 
