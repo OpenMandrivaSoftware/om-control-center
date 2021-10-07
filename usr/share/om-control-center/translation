@@ -39,8 +39,8 @@ In each section you will find the programs to configure: <br/>
 #section 01 sw-management
 titlepage01=$"Software and media management"
 #01-Install & Remove software
-titlednfdragora=$"Install additional applications with dnfdragora"
-descdnfdragora=$"Find and install applications available in the repositories"
+titlednfdragora=$"Install applications with dnfdragora"
+descdnfdragora=$"Find and install applications"
 #01-Edit media Sources
 titleenrestrict=$"Add restricted"
 descenrestrict=$"Enable restricted repository"
@@ -113,6 +113,8 @@ desctouchpad=$"Configure touchpad input device"
 #04-Other
 titlexguest=$"Install Guest Account"
 descxguest=$"Creates xguest user as a locked down user"
+titlednfdrake=$"Install applications with DnfDrake"
+descdnfdrake=$"Find and install applications with DnfDrake, and much more"
 titleombugreport=$"Bug report tool"
 descombugreport=$"The simple shell script will help in bug fixing process. The file generated should be attached to any bugreport"
 titlediscover=$"Install Discover"

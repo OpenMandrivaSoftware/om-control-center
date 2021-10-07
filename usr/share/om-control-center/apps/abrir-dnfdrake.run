@@ -1,0 +1,6 @@
+#!/bin/sh
+if which dnfdrake.gambas; then
+	exec dnfdrake.gambas
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $" DnfDrake not installed."
+fi
