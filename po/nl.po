@@ -1,10 +1,10 @@
 # 
 # Translators:
-# Heimen Stoffels <vistausss@outlook.com>, 2020
+# Heimen Stoffels <vistausss@fastmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Heimen Stoffels <vistausss@outlook.com>, 2020\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/openmandriva/teams/1818/nl/)\n"
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -97,7 +97,7 @@ msgstr "Installeer aanvullende programma's met dnfdragora"
 
 #: translation:43
 msgid "Find and install applications available in the repositories"
-msgstr "Zoek naar en installeer beschikbare programma's uit de pakketbronnen"
+msgstr "Zoek naar en installeer programma's uit de pakketbronnen"
 
 #: translation:45
 msgid "Add restricted"
