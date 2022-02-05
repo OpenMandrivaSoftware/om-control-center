@@ -129,6 +129,11 @@ descchangeicons=$"Change or install your favorite icons theme"
 #04-boot configuration
 titleconfigboot=$"Configure the system boot"
 descconfigboot=$"If you need to change the boot order of the system or repair grub2 manually or later add another operating system"
+#04-Other
+titlecutefish=$"Cutefish desktop"
+desccutefish=$"Install Cutefish desktop"
+titlemauishell=$"MauiShell desktop"
+descmauishell=$"Install MauiShell desktop"
 #
 #section 05 Security
 titlepage07=$"Security Configurations"
