@@ -1,0 +1,16 @@
+#!/bin/bash
+if rpm -q cutefish-core &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"Cutefish is already installed."
+else
+	enable-repo unsupported
+	APP=$"Cutefish desktop"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes task-cutefish
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if rpm -q cutefish-core &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi

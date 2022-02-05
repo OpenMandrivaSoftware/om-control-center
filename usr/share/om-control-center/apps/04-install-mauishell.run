@@ -1,0 +1,16 @@
+#!/bin/bash
+if rpm -q maui-shell &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"MauiShell is already installed."
+else
+	enable-repo unsupported
+	APP=$"MauiShell"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes maui-shell
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if rpm -q maui-shell &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
