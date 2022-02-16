@@ -1,0 +1,16 @@
+#!/bin/bash
+if rpm -q task-gnome &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"Gnome is already installed."
+else
+	enable-repo unsupported
+	APP=$"Gnome desktop"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes task-gnome
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if rpm -q task-gnome &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi

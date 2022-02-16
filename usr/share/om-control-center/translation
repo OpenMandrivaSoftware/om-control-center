@@ -134,6 +134,8 @@ titlecutefish=$"Cutefish desktop"
 desccutefish=$"Install Cutefish desktop"
 titlemauishell=$"MauiShell desktop"
 descmauishell=$"Install MauiShell desktop"
+titlegnomeshell=$"Gnome desktop"
+descgnomeshell=$"Install Gnome desktop"
 #
 #section 05 Security
 titlepage07=$"Security Configurations"
