@@ -7,7 +7,7 @@ export TEXTDOMAIN=om-control-center
 #
 hi=$"Hi"
 title=$"OpenMandriva Control Center"
-#Name=$"OpenMandriva Control Center"
+Name=$"OpenMandriva Control Center"
 #sections menu
 menuindex=$"Welcome"
 menusw=$"Software"
