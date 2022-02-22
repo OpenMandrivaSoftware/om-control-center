@@ -19,7 +19,7 @@ you can run the om-control-center for debugging, with following command:
 htmlscript -s 870x520 -i /usr/share/icons/openmandriva.svg index.sh.htm 2> /dev/null;
 ```
 
-#####translations
+##### Translations
 * inside the folder ```usr/share/om-control-center/ ```
 * there is a file called translation, all texts om-control-center are it is from it that will 
 * generate the translation files
