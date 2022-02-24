@@ -360,6 +360,10 @@ display:block;
 /*width:750px;*/
 }
 
+.container li a:hover,.container li.active {
+background-color:#93cee9;
+}
+
 .row {
 margin-top:-120px;
 }
