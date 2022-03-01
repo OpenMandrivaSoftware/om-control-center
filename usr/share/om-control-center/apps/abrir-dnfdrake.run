@@ -1,6 +1,6 @@
 #!/bin/sh
-if which dnfdrake.gambas; then
-	exec dnfdrake.gambas
-	else
-		kdesu sh $PWD/apps/install-dnfdrake.sh
+if rpm -q dnfdrake &>/dev/null; then
+    exec dnfdrake.gambas
+else
+kdesu sh $PWD/apps/install-dnfdrake.sh
 fi
