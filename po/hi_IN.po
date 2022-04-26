@@ -1,0 +1,403 @@
+# 
+# Translators:
+# Panwar108 <caspian7pena@gmail.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Last-Translator: Panwar108 <caspian7pena@gmail.com>, 2022\n"
+"Language-Team: Hindi (India) (https://www.transifex.com/openmandriva/teams/1818/hi_IN/)\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: translation:8
+msgid "Hi"
+msgstr "नमस्ते"
+
+#: translation:9
+msgid "OpenMandriva Control Center"
+msgstr "ओपन मैन्ड्रीवा नियंत्रण केंद्र"
+
+#: translation:12
+msgid "Welcome"
+msgstr "स्वागतं"
+
+#: translation:13
+msgid "Software"
+msgstr "सॉफ्टवेयर"
+
+#: translation:14
+msgid "Hardware"
+msgstr "हार्डवेयर"
+
+#: translation:15
+msgid "Devices Configuration"
+msgstr "उपकरण विन्यास"
+
+#: translation:16
+msgid "Local Disk configuration"
+msgstr "लोकल डिस्क विन्यास"
+
+#: translation:17
+msgid "Networks"
+msgstr "नेटवर्क"
+
+#: translation:18
+msgid "Network Sharing"
+msgstr "नेटवर्क सहभाजन"
+
+#: translation:19
+msgid "Network servers"
+msgstr "नेटवर्क सर्वर"
+
+#: translation:20
+msgid "System"
+msgstr "सिस्टम"
+
+#: translation:21
+msgid "Desktop"
+msgstr "डेस्कटॉप"
+
+#: translation:22
+msgid "Security"
+msgstr "सुरक्षा"
+
+#: translation:23
+msgid "About"
+msgstr "बारे में"
+
+#: translation:26
+msgid ""
+"OpenMandriva Control Center is a set of tools to help you to configure your system, in each its part.\n"
+"All in the same place and in the easiest way possible: <br/>\n"
+"In each section you will find the programs to configure: <br/>\n"
+"- Software Management<br/>\n"
+"- Devices, Local Disks and Partition Manager<br/>\n"
+"- Network and Internet<br/>\n"
+"- System Configuration<br/>\n"
+"- System Security<br/>\n"
+"- and other parts of your system.<br/>"
+msgstr ""
+"ओपन मैन्ड्रीवा नियंत्रण केंद्र : आपके सिस्टम के प्रत्येक भाग के विन्यास में सहायक विभिन्न साधनों का एक समूह है।\n"
+"सभी साधन एक ही स्थान पर उपस्थित होने के साथ ही उपयोग हेतु सरल हैं :<br/>\n"
+"प्रत्येक अनुभाग में आपको विन्यास हेतु प्रोग्राम उपलब्ध हैं :<br/>\n"
+"- सॉफ्टवेयर प्रबंधन<br/>\n"
+"- उपकरण, लोकल डिस्क और विभाजन प्रबंधक<br/>\n"
+"- नेटवर्क व इंटरनेट<br/>\n"
+"- सिस्टम विन्यास<br/>\n"
+"- सिस्टम सुरक्षा<br/>\n"
+"- और सिस्टम के अन्य भाग।<br/> "
+
+#: translation:40
+msgid "Software and media management"
+msgstr "सॉफ्टवेयर व मीडिया प्रबंधन"
+
+#: translation:42
+msgid "Install additional applications with dnfdragora"
+msgstr "dnfdragora द्वारा अतिरिक्त अनुप्रयोग इंस्टॉल करें"
+
+#: translation:43
+msgid "Find and install applications available in the repositories"
+msgstr "पैकेज-संग्रह में उपलब्ध अनुप्रयोग खोजें व इंस्टॉल करें"
+
+#: translation:45
+msgid "Add restricted"
+msgstr "निषेध जोड़ें"
+
+#: translation:46
+msgid "Enable restricted repository"
+msgstr "निषेध पैकेज-संग्रह सक्रिय करें"
+
+#: translation:47
+msgid "Remove restricted"
+msgstr "निषेध हटाएँ"
+
+#: translation:48
+msgid "Disable restricted repository"
+msgstr "निषेध पैकेज-संग्रह निष्क्रिय करें"
+
+#: translation:49
+msgid "Add unsupported"
+msgstr "असमर्थित जोड़ें"
+
+#: translation:50
+msgid "Enable unsupported repository"
+msgstr "असमर्थित पैकेज-संग्रह सक्रिय करें"
+
+#: translation:51
+msgid "Remove unsupported"
+msgstr "असमर्थित हटाएँ"
+
+#: translation:52
+msgid "Disable unsupported repository"
+msgstr "असमर्थित पैकेज-संग्रह निष्क्रिय करें"
+
+#: translation:53
+msgid "Add non-free"
+msgstr "अमुक्त जोड़ें"
+
+#: translation:54
+msgid "Enable non-free repository"
+msgstr "अमुक्त पैकेज-संग्रह सक्रिय करें"
+
+#: translation:55
+msgid "Remove non-free"
+msgstr "अमुक्त हटाएँ"
+
+#: translation:56
+msgid "Disable non-free repository"
+msgstr "अमुक्त पैकेज-संग्रह निष्क्रिय करें"
+
+#: translation:57
+msgid "OpenMandriva repo-picker"
+msgstr "ओपन-मैन्ड्रीवा पैकेज-संग्रह चयन साधन"
+
+#: translation:58
+msgid "Enable and disable repositories the easy way"
+msgstr "सरलता से पैकेज-संग्रह सक्रिय व निष्क्रिय करें"
+
+#: translation:61
+msgid "KBackup"
+msgstr "KBackup"
+
+#: translation:62
+msgid "Backup your data with an easy to use user interface"
+msgstr "उपयोग हेतु सरल उपयोक्ता अंतरफलक द्वारा अपना डेटा बैकअप करें"
+
+#: translation:63
+msgid "Storage Devices"
+msgstr "संचय उपकरण"
+
+#: translation:64
+msgid "Shows the disk usage of the mounted devices"
+msgstr "माउंट हो रखे उपकरणों पर प्रयुक्त डिस्क स्पेस प्रदर्शित करने हेतु"
+
+#: translation:67
+msgid "Devices Configurations"
+msgstr "उपकरण विन्यास"
+
+#: translation:69
+msgid "Display and Monitor"
+msgstr "डिस्प्ले व मॉनिटर"
+
+#: translation:70
+msgid "Manage and configure monitor and display"
+msgstr "डिस्प्ले व मॉनिटर का प्रबंधन एवं विन्यास"
+
+#: translation:72
+msgid "Configure your printer"
+msgstr "प्रिंटर विन्यास"
+
+#: translation:73
+msgid "Configure your printer, add drivers for HP, EPSON, etc"
+msgstr "प्रिंटर विन्यास, HP, Epson हेतु ड्राइवर जोड़ना आदि"
+
+#: translation:76
+msgid "Local Disk Configurations"
+msgstr "लोकल डिस्क विन्यास"
+
+#: translation:78
+msgid "Configure your local drives"
+msgstr "लोकल ड्राइव विन्यास"
+
+#: translation:79
+msgid "Change, configure and manage your local drives"
+msgstr "लोकल ड्राइव हेतु परिवर्तन, विन्यास एवं प्रबंधन"
+
+#: translation:80
+msgid "Audio Volume"
+msgstr "ऑडियो ध्वनि"
+
+#: translation:81
+msgid "Configure Audio"
+msgstr "ऑडियो विन्यास"
+
+#: translation:82
+msgid "Audio and Video"
+msgstr "ऑडियो व वीडियो"
+
+#: translation:83
+msgid "Phonon Audio and Video"
+msgstr "Phonon ऑडियो व वीडियो"
+
+#: translation:86
+msgid "Networks Configurations"
+msgstr "नेटवर्क विन्यास"
+
+#: translation:88
+msgid "Connections"
+msgstr "कनेक्शन"
+
+#: translation:89
+msgid "Edit your Network Connections"
+msgstr "नेटवर्क कनेक्शन संपादन"
+
+#: translation:92
+msgid "System Configurations"
+msgstr "सिस्टम विन्यास"
+
+#: translation:94
+msgid "Add & Configure user and groups"
+msgstr "उपयोक्ता व समूह जोड़ना एवं विन्यास"
+
+#: translation:95
+msgid "Here you can configure new users add groups etc"
+msgstr "यहाँ आप नवीन उपयोक्ता, समूह आदि का विन्यास कर सकते हैं"
+
+#: translation:97
+msgid "Services management"
+msgstr "सेवा प्रबंधन"
+
+#: translation:98
+msgid "Start and stop of the entire services available on the system"
+msgstr "सिस्टम हेतु उपलब्ध समस्त सेवाओं को आरंभ करें या रोकें"
+
+#: translation:100
+msgid "Add other fonts"
+msgstr "अन्य मुद्रलिपियाँ जोड़ें"
+
+#: translation:101
+msgid "Add new set of fonts"
+msgstr "मुद्रलिपियाँ का नवीन समूह जोड़ें"
+
+#: translation:103
+msgid "Configure time"
+msgstr "समय विन्यास"
+
+#: translation:104
+msgid "Change time, configure the nts"
+msgstr "समय परिवर्तन, नेटवर्क समय सेवा का विन्यास"
+
+#: translation:107
+msgid "Configure keyboard"
+msgstr "कुंजीपटल विन्यास"
+
+#: translation:108
+msgid "Change or configure keyboard layout"
+msgstr "कुंजीपटल अभिन्यास परिवर्तन या विन्यास"
+
+#: translation:110
+msgid "Install Guest Account"
+msgstr "अतिथि अकाउंट का इंस्टॉल"
+
+#: translation:111
+msgid "Creates xguest user as a locked down user"
+msgstr "सीमित विशेषाधिकार युक्त xguest उपयोक्ता के सृजन हेतु"
+
+#: translation:112
+msgid "Bug report tool"
+msgstr "समस्या रिपोर्ट करने हेतु साधन"
+
+#: translation:113
+msgid ""
+"The simple shell script will help in bug fixing process. The file generated "
+"should be attached to any bugreport"
+msgstr ""
+"यह सरल शैल स्क्रिप्ट समस्या निवारण प्रक्रिया में सहायक होगी। इसके "
+"परिणामस्वरूप प्राप्त फाइल को समस्या रिपोर्ट में सम्मिलित करें"
+
+#: translation:114
+msgid "Install Discover"
+msgstr "Discover इंस्टॉल करें"
+
+#: translation:115
+msgid "Plasma 5 package manager"
+msgstr "प्लाज़्मा 5 पैकेज प्रबंधक"
+
+#: translation:118
+msgid "Desktop Themes"
+msgstr "डेस्कटॉप थीम"
+
+#: translation:119
+msgid "Change or install your favorite Plasma theme"
+msgstr "अपनी पसंदीदा प्लाज़्मा थीम हेतु परिवर्तन करें या इंस्टॉल करें"
+
+#: translation:121
+msgid "Desktop Icons"
+msgstr "डेस्कटॉप आइकन"
+
+#: translation:122
+msgid "Change or install your favorite icons theme"
+msgstr "अपनी पसंदीदा आइकन थीम हेतु परिवर्तन करें या इंस्टॉल करें"
+
+#: translation:124
+msgid "Configure the system boot"
+msgstr "सिस्टम बूट विन्यास"
+
+#: translation:125
+msgid ""
+"If you need to change the boot order of the system or repair grub2 manually "
+"or later add another operating system"
+msgstr ""
+"सिस्टम के बूट क्रम में परिवर्तन करने या स्वयं द्वारा grub2 सुधारने या अन्य "
+"ऑपरेटिंग सिस्टम जोड़ने में सहायक"
+
+#: translation:128
+msgid "Security Configurations"
+msgstr "सुरक्षा विन्यास"
+
+#: translation:130
+msgid "Configure your firewall"
+msgstr "फ़ायरवॉल विन्यास"
+
+#: translation:131
+msgid "Change, configure and manage your firewall settings"
+msgstr "फ़ायरवॉल सेटिंग्स में परिवर्तन, विन्यास एवं प्रबंधन हेतु"
+
+#: translation:133
+msgid "Open your firewall applet"
+msgstr "फ़ायरवॉल एप्लेट खोलें"
+
+#: translation:134
+msgid "Change, configure and manage your firewall settings from the applet"
+msgstr ""
+"एप्लेट के माध्यम से फ़ायरवॉल सेटिंग्स में परिवर्तन, विन्यास एवं प्रबंधन हेतु"
+
+#: translation:136
+msgid "Autorization management"
+msgstr "प्रमाणीकरण प्रबंधन"
+
+#: translation:137
+msgid "Configure users Autorization to the OpenMandriva configuration tools"
+msgstr ""
+"ओपन-मैन्ड्रीवा विन्यास साधनों हेतु उपयोक्ता के प्रमाणीकरण का विन्यास करने "
+"हेतु"
+
+#: translation:140
+msgid "About "
+msgstr "बारे में"
+
+#: translation:141
+msgid ""
+"This software is licensed under the GNU General Public License version 2 "
+"(GPLv2)."
+msgstr ""
+"यह सॉफ्टवेयर जीएनयू जनरल पब्लिक लाइसेंस संस्करण 2 (जीपीएल v2) के अंतर्गत "
+"लाइसेंस प्राप्त ह।"
+
+#: translation:142
+msgid "It uses Qt5 WebEngine and htmlscript."
+msgstr "यह क्यूटी5 वेब-इंजन व एचटीएमएल स्क्रिप्ट का उपयोग करता है।"
+
+#: translation:143
+msgid "For bugs, suggestions and improvements, please head to "
+msgstr "समस्याओं, सुझावों एवं सुधारों के लिए, कृपया यहाँ रिपोर्ट करें"
+
+#: translation:144
+msgid "Exit"
+msgstr "बंद करें"
+
+#: translation:146
+msgid "You are using"
+msgstr "आप उपयोग कर रहे हैं"
+
+#: translation:147
+msgid "with kernel"
+msgstr "कर्नेल सहित"
+
+#: translation:148
+msgid "architecture"
+msgstr "संरचना"
+
+#: translation:149
+msgid "Next"
+msgstr "आगे"
