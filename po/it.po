@@ -1,15 +1,14 @@
+# 
 # Translators:
 # OpenMandrivaAssociation <i10n@openmandriva.org>, 2019
-# rugyada <rugyada@gmail.com>, 2019
+# rugyada, 2022
 # 
 msgid ""
 msgstr ""
-"Last-Translator: rugyada <rugyada@gmail.com>, 2019\n"
+"Last-Translator: rugyada, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/openmandriva/teams/1818/it/)\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: translation:8
 msgid "Hi"
@@ -80,14 +79,14 @@ msgid ""
 "- and other parts of your system.<br/>"
 msgstr ""
 "OpenMandriva Control Center fornisce un set di strumenti per aiutarti nella configurazione del tuo sistema, in ogni sua parte.\n"
-"Tutto in un unico posto e nel modo più semplice possibile:\n"
-"In ogni sezione troverai programmi per configurare:\n"
-"- Gestione Software\n"
-"- Dispositivi, Dischi locali e Gestore delle partizioni\n"
-"- Rete e Connessioni Internet\n"
-"- Configurazioni del Sistema\n"
-"- Sicurezza del sistema\n"
-"e altri strumenti utili."
+"Tutto in un unico posto e nel modo più semplice possibile: <br/>\n"
+"In ogni sezione troverai programmi per configurare: <br/>\n"
+"- Gestione Software<br/>\n"
+"- Dispositivi, Dischi locali e Gestore delle partizioni<br/>\n"
+"- Rete e Connessioni Internet<br/>\n"
+"- Configurazioni del Sistema<br/>\n"
+"- Sicurezza<br/>\n"
+"- e altri strumenti utili.<br/>"
 
 #: translation:40
 msgid "Software and media management"
@@ -200,7 +199,7 @@ msgstr "Configurazione dischi locali"
 
 #: translation:78
 msgid "Configure your local drives"
-msgstr "Configura i tuoi dischi locali"
+msgstr "Configura i dischi locali"
 
 #: translation:79
 msgid "Change, configure and manage your local drives"
@@ -256,7 +255,7 @@ msgstr "Start e stop di tutti i servizi disponibili nel tuo sistem"
 
 #: translation:100
 msgid "Add other fonts"
-msgstr "Aggiunti altri Fonts"
+msgstr "Aggiunti altri fonts"
 
 #: translation:101
 msgid "Add new set of fonts"
@@ -372,7 +371,7 @@ msgid ""
 "This software is licensed under the GNU General Public License version 2 "
 "(GPLv2)."
 msgstr ""
-"Questo software e licenziato sotto la GNU General Public License version 2 "
+"Questo software è rilasciato sotto la GNU General Public License version 2 "
 "(GPLv2)."
 
 #: translation:142
