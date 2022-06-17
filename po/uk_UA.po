@@ -1,0 +1,405 @@
+# 
+# Translators:
+# Ihor Andreev, 2022
+# 
+msgid ""
+msgstr ""
+"Last-Translator: Ihor Andreev, 2022\n"
+"Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/openmandriva/teams/1818/uk_UA/)\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: translation:8
+msgid "Hi"
+msgstr "Привіт"
+
+#: translation:9
+msgid "OpenMandriva Control Center"
+msgstr "OpenMandriva Control Center"
+
+#: translation:12
+msgid "Welcome"
+msgstr "Вітаємо"
+
+#: translation:13
+msgid "Software"
+msgstr "Програми"
+
+#: translation:14
+msgid "Hardware"
+msgstr "Обладнання"
+
+#: translation:15
+msgid "Devices Configuration"
+msgstr "Конфігурація пристроїв"
+
+#: translation:16
+msgid "Local Disk configuration"
+msgstr "Конфігурація локального диска"
+
+#: translation:17
+msgid "Networks"
+msgstr "Мережі"
+
+#: translation:18
+msgid "Network Sharing"
+msgstr "Спільний доступ до мережі"
+
+#: translation:19
+msgid "Network servers"
+msgstr "Мережні сервери"
+
+#: translation:20
+msgid "System"
+msgstr "Система"
+
+#: translation:21
+msgid "Desktop"
+msgstr "Робочий стіл"
+
+#: translation:22
+msgid "Security"
+msgstr "Безпека"
+
+#: translation:23
+msgid "About"
+msgstr "Про програму"
+
+#: translation:26
+msgid ""
+"OpenMandriva Control Center is a set of tools to help you to configure your system, in each its part.\n"
+"All in the same place and in the easiest way possible: <br/>\n"
+"In each section you will find the programs to configure: <br/>\n"
+"- Software Management<br/>\n"
+"- Devices, Local Disks and Partition Manager<br/>\n"
+"- Network and Internet<br/>\n"
+"- System Configuration<br/>\n"
+"- System Security<br/>\n"
+"- and other parts of your system.<br/>"
+msgstr ""
+"OpenMandriva Control Center — це набір інструментів, які допоможуть вам налаштувати вашу систему в кожній її частині.\n"
+"Все в тому ж місці:<br/>\n"
+"У кожному розділі ви знайдете програми для налаштування:<br/>\n"
+"- Керування програмним забезпеченням<br/>\n"
+"- Пристрої, локальні диски та менеджер розділів<br/>\n"
+"- Мережа та Інтернет<br/>\n"
+"- Конфігурація системи<br/>\n"
+"- Безпека системи<br/>\n"
+"- та інші частини вашої системи.<br/>"
+
+#: translation:40
+msgid "Software and media management"
+msgstr "Програмне забезпечення та керування медіа"
+
+#: translation:42
+msgid "Install additional applications with dnfdragora"
+msgstr "Встановіть додаткові програми за допомогою dnfdragora"
+
+#: translation:43
+msgid "Find and install applications available in the repositories"
+msgstr "Знайдіть і встановіть програми, доступні в репозиторіях"
+
+#: translation:45
+msgid "Add restricted"
+msgstr "Додати обмежено"
+
+#: translation:46
+msgid "Enable restricted repository"
+msgstr "Увімкнути обмежений репозиторій"
+
+#: translation:47
+msgid "Remove restricted"
+msgstr "Видалити обмежено"
+
+#: translation:48
+msgid "Disable restricted repository"
+msgstr "Вимкнути обмежений репозиторій"
+
+#: translation:49
+msgid "Add unsupported"
+msgstr "Додати непідтримуване"
+
+#: translation:50
+msgid "Enable unsupported repository"
+msgstr "Увімкнути непідтримуваний репозиторій"
+
+#: translation:51
+msgid "Remove unsupported"
+msgstr "Видалити непідтримуване"
+
+#: translation:52
+msgid "Disable unsupported repository"
+msgstr "Вимкнути непідтримуваний репозиторій"
+
+#: translation:53
+msgid "Add non-free"
+msgstr "Додати non-free"
+
+#: translation:54
+msgid "Enable non-free repository"
+msgstr "Увімкнути non-free репозиторій"
+
+#: translation:55
+msgid "Remove non-free"
+msgstr "Видалити non-free"
+
+#: translation:56
+msgid "Disable non-free repository"
+msgstr "Вимкніть non-free репозиторій"
+
+#: translation:57
+msgid "OpenMandriva repo-picker"
+msgstr "OpenMandriva repo-picker"
+
+#: translation:58
+msgid "Enable and disable repositories the easy way"
+msgstr "Увімкнути та вимикати репозиторії простим способом"
+
+#: translation:61
+msgid "KBackup"
+msgstr "KBackup"
+
+#: translation:62
+msgid "Backup your data with an easy to use user interface"
+msgstr ""
+"Створюйте резервні копії даних за допомогою легкого у використанні "
+"інтерфейсу."
+
+#: translation:63
+msgid "Storage Devices"
+msgstr "Пристрої зберігання даних"
+
+#: translation:64
+msgid "Shows the disk usage of the mounted devices"
+msgstr "Показує використання диска змонтованими пристроями"
+
+#: translation:67
+msgid "Devices Configurations"
+msgstr "Конфігурації пристроїв"
+
+#: translation:69
+msgid "Display and Monitor"
+msgstr "Дисплей та монітор"
+
+#: translation:70
+msgid "Manage and configure monitor and display"
+msgstr "Керуйте та налаштовуйте монітор і дисплей"
+
+#: translation:72
+msgid "Configure your printer"
+msgstr "Налаштування принтера"
+
+#: translation:73
+msgid "Configure your printer, add drivers for HP, EPSON, etc"
+msgstr ""
+"Налаштуйте свій принтер, встановіть драйвер для HP, Epson і інших принтерів."
+
+#: translation:76
+msgid "Local Disk Configurations"
+msgstr "Конфігурації локального диска"
+
+#: translation:78
+msgid "Configure your local drives"
+msgstr "Налаштуйте локальні диски"
+
+#: translation:79
+msgid "Change, configure and manage your local drives"
+msgstr "Змінюйте, налаштовуйте та керуйте своїми локальними дисками"
+
+#: translation:80
+msgid "Audio Volume"
+msgstr "Звук"
+
+#: translation:81
+msgid "Configure Audio"
+msgstr "Налаштувати аудіо"
+
+#: translation:82
+msgid "Audio and Video"
+msgstr "Аудіо та відео"
+
+#: translation:83
+msgid "Phonon Audio and Video"
+msgstr "Аудіо та відео Phonon"
+
+#: translation:86
+msgid "Networks Configurations"
+msgstr "Конфігурації мереж"
+
+#: translation:88
+msgid "Connections"
+msgstr "Підключення"
+
+#: translation:89
+msgid "Edit your Network Connections"
+msgstr "Відредагуйте свої мережеві підключення"
+
+#: translation:92
+msgid "System Configurations"
+msgstr "Конфігурації системи"
+
+#: translation:94
+msgid "Add & Configure user and groups"
+msgstr "Додати та налаштувати користувача і групи"
+
+#: translation:95
+msgid "Here you can configure new users add groups etc"
+msgstr "Тут ви можете налаштувати нових користувачів, додавати групи тощо"
+
+#: translation:97
+msgid "Services management"
+msgstr "Управління сервісами"
+
+#: translation:98
+msgid "Start and stop of the entire services available on the system"
+msgstr "Запуск і зупинка всіх сервисів, доступних у системі"
+
+#: translation:100
+msgid "Add other fonts"
+msgstr "Додати інші шрифти"
+
+#: translation:101
+msgid "Add new set of fonts"
+msgstr "Додати новий набір шрифтів"
+
+#: translation:103
+msgid "Configure time"
+msgstr "Налаштувати час"
+
+#: translation:104
+msgid "Change time, configure the nts"
+msgstr "Змінити час, налаштувати nts"
+
+#: translation:107
+msgid "Configure keyboard"
+msgstr "Налаштувати клавіатуру"
+
+#: translation:108
+msgid "Change or configure keyboard layout"
+msgstr "Змініти або налаштувати розкладку клавіатури"
+
+#: translation:110
+msgid "Install Guest Account"
+msgstr "Встановити обліковий запис гостя"
+
+#: translation:111
+msgid "Creates xguest user as a locked down user"
+msgstr "Створює користувача xguest як закритого користувача"
+
+#: translation:112
+msgid "Bug report tool"
+msgstr "Звіту про помилки"
+
+#: translation:113
+msgid ""
+"The simple shell script will help in bug fixing process. The file generated "
+"should be attached to any bugreport"
+msgstr ""
+"Простий shell-скрипт допоможе у процесі виправлення помилок. Згенерований "
+"файл потрібно прикріпити до звіту про помилку"
+
+#: translation:114
+msgid "Install Discover"
+msgstr "Встановити Discover"
+
+#: translation:115
+msgid "Plasma 5 package manager"
+msgstr "Менеджер пакетів Plasma 5"
+
+#: translation:118
+msgid "Desktop Themes"
+msgstr "Теми"
+
+#: translation:119
+msgid "Change or install your favorite Plasma theme"
+msgstr "Змініть або встановіть вашу улюблену тему для Plasma."
+
+#: translation:121
+msgid "Desktop Icons"
+msgstr "Іконки"
+
+#: translation:122
+msgid "Change or install your favorite icons theme"
+msgstr "Змініть, або встановіть ваші улюблені іконки."
+
+#: translation:124
+msgid "Configure the system boot"
+msgstr "Налаштувати завантаження системи"
+
+#: translation:125
+msgid ""
+"If you need to change the boot order of the system or repair grub2 manually "
+"or later add another operating system"
+msgstr ""
+"Якщо вам необхідно змінити порядок завантаження системи або виправити grub2 "
+"вручну, або потім додати іншу операційну систему"
+
+#: translation:128
+msgid "Security Configurations"
+msgstr "Налаштування безпеки"
+
+#: translation:130
+msgid "Configure your firewall"
+msgstr "Налаштування фаерволу"
+
+#: translation:131
+msgid "Change, configure and manage your firewall settings"
+msgstr "Змініть, налаштуйте та керуйте налаштуваннями фаервола"
+
+#: translation:133
+msgid "Open your firewall applet"
+msgstr "ВІдкрийте аплет для фаервола"
+
+#: translation:134
+msgid "Change, configure and manage your firewall settings from the applet"
+msgstr ""
+"Змінюйте, конфігуруйте, та керуйте своїми налаштуваннями фаерфола через "
+"аплет."
+
+#: translation:136
+msgid "Autorization management"
+msgstr "Налаштуваня авторизації"
+
+#: translation:137
+msgid "Configure users Autorization to the OpenMandriva configuration tools"
+msgstr "Налаштуйте доступ користувачів до програми налаштування OpenMandriva"
+
+#: translation:140
+msgid "About "
+msgstr "Про програму"
+
+#: translation:141
+msgid ""
+"This software is licensed under the GNU General Public License version 2 "
+"(GPLv2)."
+msgstr ""
+"Це програмне забезпечення ліцензується відповідно до Загальної публічної "
+"ліцензії GNU версії 2 (GPLv2)."
+
+#: translation:142
+msgid "It uses Qt5 WebEngine and htmlscript."
+msgstr "Програма використовує Qt5 WebEngine і htmlscript."
+
+#: translation:143
+msgid "For bugs, suggestions and improvements, please head to "
+msgstr "Щодо помилок, пропозицій та покращень, перейдіть за посиланням"
+
+#: translation:144
+msgid "Exit"
+msgstr "Вихід"
+
+#: translation:146
+msgid "You are using"
+msgstr "Ви використовуєте"
+
+#: translation:147
+msgid "with kernel"
+msgstr "з ядром"
+
+#: translation:148
+msgid "architecture"
+msgstr "архітектура "
+
+#: translation:149
+msgid "Next"
+msgstr "Далі"
