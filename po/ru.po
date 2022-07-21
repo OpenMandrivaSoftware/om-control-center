@@ -242,7 +242,8 @@ msgstr "Добавление и настройка пользователей и
 
 #: translation:95
 msgid "Here you can configure new users add groups etc"
-msgstr "Здесь вы можете настроить новых пользователей, добавить группы и т.д"
+msgstr ""
+"Здесь вы можете настроить новых пользователей, добавить группы и т. д."
 
 #: translation:97
 msgid "Services management"
