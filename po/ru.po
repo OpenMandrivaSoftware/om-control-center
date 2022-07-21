@@ -1,9 +1,11 @@
+# 
 # Translators:
-# Danil Yarantsev, 2019
+# Someone, 2019
+# Виктор, 2022
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Danil Yarantsev, 2019\n"
+"Last-Translator: Виктор, 2022\n"
 "Language-Team: Russian (https://www.transifex.com/openmandriva/teams/1818/ru/)\n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
@@ -92,7 +94,7 @@ msgstr "Управление приложениями и медиа"
 
 #: translation:42
 msgid "Install additional applications with dnfdragora"
-msgstr "Установите дополнительные приложение с dnfdragora"
+msgstr "Устанавливайте дополнительные приложение с помощью dnfdragora"
 
 #: translation:43
 msgid "Find and install applications available in the repositories"
@@ -188,7 +190,7 @@ msgstr "Настройка принтера"
 
 #: translation:73
 msgid "Configure your printer, add drivers for HP, EPSON, etc"
-msgstr "Настройте свой принтер, добавьте драйвера для HP, EPSON и т.д"
+msgstr "Настройте свой принтер, добавьте драйвера для HP, EPSON и т. д."
 
 #: translation:76
 msgid "Local Disk Configurations"
@@ -200,7 +202,7 @@ msgstr "Настройка локальных дисков"
 
 #: translation:79
 msgid "Change, configure and manage your local drives"
-msgstr "Измените, настраивайте и управляйте вашими локальными дисками"
+msgstr "Меняйте, настраивайте и управляйте локальными дисками"
 
 #: translation:80
 msgid "Audio Volume"
@@ -216,7 +218,7 @@ msgstr "Видео и звук"
 
 #: translation:83
 msgid "Phonon Audio and Video"
-msgstr "Видео и звук с Phonon"
+msgstr "Звук и видео с Phonon"
 
 #: translation:86
 msgid "Networks Configurations"
