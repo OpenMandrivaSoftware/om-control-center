@@ -381,7 +381,9 @@ msgstr "Оно использует Qt5 WebEngine и htmlscript."
 
 #: translation:143
 msgid "For bugs, suggestions and improvements, please head to "
-msgstr "Для баг-репортов, предложений и улучшений пожалуйста перейдите на"
+msgstr ""
+"Для сообщения об ошибках, предложениях и улучшениях, пожалуйста, перейдите "
+"на"
 
 #: translation:144
 msgid "Exit"
