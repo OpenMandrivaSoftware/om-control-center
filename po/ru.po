@@ -214,7 +214,7 @@ msgstr "Настройка звука"
 
 #: translation:82
 msgid "Audio and Video"
-msgstr "Видео и звук"
+msgstr "Звук и видео"
 
 #: translation:83
 msgid "Phonon Audio and Video"
