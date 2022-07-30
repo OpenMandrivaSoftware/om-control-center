@@ -92,7 +92,7 @@ descconfiglan=$"Edit your Network Connections"
 titlepage04=$"System Configurations"
 #04-Add & Configure user and groups
 titledrakuser=$"Add & Configure user and groups"
-descdrakuser=$"Here you can configure new users add groups etc"
+descdrakuser=$"Here you can create new users or edit users and groups, etc"
 #04-Services management
 titleservices=$"Services management"
 descservices=$"Start and stop of the entire services available on the system"
