@@ -2,7 +2,7 @@
 if rpm -q dnfdrake &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"DnfDrake is already installed."
 else
-kdialog --title $"OpenMandriva" --msgbox $"Work in progress. Please wait until the process is done, it may take a while"
+kdialog --title $"OpenMandriva" --msgbox $"Installing DnfDrake. Please wait until the process is done, it may take a while"
 dnf clean all;dnf repolist
 mkdir /tmp/dnfdrake-download
 cd /tmp/dnfdrake-download
@@ -12,7 +12,7 @@ dnf download gambas3-gb-dbus gambas3-gb-form gambas3-gb-gtk3 gambas3-gb-gui gamb
 #
 rpm -ivh --nodeps *.rpm
 	if rpm -q dnfdrake &>/dev/null; then
-	kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	kdialog --title $"OpenMandriva" --msgbox $"DnfDrake successfully installed."
 	else
 	kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
