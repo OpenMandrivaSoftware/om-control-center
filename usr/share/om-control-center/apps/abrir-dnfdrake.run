@@ -1,6 +1,18 @@
 #!/bin/sh
 if rpm -q dnfdrake &>/dev/null; then
-    exec dnfdrake.gambas
+	exec dnfdrake.gambas
 else
-kdesu sh $PWD/apps/install-dnfdrake.sh
+	APP=$"DnfDrake"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	enable-repo unsupported
+	pkexec dnf install --assumeyes dnfdrake
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if rpm -q dnfdrake &>/dev/null; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" DnfDrake successfully installed."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
 fi
+
+exit 0
