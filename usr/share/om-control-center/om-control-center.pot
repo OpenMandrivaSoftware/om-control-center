@@ -56,7 +56,7 @@ msgstr ""
 msgid "Software and media management"
 msgstr ""
 #: translation:41
-msgid "Install applications with dnfdragora"
+msgid "dnfdragora"
 msgstr ""
 #: translation:42
 msgid "Find and install applications"
