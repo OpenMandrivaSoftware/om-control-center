@@ -39,7 +39,7 @@ In each section you will find the programs to configure: <br/>
 #section 01 sw-management
 titlepage01=$"Software and media management"
 #01-Install & Remove software
-titlednfdragora=$"Install applications with dnfdragora"
+titlednfdragora=$"dnfdragora"
 descdnfdragora=$"Find and install applications"
 #01-Edit media Sources
 titleenrestrict=$"Add restricted"
