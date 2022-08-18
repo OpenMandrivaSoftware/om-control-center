@@ -99,7 +99,7 @@ msgstr "dnfdragora"
 
 #: translation:42
 msgid "Find and install applications"
-msgstr "Cercqueu i instal·leu aplicacions"
+msgstr "Cerqueu i instal·leu aplicacions"
 
 #: translation:44
 msgid "Add restricted"
