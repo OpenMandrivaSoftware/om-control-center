@@ -1,9 +1,12 @@
+# 
 # Translators:
 # Davidmp <medipas@gmail.com>, 2019
+# rugyada, 2022
+# Rubén <rbndavid@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Davidmp <medipas@gmail.com>, 2019\n"
+"Last-Translator: Rubén <rbndavid@gmail.com>, 2022\n"
 "Language-Team: Catalan (https://www.transifex.com/openmandriva/teams/1818/ca/)\n"
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -16,55 +19,55 @@ msgstr "Hola"
 msgid "OpenMandriva Control Center"
 msgstr "Centre de control de l'OpenMandriva"
 
-#: translation:12
+#: translation:11
 msgid "Welcome"
 msgstr "Benvingut/da"
 
-#: translation:13
+#: translation:12
 msgid "Software"
 msgstr "Programari"
 
-#: translation:14
+#: translation:13
 msgid "Hardware"
 msgstr "Maquinari"
 
-#: translation:15
+#: translation:14
 msgid "Devices Configuration"
 msgstr "Configuració de dispositius"
 
-#: translation:16
+#: translation:15
 msgid "Local Disk configuration"
 msgstr "Configuració del disc local"
 
-#: translation:17
+#: translation:16
 msgid "Networks"
 msgstr "Xarxes"
 
-#: translation:18
+#: translation:17
 msgid "Network Sharing"
 msgstr "Compartició de xarxes"
 
-#: translation:19
+#: translation:18
 msgid "Network servers"
 msgstr "Servidors de xarxa"
 
-#: translation:20
+#: translation:19
 msgid "System"
 msgstr "Sistema"
 
-#: translation:21
+#: translation:20
 msgid "Desktop"
 msgstr "Escriptori"
 
-#: translation:22
+#: translation:21
 msgid "Security"
 msgstr "Seguretat"
 
-#: translation:23
+#: translation:22
 msgid "About"
 msgstr "Quant a"
 
-#: translation:26
+#: translation:25
 msgid ""
 "OpenMandriva Control Center is a set of tools to help you to configure your system, in each its part.\n"
 "All in the same place and in the easiest way possible: <br/>\n"
@@ -86,209 +89,225 @@ msgstr ""
 "- Seguretat del sistema<br/>\n"
 "- i altres parts del vostre sistema.<br/>"
 
-#: translation:40
+#: translation:39
 msgid "Software and media management"
 msgstr "Gestió de programari i de mitjans"
 
+#: translation:41
+msgid "dnfdragora"
+msgstr "dnfdragora"
+
 #: translation:42
-msgid "Install additional applications with dnfdragora"
-msgstr "Instal·leu aplicacions addicionals amb dnfdragora."
+msgid "Find and install applications"
+msgstr "Cercqueu i instal·leu aplicacions"
 
-#: translation:43
-msgid "Find and install applications available in the repositories"
-msgstr "Cerqueu i instal·leu aplicacions disponibles als repositoris."
-
-#: translation:45
+#: translation:44
 msgid "Add restricted"
 msgstr "Afegeix el repositori restringit"
 
-#: translation:46
+#: translation:45
 msgid "Enable restricted repository"
 msgstr "Habilita el repositori restringit"
 
-#: translation:47
+#: translation:46
 msgid "Remove restricted"
 msgstr "Suprimeix el repositori restringit"
 
-#: translation:48
+#: translation:47
 msgid "Disable restricted repository"
 msgstr "Inhabilita el repositori restringit"
 
-#: translation:49
+#: translation:48
 msgid "Add unsupported"
 msgstr "Afegeix el repositori sense suport"
 
-#: translation:50
+#: translation:49
 msgid "Enable unsupported repository"
 msgstr "Habilita el repositori sense suport"
 
-#: translation:51
+#: translation:50
 msgid "Remove unsupported"
 msgstr "Suprimeix el repositori sense suport"
 
-#: translation:52
+#: translation:51
 msgid "Disable unsupported repository"
 msgstr "Inhabilita el repositori sense suport"
 
-#: translation:53
+#: translation:52
 msgid "Add non-free"
 msgstr "Afegeix el repositori no lliure"
 
-#: translation:54
+#: translation:53
 msgid "Enable non-free repository"
 msgstr "Habilita el repositori no lliure"
 
-#: translation:55
+#: translation:54
 msgid "Remove non-free"
 msgstr "Suprimeix el repositori no lliure"
 
-#: translation:56
+#: translation:55
 msgid "Disable non-free repository"
 msgstr "Inhabilita el repositori no lliure"
 
-#: translation:57
+#: translation:56
 msgid "OpenMandriva repo-picker"
 msgstr "Selector de repositoris de l'OpenMandriva"
 
-#: translation:58
+#: translation:57
 msgid "Enable and disable repositories the easy way"
 msgstr "Habiliteu i inhabiliteu repositoris de manera senzilla."
 
-#: translation:61
+#: translation:60
 msgid "KBackup"
 msgstr "KBackup"
 
-#: translation:62
+#: translation:61
 msgid "Backup your data with an easy to use user interface"
 msgstr ""
 "Feu una còpia de seguretat de les vostres dades amb una interfície d'usuari "
 "fàcil d'usar."
 
-#: translation:63
+#: translation:62
 msgid "Storage Devices"
 msgstr "Dispositius d'emmagatzematge"
 
-#: translation:64
+#: translation:63
 msgid "Shows the disk usage of the mounted devices"
 msgstr "Mostra l’ús de disc dels dispositius muntats."
 
-#: translation:67
+#: translation:66
 msgid "Devices Configurations"
 msgstr "Configuracions de dispositius"
 
-#: translation:69
+#: translation:68
 msgid "Display and Monitor"
 msgstr "Pantalla i monitor"
 
-#: translation:70
+#: translation:69
 msgid "Manage and configure monitor and display"
 msgstr "Gestioneu i configureu el monitor i la pantalla."
 
-#: translation:72
+#: translation:71
 msgid "Configure your printer"
 msgstr "Configureu la impressora"
 
-#: translation:73
+#: translation:72
 msgid "Configure your printer, add drivers for HP, EPSON, etc"
 msgstr "Configureu la impressora, afegiu controladors per a HP, EPSON, etc."
 
-#: translation:76
+#: translation:73
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: translation:74
+msgid "Start and enable bluetooth service"
+msgstr "Inicieu i activeu el servei bluetooth"
+
+#: translation:77
 msgid "Local Disk Configurations"
 msgstr "Configuracions de disc local"
 
-#: translation:78
+#: translation:79
 msgid "Configure your local drives"
 msgstr "Configureu les unitats locals"
 
-#: translation:79
+#: translation:80
 msgid "Change, configure and manage your local drives"
 msgstr "Canvieu, configureu i gestioneu les unitats locals."
 
-#: translation:80
+#: translation:81
 msgid "Audio Volume"
 msgstr "Volum de l'àudio"
 
-#: translation:81
+#: translation:82
 msgid "Configure Audio"
 msgstr "Configureu l'àudio"
 
-#: translation:82
-msgid "Audio and Video"
-msgstr "Àudio i vídeo"
-
-#: translation:83
-msgid "Phonon Audio and Video"
-msgstr "Àudio i vídeo de Phonon"
-
-#: translation:86
+#: translation:85
 msgid "Networks Configurations"
 msgstr "Configuracions de xarxes"
 
-#: translation:88
+#: translation:87
 msgid "Connections"
 msgstr "Connexions"
 
-#: translation:89
+#: translation:88
 msgid "Edit your Network Connections"
 msgstr "Editeu les connexions de xarxa."
 
-#: translation:92
+#: translation:91
 msgid "System Configurations"
 msgstr "Configuracions del sistema"
 
-#: translation:94
+#: translation:93
 msgid "Add & Configure user and groups"
 msgstr "Afegiu i configureu usuaris i grups."
 
-#: translation:95
-msgid "Here you can configure new users add groups etc"
-msgstr "Aquí podeu configurar usuaris nous, afegir grups, etc."
+#: translation:94
+msgid "Here you can create new users or edit users and groups, etc"
+msgstr "Aquí podeu crear usuaris nous o editar usuaris i grups, etc."
 
-#: translation:97
+#: translation:96
 msgid "Services management"
 msgstr "Gestió de serveis"
 
-#: translation:98
+#: translation:97
 msgid "Start and stop of the entire services available on the system"
 msgstr "Inicieu i atureu tots els serveis disponibles al sistema."
 
+#: translation:99
+msgid "Fonts"
+msgstr "Lletres"
+
 #: translation:100
-msgid "Add other fonts"
-msgstr "Afegiu altres lletres"
+msgid "Font management or install new fonts"
+msgstr "Gestió de tipus de lletra o instal·lació de lletres noves"
 
-#: translation:101
-msgid "Add new set of fonts"
-msgstr "Afegiu conjunts nous de lletres."
-
-#: translation:103
+#: translation:102
 msgid "Configure time"
 msgstr "Configureu l'hora"
 
-#: translation:104
+#: translation:103
 msgid "Change time, configure the nts"
 msgstr "Canvieu l'hora, configureu el servidor nts..."
 
-#: translation:107
+#: translation:106
 msgid "Configure keyboard"
 msgstr "Configureu el teclat"
 
-#: translation:108
+#: translation:107
 msgid "Change or configure keyboard layout"
 msgstr "Canvieu o configureu la disposició del teclat."
 
 #: translation:110
+msgid "Configure touchpad"
+msgstr "Configureu el ratolí tàctil"
+
+#: translation:111
+msgid "Configure touchpad input device"
+msgstr "Configureu el dispositiu d'entrada del ratolí tàctil"
+
+#: translation:113
 msgid "Install Guest Account"
 msgstr "Instal·leu un compte de convidat"
 
-#: translation:111
+#: translation:114
 msgid "Creates xguest user as a locked down user"
 msgstr "Creeu un usuari xguest com a usuari bloquejat."
 
-#: translation:112
+#: translation:115
+msgid "Install applications with DnfDrake"
+msgstr "Instal·leu aplicacions amb DnfDrake"
+
+#: translation:116
+msgid "Find and install applications with DnfDrake, and much more"
+msgstr "Trobeu i instal·leu aplicacions amb el DnfDrake i molt més"
+
+#: translation:117
 msgid "Bug report tool"
 msgstr "Eina per informar d'errors"
 
-#: translation:113
+#: translation:118
 msgid ""
 "The simple shell script will help in bug fixing process. The file generated "
 "should be attached to any bugreport"
@@ -296,35 +315,35 @@ msgstr ""
 "Aquest script senzill us ajudarà en el procés de correcció d’errors. El "
 "fitxer generat s'ha d’adjuntar a qualsevol informe d’error."
 
-#: translation:114
+#: translation:119
 msgid "Install Discover"
 msgstr "Instal·leu el Discover"
 
-#: translation:115
+#: translation:120
 msgid "Plasma 5 package manager"
 msgstr "Gestor de paquets del Plasma 5"
 
-#: translation:118
+#: translation:123
 msgid "Desktop Themes"
 msgstr "Temes de l'escriptori"
 
-#: translation:119
+#: translation:124
 msgid "Change or install your favorite Plasma theme"
 msgstr "Canvieu o instal·leu el vostre tema de Plasma preferit."
 
-#: translation:121
+#: translation:126
 msgid "Desktop Icons"
 msgstr "Icones de l'escriptori"
 
-#: translation:122
+#: translation:127
 msgid "Change or install your favorite icons theme"
 msgstr "Canvieu o instal·leu el tema preferit per a les icones."
 
-#: translation:124
+#: translation:129
 msgid "Configure the system boot"
 msgstr "Configureu l'arrencada del sistema"
 
-#: translation:125
+#: translation:130
 msgid ""
 "If you need to change the boot order of the system or repair grub2 manually "
 "or later add another operating system"
@@ -332,73 +351,95 @@ msgstr ""
 "Per si us cal canviar l’ordre d’arrencada del sistema, reparar el grub2 "
 "manualment o afegir posteriorment un altre sistema operatiu."
 
-#: translation:128
+#: translation:132
+msgid "Cutefish desktop"
+msgstr "Escriptori Cutefish"
+
+#: translation:133
+msgid "Install Cutefish desktop"
+msgstr "Instal·leu l'escriptori Cutefish"
+
+#: translation:134
+msgid "MauiShell desktop"
+msgstr "Escriptori MauiShell"
+
+#: translation:135
+msgid "Install MauiShell desktop"
+msgstr "Instal·leu l'escriptori MauiShell"
+
+#: translation:136
+msgid "Gnome desktop"
+msgstr "Escriptori Gnome"
+
+#: translation:137
+msgid "Install Gnome desktop"
+msgstr "Instal·leu l'escriptori Gnome"
+
+#: translation:140
 msgid "Security Configurations"
 msgstr "Configuracions de seguretat"
 
-#: translation:130
+#: translation:142
 msgid "Configure your firewall"
 msgstr "Configureu el tallafoc"
 
-#: translation:131
-msgid "Change, configure and manage your firewall settings"
-msgstr "Canvieu, configureu i gestioneu la configuració del tallafoc."
+#: translation:143
+msgid "Set up a firewall and monitor network connections"
+msgstr "Configureu un tallafoc i superviseu les connexions de xarxa"
 
-#: translation:133
+#: translation:145
 msgid "Open your firewall applet"
 msgstr "Obriu la miniaplicació del tallafoc"
 
-#: translation:134
+#: translation:146
 msgid "Change, configure and manage your firewall settings from the applet"
 msgstr ""
 "Canvieu, configureu i gestioneu la configuració del tallafoc des de la "
 "miniaplicació."
 
-#: translation:136
-msgid "Autorization management"
-msgstr "Gestió d'autoritzacions"
+#: translation:148
+msgid "Passwords and Keys"
+msgstr "Contrasenyes i claus"
 
-#: translation:137
-msgid "Configure users Autorization to the OpenMandriva configuration tools"
-msgstr ""
-"Configureu l’autorització d'usuaris per a les eines de configuració de "
-"l'OpenMandriva."
+#: translation:149
+msgid "Manage your passwords and encryption keys"
+msgstr "Gestioneu les contrasenyes i claus d'encriptació"
 
-#: translation:140
+#: translation:152
 msgid "About "
 msgstr "Quant a"
 
-#: translation:141
+#: translation:153
 msgid ""
 "This software is licensed under the GNU General Public License version 2 "
 "(GPLv2)."
 msgstr ""
 "Aquest programari té la Llicència pública general de GNU versió 2 (GPLv2)."
 
-#: translation:142
+#: translation:154
 msgid "It uses Qt5 WebEngine and htmlscript."
 msgstr "Usa Qt5 WebEngine i htmlscript."
 
-#: translation:143
+#: translation:155
 msgid "For bugs, suggestions and improvements, please head to "
 msgstr "Per a errors, suggeriments i millores, podeu adreçar-vos a"
 
-#: translation:144
+#: translation:156
 msgid "Exit"
 msgstr "Surt"
 
-#: translation:146
+#: translation:158
 msgid "You are using"
 msgstr "Useu"
 
-#: translation:147
+#: translation:159
 msgid "with kernel"
 msgstr "amb el nucli"
 
-#: translation:148
+#: translation:160
 msgid "architecture"
 msgstr "arquitectura"
 
-#: translation:149
+#: translation:161
 msgid "Next"
 msgstr "Següent"
