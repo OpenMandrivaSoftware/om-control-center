@@ -73,6 +73,10 @@ titleconfigprint=$"Configure your printer"
 descconfigprint=$"Configure your printer, add drivers for HP, EPSON, etc"
 titlebluetooth=$"Bluetooth"
 descbluetooth=$"Start and enable bluetooth service"
+titlenvid=$"NVIDIA drivers"
+descnvid=$"Install NVIDIA drivers"
+titlenvid2=$"NVIDIA drivers 2"
+descnvid2=$"Install NVIDIA drivers 2"
 #
 #section 02B local Disk configuration
 titlepage06=$"Local Disk Configurations"
