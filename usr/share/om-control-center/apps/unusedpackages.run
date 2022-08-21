@@ -1,0 +1,2 @@
+#!/bin/sh
+konsole -e sh -c "pkexec dnf --assumeyes autoremove; echo 'Press enter to close konsole'; read"

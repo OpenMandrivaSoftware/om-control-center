@@ -1,0 +1,2 @@
+#!/bin/sh
+konsole -e sh -c "pkexec dnf clean all ; pkexec dnf --refresh --allowerasing distro-sync; echo 'Press enter to close konsole'; read"
