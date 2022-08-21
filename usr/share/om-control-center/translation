@@ -123,6 +123,10 @@ titleombugreport=$"Bug report tool"
 descombugreport=$"The simple shell script will help in bug fixing process. The file generated should be attached to any bugreport"
 titlediscover=$"Install Discover"
 descdiscover=$"Plasma 5 package manager"
+titleunusedpackages=$"Clean packages"
+descunusedpackages=$"Auto remove unused packages"
+titleupdatesys=$"System update"
+descupdate=$"To get the latest bug fixes and enhancements for your system you should update it on daily basis"
 #
 #04-Themes management
 titlechangethemes=$"Desktop Themes"
