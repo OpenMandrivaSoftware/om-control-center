@@ -1,16 +1,3 @@
 #!/bin/bash
-if rpm -q nvidia-foo2 &>/dev/null; then
-	kdialog --title $"OpenMandriva" --msgbox $"nvidia-foo2 is already installed."
-else
 	enable-repo non-free
-	APP=$"Nvidia-foo2"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
-	pkexec dnf install --assumeyes nvidia-foo2
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
-	if rpm -q nvidia-foo2 &>/dev/null; then
-		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
-	else
-		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
-	fi
-fi
+konsole -e sh -c "pkexec dnf install nvidia-legacy; echo 'Press enter to close konsole'; read"
