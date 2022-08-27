@@ -307,7 +307,7 @@ msgstr ""
 
 #: translation:117
 msgid "Bug report tool"
-msgstr "Инструмент для репорта багов"
+msgstr "Инструмент отправки отчёта об ошибке"
 
 #: translation:118
 msgid ""
