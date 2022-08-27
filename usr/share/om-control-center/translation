@@ -75,8 +75,8 @@ titlebluetooth=$"Bluetooth"
 descbluetooth=$"Start and enable bluetooth service"
 titlenvid=$"NVIDIA drivers"
 descnvid=$"Install NVIDIA drivers"
-titlenvid2=$"NVIDIA drivers 2"
-descnvid2=$"Install NVIDIA drivers 2"
+titlenvid2=$"NVIDIA legacy drivers"
+descnvid2=$"Install NVIDIA legacy drivers"
 #
 #section 02B local Disk configuration
 titlepage06=$"Local Disk Configurations"
