@@ -4,9 +4,6 @@ msgstr ""
 #: translation:9
 msgid "OpenMandriva Control Center"
 msgstr ""
-#: translation:10
-msgid "OpenMandriva Control Center"
-msgstr ""
 #: translation:12
 msgid "Welcome"
 msgstr ""
