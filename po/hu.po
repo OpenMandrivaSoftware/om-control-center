@@ -8,6 +8,8 @@ msgstr ""
 "Language-Team: Hungarian (https://www.transifex.com/openmandriva/teams/1818/hu/)\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: translation:8
 msgid "Hi"
