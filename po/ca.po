@@ -345,7 +345,7 @@ msgstr "Neteja de paquets"
 
 #: translation:127
 msgid "Auto remove unused packages"
-msgstr "Suprimeix automàticament els paquets no usats."
+msgstr "Suprimeix automàticament els paquets no usats"
 
 #: translation:128
 msgid "System update"
