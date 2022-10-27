@@ -1,2 +1,17 @@
 #!/bin/sh
-exec /usr/bin/kleopatra
+if rpm -q kleopatra &>/dev/null; then
+	exec kleopatra
+else
+	APP=$"Kleopatra"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes kleopatra
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if rpm -q kleopatra &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
+
+exit 0
