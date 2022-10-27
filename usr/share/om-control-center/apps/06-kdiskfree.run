@@ -1,2 +1,17 @@
 #!/bin/sh
-exec kcmshell5 kcmdf
+if rpm -q kdf &>/dev/null; then
+	exec kcmshell5 kcmdf
+else
+	APP=$"KDiskFree"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes kdf
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if rpm -q kdf &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
+
+exit 0
