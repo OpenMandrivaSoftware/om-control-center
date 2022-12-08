@@ -57,8 +57,8 @@ cat << EOF
 		 <br/>
 		 <article class="articles">
 			<p>
-				$you_are_using $(cat /etc/openmandriva-release)
-				$with_kernel $(uname -r)
+				$you_are_using $(lsb_release -d | cut -d":" -f2) $(lsb_release -c | cut -d":" -f2)
+				$with_kernel $(uname -r | cut -d"-" -f1) $(uname -r | cut -d"-" -f2)
 			</p>
 		 </article>
 	</div>
