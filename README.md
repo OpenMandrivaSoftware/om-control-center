@@ -44,5 +44,5 @@ $(command to be executed)
 
 example: 
 ```
-     $(lsb_release -d | cut -d":" -f2) #shows the name of the Linux distribution
+     $(grep ^NAME /etc/os-release | cut -d"=" -f2-) #shows the name of the Linux distribution
 ```      

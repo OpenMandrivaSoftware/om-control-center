@@ -1,6 +1,7 @@
 #!/bin/bash
 source translation
 source ~/.om-control-center
+source /etc/os-release
 
 #Translation
 export TEXTDOMAINDIR="/usr/share/locale"
@@ -57,7 +58,7 @@ cat << EOF
 		 <br/>
 		 <article class="articles">
 			<p>
-				$you_are_using $(lsb_release -d | cut -d":" -f2) $(lsb_release -c | cut -d":" -f2)
+				$you_are_using ${NAME} ${VERSION}
 				$with_kernel $(uname -r | cut -d"-" -f1) $(uname -r | cut -d"-" -f2)
 			</p>
 		 </article>
