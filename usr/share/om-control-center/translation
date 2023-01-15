@@ -6,7 +6,7 @@ export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=om-control-center
 #
 hi=$"Hi"
-title=$"OpenMandriva Control Center"
+title=$"OpenMandriva Control Center - TEST"
 Name=$"OpenMandriva Control Center"
 #sections menu
 menuindex=$"Welcome"
@@ -14,6 +14,7 @@ menusw=$"Software"
 menuhardware=$"Hardware"
 menuhardware2=$"Devices Configuration"
 menulocaldisk=$"Local Disk configuration"
+menunvidia=$"Nvidia Configuration"
 menunetwork=$"Networks"
 menushare=$"Network Sharing"
 menunetserv=$"Network servers"
@@ -77,6 +78,10 @@ titlenvid=$"NVIDIA drivers"
 descnvid=$"Install NVIDIA drivers"
 titlenvid2=$"NVIDIA legacy drivers"
 descnvid2=$"Install NVIDIA legacy drivers"
+titlenvid3=$"NVIDIA drivers - DMKS"
+descnvid3=$"Install NVIDIA drivers using the DMKS system"
+titlenvid4=$"NVIDIA legacy drivers - DKMS"
+descnvid4=$"Install NVIDIA legacy drivers using the DKMS system"
 #
 #section 02B local Disk configuration
 titlepage06=$"Local Disk Configurations"
