@@ -1,0 +1,3 @@
+#!/bin/bash
+	enable-repo non-free
+konsole -e sh -c "pkexec dnf install nvidia-dkms-kmod kernel-desktop-devel; echo 'Press enter to close konsole'; read"
