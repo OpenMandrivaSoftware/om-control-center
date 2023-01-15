@@ -16,7 +16,7 @@ dnf install htmlscript
 ##### Running om-control-center
 you can run the om-control-center for debugging, with following command:
 ```sh
-htmlscript -s 870x520 -i /usr/share/icons/openmandriva.svg index.sh.htm 2> /dev/null;
+htmlscript -s 1020x600 -i /usr/share/icons/openmandriva.svg index.sh.htm 2> /dev/null;
 ```
 
 ##### Translations
