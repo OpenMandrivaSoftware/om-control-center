@@ -80,7 +80,7 @@ titlenvid2=$"NVIDIA legacy drivers"
 descnvid2=$"Install NVIDIA legacy drivers"
 titlenvid3=$"NVIDIA drivers - DMKS"
 descnvid3=$"Install NVIDIA drivers using the DMKS system"
-titlenvid4=$"NVIDIA legacy drivers - DKMS"
+titlenvid4=$"NVIDIA legacy - DKMS"
 descnvid4=$"Install NVIDIA legacy drivers using the DKMS system"
 #
 #section 02B local Disk configuration
