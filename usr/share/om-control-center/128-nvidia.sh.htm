@@ -1,0 +1,84 @@
+#!/bin/bash
+source translation
+#Translation
+cat << EOF
+<html>
+<!--
+	Miniport 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!-- #Insira o conteúdo entre os 2 EOF sem se preocupar com aspas -->
+
+	<head>
+		<title>$title</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="js/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/style.css" />
+		
+	</head>
+<body>
+EOF
+cat << EOF
+<!-- Nav -->
+	<nav id="nav">
+		<ul class="container">
+			<li><a href="index.sh.htm">$menuindex</a></li>
+			<li><a href="01-swmanagement.sh.htm">$menusw</a></li>
+			<li class='active'><a href="02-hardware.sh.htm">$menuhardware</a></li>
+			<li><a href="03-network.sh.htm">$menunetwork</a></li>
+			<li><a href="04-system.sh.htm">$menusystem</a></li>
+			<li><a href="05-security.sh.htm">$menusecurity</a></li>
+			<li><a href="about.sh.htm">$menuabout</a></li>
+		</ul>
+	</nav>
+<!-- Home -->
+	<div class="wrapper">			
+		<div id="container">	
+		<p class="titlePage">$titlepage02</p>
+		<br/>
+		<div id='cssmenu'>
+		    <ul>
+			 <li><a href='02-hardware.sh.htm'><span>$menuhardware2</span></a></li>
+			 <li class='active'><a href='128-nvidia.sh.htm'><span>$menunvidia</span></a></li>
+			 <li><a href='02B-localdisk.sh.htm'><span>$menulocaldisk</span></a></li>
+		    </ul>
+		    <br/>
+			<br>
+			<hr style="width:100%; height:1px"><br>
+			Standard Nvidia drivers require a matched kernel version, which may sometimes cause issues with system updates.<br>
+			DKMS Nvidia drivers will compile for each new kernel version, which avoids the update issue, but is currently in Beta testing.<br>
+			Legacy drivers are for older Nvidia cards, see <span><a target="hidden" href=./apps/open-nvid.run> <b>this list</b></a></span>.<br>
+			<br>
+			<hr style="width:100%; height:1px"><br>
+		    </div>
+		<ul id="item-list" class="center">
+			<li>
+				<p><a class="title" href=./apps/install-nvid.run><img src="images/nvid.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/install-nvid.run>$titlenvid</a></span><br/>$descnvid</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/install-nvid2.run><img src="images/nvid.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/install-nvid2.run>$titlenvid2</a></span><br/>$descnvid2</p>
+			</li>
+			<br>
+			<hr style="width:100%; height:1px"><br>
+			<li>
+				<p><a class="title" href=./apps/install-nvid.run><img src="images/nvid.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/install-nvid3.run>$titlenvid3</a></span><br/>$descnvid3</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/install-nvid2.run><img src="images/nvid.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/install-nvid4.run>$titlenvid4</a></span><br/>$descnvid4</p>
+			</li>
+			</ul>
+
+		</div>
+	<div id="rodape">
+	<a href="07-security.sh.htm" class="button">$next</a>
+	</div>
+</body>
+EOF
+</html>

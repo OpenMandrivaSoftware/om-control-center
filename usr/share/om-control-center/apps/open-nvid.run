@@ -1,0 +1,2 @@
+#!/bin/bash
+xdg-open http://www.nvidia.com/en-us/drivers/unix/legacy-gpu
