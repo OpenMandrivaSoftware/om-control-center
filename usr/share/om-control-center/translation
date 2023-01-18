@@ -82,6 +82,8 @@ titlenvid3=$"NVIDIA drivers - DMKS"
 descnvid3=$"Install NVIDIA drivers using the DMKS system"
 titlenvid4=$"NVIDIA legacy - DKMS"
 descnvid4=$"Install NVIDIA legacy drivers using the DKMS system"
+gpu=`./apps/gpufind.run`
+islegacy=`./apps/legacy-nvidia-test.run`
 #
 #section 02B local Disk configuration
 titlepage06=$"Local Disk Configurations"
