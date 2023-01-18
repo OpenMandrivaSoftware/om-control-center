@@ -46,28 +46,36 @@ cat << EOF
 			 <li><a href='02B-localdisk.sh.htm'><span>$menulocaldisk</span></a></li>
 		    </ul>
 		    <br/>
+
+			Detected Nvidia GPU : $gpu<br>
 			<br>
 			<hr style="width:100%; height:1px"><br>
 			Standard Nvidia drivers require a matched kernel version, which may sometimes cause issues with system updates.<br>
 			DKMS Nvidia drivers will compile for each new kernel version, which avoids the update issue, but is currently in Beta testing.<br>
-			Legacy drivers are for older Nvidia cards, see <span><a target="hidden" href=./apps/open-nvid.run> <b>this list</b></a></span>.<br>
 			<br>
-			<hr style="width:100%; height:1px"><br>
+			Recommended driver: $islegacy
+			<br>
+			<br>
+			<hr style="width:100%; height:1px">
 		    </div>
 		<ul id="item-list" class="center">
+		<br>
+		Current Drivers 	( 5xx ):
 			<li>
 				<p><a class="title" href=./apps/install-nvid.run><img src="images/nvid.svg" class="alignleft"/></a>
 				<span><a class="title" href=./apps/install-nvid.run>$titlenvid</a></span><br/>$descnvid</p>
 			</li>
 			<li>
-				<p><a class="title" href=./apps/install-nvid2.run><img src="images/nvid.svg" class="alignleft"/></a>
-				<span><a class="title" href=./apps/install-nvid2.run>$titlenvid2</a></span><br/>$descnvid2</p>
-			</li>
-			<br>
-			<hr style="width:100%; height:1px"><br>
-			<li>
 				<p><a class="title" href=./apps/install-nvid.run><img src="images/nvid.svg" class="alignleft"/></a>
 				<span><a class="title" href=./apps/install-nvid3.run>$titlenvid3</a></span><br/>$descnvid3</p>
+			</li>
+
+			<hr style="width:100%; height:1px">
+			<br>
+			Legacy Drivers (470.xx)  :
+			<li>
+				<p><a class="title" href=./apps/install-nvid2.run><img src="images/nvid.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/install-nvid2.run>$titlenvid2</a></span><br/>$descnvid2</p>
 			</li>
 			<li>
 				<p><a class="title" href=./apps/install-nvid2.run><img src="images/nvid.svg" class="alignleft"/></a>
