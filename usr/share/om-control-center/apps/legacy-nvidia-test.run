@@ -1,0 +1,70 @@
+#! /bin/bash
+
+#get an array of Nvidia devices (10DE)
+arr_pci=()
+mapfile -t arr_pci < <( grep PCI_ID=10DE /sys/bus/pci/devices/*/uevent )
+
+arr_pci_loc=()
+mapfile -t arr_pci_loc< <(./apps/gpufind.run location)
+
+if [[ "${arr_pci_loc[0]}" = "No NVIDIA Card found." ]]; then
+    echo "No drivers are recommended to install."
+    exit 1
+fi
+
+if [ "${arr_pci_loc[1]}" != "" ]; then
+    #we have got back more than 1 gpu.
+    echo "More than 1 Nvidia GPU found, cannot recommend a driver."
+    exit 1
+fi
+
+#match the bus location given by gpufind.run to our list of nvidia devices to get the device id
+getpci=0
+for device in "${arr_pci[@]}"
+do
+    if [[ "$device" == *${arr_pci_loc[0]}* ]]; then
+        #this is the correct device
+        getpci=${device:${#device}-4:4}
+        #echo $getpci
+    fi
+done
+
+if [ "$getpci" = "0" ]; then
+    echo "Error."
+    exit 1
+fi
+
+#just for testing, to override found gpu
+#getpci=118E
+#getpci=1200
+
+if [ $(expr length $getpci) != 4 ]; then
+    echo "ERROR: Invalid PCI-ID length (must be 4)."
+    exit 1
+fi
+
+arr_name=()
+arr_pciid=()
+arr_driver=()
+
+while IFS="," read -r name pciid driver
+do
+    arr_name+=("$name")
+    arr_pciid+=("$pciid")
+    arr_driver+=("$driver")
+done < ./apps/legacy-nvidia.csv
+
+index=0
+for record in "${arr_pciid[@]}"
+do
+    if [ $record = $getpci ]; then
+        echo "Nvidia Legacy Driver series ${arr_driver[index]}"
+        if [ ${arr_driver[index]} != "470.xx" ]; then
+            echo "<br>Driver ${arr_driver[index]} is not installable with this tool."
+        fi
+        exit 1
+    fi
+	((index++))
+done
+
+echo "Card is not in Legacy Database, use Current Drivers."

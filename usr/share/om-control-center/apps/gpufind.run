@@ -1,0 +1,40 @@
+#! /bin/bash
+#If argument "location" is given, output location on PCI bus, not name of card.
+
+#10DE is Nvidia Vendor ID, so get an array of all the Nvidia PCI devices.
+arr_pci=()
+mapfile -t arr_pci < <( lspci -d 10DE: )
+
+if [[ -z ${arr_pci[0]} ]]; then
+	#if we get an empty array, no nvidia devices present.
+	echo "No NVIDIA Card found."
+	exit 1
+fi
+
+found=0
+for device in "${arr_pci[@]}"
+do
+	#Nvidia GPU's are either '3D controller' or 'VGA controller'
+	if [[ "$device" == *"VGA"* ]]; then
+		if [ "$1" = "location" ]; then
+			echo ${device:0:7}
+		else
+			echo ${device#*controller:}
+		fi
+		((found++))
+	fi
+
+	if [[ "$device" == *"3D"* ]]; then
+		if [ "$1" = "location" ]; then
+			echo ${device:0:7}
+		else
+			echo ${device#*controller:}
+		fi
+		((found++))
+	fi
+done
+
+#if we've tested all the nvidia PCI devices, and none are '3D' or 'VGA', presume no nvidia gpu
+if [[ -z $found ]]; then
+	echo "No NVIDIA Card found."
+fi
