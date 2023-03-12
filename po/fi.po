@@ -1,0 +1,474 @@
+# 
+# Translators:
+# Kimmo Kujansuu <mrkujansuu@gmail.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Last-Translator: Kimmo Kujansuu <mrkujansuu@gmail.com>, 2023\n"
+"Language-Team: Finnish (https://www.transifex.com/openmandriva/teams/1818/fi/)\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: translation:8
+msgid "Hi"
+msgstr "Hei"
+
+#: translation:9
+msgid "OpenMandriva Control Center"
+msgstr "OpenMandriva ohjauspaneeli"
+
+#: translation:12
+msgid "Welcome"
+msgstr "Tervetuloa"
+
+#: translation:13
+msgid "Software"
+msgstr "Ohjelmisto"
+
+#: translation:14
+msgid "Hardware"
+msgstr "Laitteisto"
+
+#: translation:15
+msgid "Devices Configuration"
+msgstr "Laitteiden määritys"
+
+#: translation:16
+msgid "Local Disk configuration"
+msgstr "Kiintolevjen määritys"
+
+#: translation:17
+msgid "Networks"
+msgstr "Verkko"
+
+#: translation:18
+msgid "Network Sharing"
+msgstr "Verkon jakaminen"
+
+#: translation:19
+msgid "Network servers"
+msgstr "Verkon palvelimet"
+
+#: translation:20
+msgid "System"
+msgstr "Järjestelmä"
+
+#: translation:21
+msgid "Desktop"
+msgstr "Työpöytä"
+
+#: translation:22
+msgid "Security"
+msgstr "Turvallisuus"
+
+#: translation:23
+msgid "About"
+msgstr "Tietoja"
+
+#: translation:26
+msgid ""
+"OpenMandriva Control Center is a set of tools to help you to configure your system, in each its part.\n"
+"All in the same place and in the easiest way possible: <br/>\n"
+"In each section you will find the programs to configure: <br/>\n"
+"- Software Management<br/>\n"
+"- Devices, Local Disks and Partition Manager<br/>\n"
+"- Network and Internet<br/>\n"
+"- System Configuration<br/>\n"
+"- System Security<br/>\n"
+"- and other parts of your system.<br/>"
+msgstr ""
+"OpenMandriva ohjauspaneeli sisältää  työkaluja, jotka auttavat sinua määrittämään järjestelmän jokaisen osa-alueen.\n"
+"Kaikki samassa paikassa ja mahdollisimman helpolla tavalla: <br/>\n"
+"Jokaisesta välilehdestä löydät työkalut ohjelmien määritykseen: <br/>\n"
+"- Ohjelmien hallinta<br/>\n"
+"- Laitteet, kiintolevyt ja osioiden hallinta<br/>\n"
+"- Verkko ja Internet<br/>\n"
+"- Järjestelmän määritykset<br/>\n"
+"- Järjestelmän turvallisuus<br/>\n"
+"- ja muut järjestelmän osat.<br/>"
+
+#: translation:40
+msgid "Software and media management"
+msgstr "Ohjelmien ja median hallinta"
+
+#: translation:42
+msgid "dnfdragora"
+msgstr "dnfdragora"
+
+#: translation:43
+msgid "Find and install applications"
+msgstr "Etsi ja asenna ohjelmia"
+
+#: translation:45
+msgid "Add restricted"
+msgstr "Lisää restricted arkisto"
+
+#: translation:46
+msgid "Enable restricted repository"
+msgstr "Ota restricted arkisto käyttöön"
+
+#: translation:47
+msgid "Remove restricted"
+msgstr "Poista restricted arkisto"
+
+#: translation:48
+msgid "Disable restricted repository"
+msgstr "Poista restricted arkisto käytöstä"
+
+#: translation:49
+msgid "Add unsupported"
+msgstr "Lisää unsupported arkisto"
+
+#: translation:50
+msgid "Enable unsupported repository"
+msgstr "Ota unsupported arkisto käyttöön"
+
+#: translation:51
+msgid "Remove unsupported"
+msgstr "Poista unsupported arkisto"
+
+#: translation:52
+msgid "Disable unsupported repository"
+msgstr "Poista unsupported arkisto käytöstä"
+
+#: translation:53
+msgid "Add non-free"
+msgstr "Lisää non-free"
+
+#: translation:54
+msgid "Enable non-free repository"
+msgstr "Ota non-free arkisto käyttöön"
+
+#: translation:55
+msgid "Remove non-free"
+msgstr "Poista non-free arkisto"
+
+#: translation:56
+msgid "Disable non-free repository"
+msgstr "Poista non-free arkisto käytöstä"
+
+#: translation:57
+msgid "OpenMandriva repo-picker"
+msgstr "OpenMandriva repo-picker"
+
+#: translation:58
+msgid "Enable and disable repositories the easy way"
+msgstr "Ota helposti arkistot käyttöön tai poista käytöstä"
+
+#: translation:61
+msgid "KBackup"
+msgstr "KBackup"
+
+#: translation:62
+msgid "Backup your data with an easy to use user interface"
+msgstr "Varmuuskopioi tiedostosi helppolla tavalla"
+
+#: translation:63
+msgid "Storage Devices"
+msgstr "Kiintolevyt"
+
+#: translation:64
+msgid "Shows the disk usage of the mounted devices"
+msgstr "Näyttää kiintolevyjen käyttämän levytilan"
+
+#: translation:67
+msgid "Devices Configurations"
+msgstr "Laitteiden määritys"
+
+#: translation:69
+msgid "Display and Monitor"
+msgstr "Näytöt ja asetukset"
+
+#: translation:70
+msgid "Manage and configure monitor and display"
+msgstr "Hallitse ja määritä näyttöjen asetuksia"
+
+#: translation:72
+msgid "Configure your printer"
+msgstr "Tulostimen määritys"
+
+#: translation:73
+msgid "Configure your printer, add drivers for HP, EPSON, etc"
+msgstr "Määritä tulostimesi, lisää ajurit HP, EPSON jne"
+
+#: translation:74
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: translation:75
+msgid "Start and enable bluetooth service"
+msgstr "Käynnistä ja ota Bluetooth-palvelu käyttöön"
+
+#: translation:76
+msgid "NVIDIA drivers"
+msgstr "Nvidia ajurit"
+
+#: translation:77
+msgid "Install NVIDIA drivers"
+msgstr "Asenna Nvidia ajurit"
+
+#: translation:78
+msgid "NVIDIA legacy drivers"
+msgstr "Nvidia vanhemmat ajurit"
+
+#: translation:79
+msgid "Install NVIDIA legacy drivers"
+msgstr "Asenna Nvidia ajurit vanhempiin kortteihin"
+
+#: translation:82
+msgid "Local Disk Configurations"
+msgstr "Kiintolevjen määritys"
+
+#: translation:84
+msgid "Configure your local drives"
+msgstr "Määritä kiintolevyt"
+
+#: translation:85
+msgid "Change, configure and manage your local drives"
+msgstr "Tee muutoksia tietokoneen kiintolevyille"
+
+#: translation:86
+msgid "Audio Volume"
+msgstr "Voimakkuus"
+
+#: translation:87
+msgid "Configure Audio"
+msgstr "Määritä äänentoisto"
+
+#: translation:90
+msgid "Networks Configurations"
+msgstr "Verkon asetukset"
+
+#: translation:92
+msgid "Connections"
+msgstr "Yhteydet"
+
+#: translation:93
+msgid "Edit your Network Connections"
+msgstr "Muokkaa verkon asetuksia"
+
+#: translation:96
+msgid "System Configurations"
+msgstr "Järjestelmän määritykset"
+
+#: translation:98
+msgid "Add & Configure user and groups"
+msgstr "Lisää & määritä käyttäjiä ja ryhmiä"
+
+#: translation:99
+msgid "Here you can create new users or edit users and groups, etc"
+msgstr "Voit luoda uusia käyttäjiä tai muokata ryhmiä jne"
+
+#: translation:101
+msgid "Services management"
+msgstr "Palvelujen hallinta"
+
+#: translation:102
+msgid "Start and stop of the entire services available on the system"
+msgstr "Järjestelmän palvelujen lopettaminen ja käynnistys"
+
+#: translation:104
+msgid "Fonts"
+msgstr "Fontit"
+
+#: translation:105
+msgid "Font management or install new fonts"
+msgstr "Fonttien hallinta tai uusien fonttien asentaminen"
+
+#: translation:107
+msgid "Configure time"
+msgstr "Muuta aikaa"
+
+#: translation:108
+msgid "Change time, configure the nts"
+msgstr "Muuta aikaa, määritä nts"
+
+#: translation:111
+msgid "Configure keyboard"
+msgstr "Määritä näppäimistö"
+
+#: translation:112
+msgid "Change or configure keyboard layout"
+msgstr "Muuta näppäimistön asetuksia"
+
+#: translation:115
+msgid "Configure touchpad"
+msgstr "Määritä levyhiiri"
+
+#: translation:116
+msgid "Configure touchpad input device"
+msgstr "Muuta levyhiiren eleitä ja asetuksia"
+
+#: translation:118
+msgid "Install Guest Account"
+msgstr "Asenna vierastili"
+
+#: translation:119
+msgid "Creates xguest user as a locked down user"
+msgstr "Asenna vierastili tietokoneelle"
+
+#: translation:120
+msgid "Install applications with DnfDrake"
+msgstr "Asenna ohjelmia DnfDrake:lla"
+
+#: translation:121
+msgid "Find and install applications with DnfDrake, and much more"
+msgstr "Etsi, asenna ja poista ohjelmia DnfDraken avulla"
+
+#: translation:122
+msgid "Bug report tool"
+msgstr "Virheen ilmoitustyökalu"
+
+#: translation:123
+msgid ""
+"The simple shell script will help in bug fixing process. The file generated "
+"should be attached to any bugreport"
+msgstr ""
+"Helppo shell-skripti auttaa virheenkorjauksen prosessissa. Luotu tiedosto "
+"tulee liittää mihin tahansa vikaraporttiin"
+
+#: translation:124
+msgid "Install Discover"
+msgstr "Asenna Discover"
+
+#: translation:125
+msgid "Plasma 5 package manager"
+msgstr "Plasma 5 pakettien hallinta"
+
+#: translation:126
+msgid "Clean packages"
+msgstr "Puhdista paketit"
+
+#: translation:127
+msgid "Auto remove unused packages"
+msgstr "Poista käyttämättömät paketit automaattisesti"
+
+#: translation:128
+msgid "System update"
+msgstr "Järjestelmän päivitys"
+
+#: translation:129
+msgid ""
+"To get the latest bug fixes and enhancements for your system you should "
+"update it on daily basis"
+msgstr "Päivitä päivittäin viimeisimmät korjaukset ja parannukset"
+
+#: translation:132
+msgid "Desktop Themes"
+msgstr "Työpöydän teemat"
+
+#: translation:133
+msgid "Change or install your favorite Plasma theme"
+msgstr "Muuta tai asenna suosikki Plasma-teema"
+
+#: translation:135
+msgid "Desktop Icons"
+msgstr "Kuvakkeet"
+
+#: translation:136
+msgid "Change or install your favorite icons theme"
+msgstr "Vaihda tai asenna kuvaketeemoja"
+
+#: translation:138
+msgid "Configure the system boot"
+msgstr "Määritä järjestelmän käynnistys"
+
+#: translation:139
+msgid ""
+"If you need to change the boot order of the system or repair grub2 manually "
+"or later add another operating system"
+msgstr ""
+"Jos sinun on muutettava järjestelmän käynnistysjärjestystä tai korjattava "
+"grub2 manuaalisesti tai lisätä toinen käyttöjärjestelmä"
+
+#: translation:141
+msgid "Cutefish desktop"
+msgstr "Cutefish desktop"
+
+#: translation:142
+msgid "Install Cutefish desktop"
+msgstr "Asenna Cutefish desktop"
+
+#: translation:143
+msgid "MauiShell desktop"
+msgstr "MauiShell desktop"
+
+#: translation:144
+msgid "Install MauiShell desktop"
+msgstr "Asenna MauiShell desktop"
+
+#: translation:145
+msgid "Gnome desktop"
+msgstr "Gnome desktop"
+
+#: translation:146
+msgid "Install Gnome desktop"
+msgstr "Asenna Gnome desktop"
+
+#: translation:149
+msgid "Security Configurations"
+msgstr "Turvallisuuden määritykset"
+
+#: translation:151
+msgid "Configure your firewall"
+msgstr "Määritä palomuuri"
+
+#: translation:152
+msgid "Set up a firewall and monitor network connections"
+msgstr "Aseta tietokoneen palomuuri ja valvo verkkoyhteyksiä"
+
+#: translation:154
+msgid "Open your firewall applet"
+msgstr "Avaa palomuurin sovelma"
+
+#: translation:155
+msgid "Change, configure and manage your firewall settings from the applet"
+msgstr "Sovelman avulla muuta, määritä ja hallitse palomuurin asetuksia"
+
+#: translation:157
+msgid "Passwords and Keys"
+msgstr "Salasanat ja avaimet"
+
+#: translation:158
+msgid "Manage your passwords and encryption keys"
+msgstr "Hallitse salasanoja ja salausavaimia"
+
+#: translation:161
+msgid "About "
+msgstr "Tietoa"
+
+#: translation:162
+msgid ""
+"This software is licensed under the GNU General Public License version 2 "
+"(GPLv2)."
+msgstr ""
+"Tämä ohjelmisto on lisensoitu GNU General Public License version 2 (GPLv2)."
+
+#: translation:163
+msgid "It uses Qt5 WebEngine and htmlscript."
+msgstr "Käytössä tekniikat Qt5 WebEngine ja htmlscript."
+
+#: translation:164
+msgid "For bugs, suggestions and improvements, please head to "
+msgstr ""
+"Virheilmoituksia, ehdotuksia ja parannuksia varten siirry osoitteeseen "
+
+#: translation:165
+msgid "Exit"
+msgstr "Poistu"
+
+#: translation:167
+msgid "You are using"
+msgstr "Sinulla on käytössä"
+
+#: translation:168
+msgid "with kernel"
+msgstr "kernel"
+
+#: translation:169
+msgid "architecture"
+msgstr "järjestelmä"
+
+#: translation:170
+msgid "Next"
+msgstr "Seuraava"
