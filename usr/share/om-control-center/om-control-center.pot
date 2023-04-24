@@ -266,10 +266,10 @@ msgstr ""
 msgid "If you need to change the boot order of the system or repair grub2 manually or later add another operating system"
 msgstr ""
 #: translation:141
-msgid "Cutefish desktop"
+msgid "LXQt desktop"
 msgstr ""
 #: translation:142
-msgid "Install Cutefish desktop"
+msgid "Install LXQt desktop"
 msgstr ""
 #: translation:143
 msgid "MauiShell desktop"
