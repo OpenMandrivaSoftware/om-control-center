@@ -306,7 +306,7 @@ msgstr "Asenna vierastili"
 
 #: translation:119
 msgid "Creates xguest user as a locked down user"
-msgstr "Asenna vierastili tietokoneelle"
+msgstr "Asenna tietokoneelle vierastili yleisökäyttöön"
 
 #: translation:120
 msgid "Install applications with DnfDrake"
