@@ -399,7 +399,7 @@ msgstr "Asenna MauiShell työpöytä"
 
 #: translation:145
 msgid "Gnome desktop"
-msgstr "Gnome desktop"
+msgstr "Gnome työpöytä"
 
 #: translation:146
 msgid "Install Gnome desktop"
