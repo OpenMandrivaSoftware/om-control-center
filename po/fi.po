@@ -253,7 +253,7 @@ msgstr "Järjestelmän määritykset"
 
 #: translation:98
 msgid "Add & Configure user and groups"
-msgstr "Lisää & määritä käyttäjiä ja ryhmiä"
+msgstr "Lisää ja määritä käyttäjiä"
 
 #: translation:99
 msgid "Here you can create new users or edit users and groups, etc"
