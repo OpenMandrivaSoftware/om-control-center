@@ -257,7 +257,7 @@ msgstr "Lisää ja määritä käyttäjiä"
 
 #: translation:99
 msgid "Here you can create new users or edit users and groups, etc"
-msgstr "Voit luoda uusia käyttäjiä tai muokata ryhmiä jne"
+msgstr "Voit luoda uusia käyttäjiä tai muokata ryhmiä ja käyttöoikeuksia"
 
 #: translation:101
 msgid "Services management"
