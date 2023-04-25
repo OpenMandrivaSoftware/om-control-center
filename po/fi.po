@@ -403,7 +403,7 @@ msgstr "Gnome työpöytä"
 
 #: translation:146
 msgid "Install Gnome desktop"
-msgstr "Asenna Gnome desktop"
+msgstr "Asenna Gnome työpöytä"
 
 #: translation:149
 msgid "Security Configurations"
