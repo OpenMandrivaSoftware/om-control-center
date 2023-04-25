@@ -391,7 +391,7 @@ msgstr "Asenna LXQt työpöytä"
 
 #: translation:143
 msgid "MauiShell desktop"
-msgstr "MauiShell desktop"
+msgstr "MauiShell työpöytä"
 
 #: translation:144
 msgid "Install MauiShell desktop"
