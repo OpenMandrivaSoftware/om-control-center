@@ -265,7 +265,8 @@ msgstr "Hallitse palvelut"
 
 #: translation:102
 msgid "Start and stop of the entire services available on the system"
-msgstr "Järjestelmän palvelujen lopettaminen ja käynnistys"
+msgstr ""
+"Kaikkien järjestelmässä olevien palvelujen käynnistäminen ja lopettaminen"
 
 #: translation:104
 msgid "Fonts"
