@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Last-Translator: Kimmo Kujansuu <mrkujansuu@gmail.com>, 2023\n"
-"Language-Team: Finnish (https://www.transifex.com/openmandriva/teams/1818/fi/)\n"
+"Language-Team: Finnish (https://app.transifex.com/openmandriva/teams/1818/fi/)\n"
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -355,7 +355,7 @@ msgstr "Päivitä päivittäin viimeisimmät korjaukset ja parannukset"
 
 #: translation:132
 msgid "Desktop Themes"
-msgstr "Työpöydän teemat"
+msgstr "Teemat"
 
 #: translation:133
 msgid "Change or install your favorite Plasma theme"
@@ -382,12 +382,12 @@ msgstr ""
 "grub2 manuaalisesti tai lisätä toinen käyttöjärjestelmä"
 
 #: translation:141
-msgid "Cutefish desktop"
-msgstr "Cutefish desktop"
+msgid "LXQt desktop"
+msgstr "LXQt työpöytä"
 
 #: translation:142
-msgid "Install Cutefish desktop"
-msgstr "Asenna Cutefish desktop"
+msgid "Install LXQt desktop"
+msgstr "Asenna LXQt työpöytä"
 
 #: translation:143
 msgid "MauiShell desktop"
