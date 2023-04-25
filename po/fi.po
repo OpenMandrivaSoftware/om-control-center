@@ -261,7 +261,7 @@ msgstr "Voit luoda uusia käyttäjiä tai muokata ryhmiä ja käyttöoikeuksia"
 
 #: translation:101
 msgid "Services management"
-msgstr "Hallitse palveluita"
+msgstr "Hallitse palvelut"
 
 #: translation:102
 msgid "Start and stop of the entire services available on the system"
