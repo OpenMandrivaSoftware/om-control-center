@@ -1,16 +1,14 @@
 # 
 # Translators:
 # OpenMandrivaAssociation <i10n@openmandriva.org>, 2019
-# rugyada, 2022
+# rugyada, 2023
 # 
 msgid ""
 msgstr ""
-"Last-Translator: rugyada, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/openmandriva/teams/1818/it/)\n"
+"Last-Translator: rugyada, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/openmandriva/teams/1818/it/)\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: translation:8
 msgid "Hi"
@@ -388,12 +386,12 @@ msgstr ""
 "grub2 o aggiungere un altro sistema operativo"
 
 #: translation:141
-msgid "Cutefish desktop"
-msgstr "Cutefish desktop"
+msgid "LXQt desktop"
+msgstr "LXQt desktop"
 
 #: translation:142
-msgid "Install Cutefish desktop"
-msgstr "Installa Cutefish desktop"
+msgid "Install LXQt desktop"
+msgstr "Installa LXQt desktop"
 
 #: translation:143
 msgid "MauiShell desktop"
