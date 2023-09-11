@@ -1,2 +1,5 @@
 #!/bin/sh
-exec kcmshell5 clock
+
+. $(dirname $0)/helpers
+
+kcmshell clock

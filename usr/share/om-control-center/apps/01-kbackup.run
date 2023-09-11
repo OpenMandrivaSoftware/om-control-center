@@ -1,17 +1,6 @@
 #!/bin/sh
-if rpm -q kbackup &>/dev/null; then
-	exec kbackup
-else
-	APP=$"KBackup"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
-	pkexec dnf install --assumeyes kbackup
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
-	if rpm -q kbackup &>/dev/null; then
-		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
-	else
-		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
-	fi
-fi
 
-exit 0
+. $(dirname $0)/helpers
+
+install_if_needed kbackup "KBackup"
+exec kbackup

@@ -1,2 +1,6 @@
 #!/bin/sh
+. $(dirname $0)/helpers
+
+install_if_needed dnfdragora
+
 exec dnfdragora

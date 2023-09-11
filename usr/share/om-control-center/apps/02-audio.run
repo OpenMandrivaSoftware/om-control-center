@@ -1,2 +1,5 @@
 #!/bin/sh
-exec kcmshell5 kcm_pulseaudio
+
+. $(dirname $0)/helpers
+
+kcmshell kcm_pulseaudio

@@ -1,1 +1,6 @@
-kdesu kuser
+#!/bin/sh
+
+. $(dirname $0)/helpers
+
+install_if_needed kuser
+pkexec kuser

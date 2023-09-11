@@ -1,8 +1,12 @@
 #!/bin/bash
+
+. $(dirname $0)/helpers
+
 #check the connection on openmandriva site
 if ping -w2 www.openmandriva.org ; then
 	if ! kdialog --title $"OpenMandriva"  --yesno $"Your internet connection seems to be working already.\nDo you want to configure it anyway?"; then
 		exit 0
 	fi
 fi
-exec kcmshell5 kcm_networkmanagement
+
+kcmshell kcm_networkmanagement

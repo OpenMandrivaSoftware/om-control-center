@@ -1,4 +1,11 @@
  #!/bin/bash
 
-pkexec sh -c "/sbin/systemctl start bluetooth; /sbin/systemctl enable bluetooth"
-kdialog --title $"OpenMandriva"  --msgbox  $" bluetooth service is enabled"
+if systemctl status bluetooth &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"bluetooth service is already running"
+else
+	if pkexec sh -c "/sbin/systemctl start bluetooth; /sbin/systemctl enable bluetooth"; then
+		kdialog --title $"OpenMandriva"  --msgbox  $" bluetooth service is enabled"
+	else
+		kdialog --title $"OpenMandriva"  --msgbox  $"Enabling bluetooth service failed"
+	fi
+fi

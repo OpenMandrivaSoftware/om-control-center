@@ -1,4 +1,8 @@
 #!/bin/bash
 
-cd ; kdesu omdv-bug-report
+. $(dirname $0)/helpers
+
+install_if_needed omdv-bug-report
+
+cd ; pkexec omdv-bug-report
 kdialog --title $"OpenMandriva"  --msgbox  $" bug-report.log has been created in your home directory"

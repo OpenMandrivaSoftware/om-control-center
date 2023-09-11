@@ -2,7 +2,7 @@
 if rpm -q xguest &>/dev/null; then 
 	kdialog --title $"OpenMandriva" --msgbox $"Guest Account is already installed."
 else 
-	kdesu -- dnf install --assumeyes xguest
+	pkexec dnf install --assumeyes xguest
 	if rpm -q xguest &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

@@ -1,11 +1,17 @@
 #!/bin/bash
-if rpm -q discover &>/dev/null; then 
+if which plasma-discover &>/dev/null; then 
 	kdialog --title $"OpenMandriva" --msgbox $"Discover is already installed."
 else 
-	kdesu -- dnf install --assumeyes discover discover-backend-packagekit
-	if rpm -q discover-backend-packagekit &>/dev/null; then
-		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	if [ "$KDE_SESSION_VERSION" = "6" ]; then
+		pkexec dnf install --assumeyes plasma6-discover plasma6-discover-backend-packagekit
+		if ! rpm -q plasma6-discover-backend-packagekit &>/dev/null; then
+			kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+		fi
 	else
-		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+		pkexec dnf install --assumeyes discover discover-backend-packagekit
+		if ! rpm -q discover-backend-packagekit &>/dev/null; then
+			kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+		fi
 	fi
+	exec plasma-discover
 fi

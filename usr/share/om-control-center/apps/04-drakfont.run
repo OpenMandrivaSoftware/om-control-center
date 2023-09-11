@@ -1,2 +1,5 @@
 #!/bin/sh
-exec kcmshell5 fontinst
+
+. $(dirname $0)/helpers
+
+kcmshell fontinst

@@ -1,1 +1,5 @@
-kcmshell5 desktoptheme
+#!/bin/sh
+
+. $(dirname $0)/helpers
+
+kcmshell desktoptheme
