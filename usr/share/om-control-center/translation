@@ -148,8 +148,8 @@ descgnomeshell=$"Install Gnome desktop"
 #section 05 Security
 titlepage07=$"Security Configurations"
 #05-Security management
-titlefirewall=$"Configure your firewall"
-descfirewall=$"Set up a firewall and monitor network connections";
+titlefirewall=$"Install and configure your firewall"
+descfirewall=$"Install, set up a firewall and monitor network connections";
 #05-firewall applet
 titlefirewall2=$"Open your firewall applet"
 descfirewall2=$"Change, configure and manage your firewall settings from the applet";
