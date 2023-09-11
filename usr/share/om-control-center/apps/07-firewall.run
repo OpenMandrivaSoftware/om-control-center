@@ -1,17 +1,13 @@
 #!/bin/sh
-if rpm -q plasma-firewall &>/dev/null; then
-	exec kcmshell5 kcm_firewall
-else
+if ! rpm -q plasma-firewall &>/dev/null; then
 	APP=$"Firewall"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes plasma-firewall
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
-	if rpm -q plasma-firewall &>/dev/null; then
-		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
-	else
+	if ! rpm -q plasma-firewall &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+		exit 1
 	fi
 fi
-
-exit 0
+exec kcmshell5 kcm_firewall
