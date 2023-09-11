@@ -1,6 +1,6 @@
 NAME=om-control-center
 VERSION=0.1.3
-TRANSLATIONS=en it
+TRANSLATIONS=ca de es fi fr hi_IN hu it nl pl pt_BR ru sr uk_UA
 bindir=/usr/bin
 sysconfdir=/etc
 sharedir=/usr/share
