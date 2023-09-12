@@ -1,0 +1,39 @@
+#!/bin/sh
+install_if_needed() {
+	if ! rpm -q $1 &>/dev/null; then
+		if [ -n "$2" ]; then
+			APP="$2"
+		else
+			APP="$1"
+		fi
+		DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+		qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+		pkexec dnf install --assumeyes "$1"
+		qdbus $DB org.kde.kdialog.ProgressDialog.close
+		if ! rpm -q $1 &>/dev/null; then
+			kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+			exit 1
+		fi
+	fi
+}
+kcmshell() {
+	KCMSHELL=""
+	if [ "$KDE_SESSION_VERSION" = "5" ]; then
+		if which kcmshell5 &>/dev/null; then
+			KCMSHELL=kcmshell5
+		elif which kcmshell6 &>/dev/null; then
+			KCMSHELL=kcmshell6
+		fi
+	else
+		if which kcmshell6 &>/dev/null; then
+			KCMSHELL=kcmshell6
+		elif which kcmshell5 &>/dev/null; then
+			KCMSHELL=kcmshell5
+		fi
+	fi
+	if [ -z "$KCMSHELL" ]; then
+		install_if_needed kf6-kcmutils
+		KCMSHELL=kcmshell6
+	fi
+	$KCMSHELL "$@"
+}
