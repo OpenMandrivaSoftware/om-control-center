@@ -396,7 +396,7 @@ msgstr "Installeer de LXQt-werkomgeving"
 
 #: translation:143
 msgid "MauiShell desktop"
-msgstr "MauiShell-werkomgeving"
+msgstr "Maui Shell-werkomgeving"
 
 #: translation:144
 msgid "Install MauiShell desktop"
