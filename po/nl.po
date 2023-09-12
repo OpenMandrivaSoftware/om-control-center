@@ -400,7 +400,7 @@ msgstr "MauiShell-werkomgeving"
 
 #: translation:144
 msgid "Install MauiShell desktop"
-msgstr "Installeer de MauiShell-werkomgeving"
+msgstr "Installeer de Maui Shell-werkomgeving"
 
 #: translation:145
 msgid "Gnome desktop"
