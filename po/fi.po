@@ -446,8 +446,8 @@ msgstr ""
 "Tämä ohjelmisto on lisensoitu GNU General Public License version 2 (GPLv2)."
 
 #: translation:163
-msgid "It uses Qt5 WebEngine and htmlscript."
-msgstr "Käytössä tekniikat Qt5 WebEngine ja htmlscript."
+msgid "It uses Qt6 WebEngine and htmlscript."
+msgstr "Käytössä tekniikat Qt6 WebEngine ja htmlscript."
 
 #: translation:164
 msgid "For bugs, suggestions and improvements, please head to "
