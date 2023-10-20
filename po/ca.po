@@ -2,12 +2,12 @@
 # Translators:
 # rugyada, 2022
 # Rubén <rbndavid@gmail.com>, 2022
-# Davidmp <medipas@gmail.com>, 2022
+# Davidmp <medipas@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Davidmp <medipas@gmail.com>, 2022\n"
-"Language-Team: Catalan (https://www.transifex.com/openmandriva/teams/1818/ca/)\n"
+"Last-Translator: Davidmp <medipas@gmail.com>, 2023\n"
+"Language-Team: Catalan (https://app.transifex.com/openmandriva/teams/1818/ca/)\n"
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -388,12 +388,12 @@ msgstr ""
 "manualment o afegir posteriorment un altre sistema operatiu."
 
 #: translation:141
-msgid "Cutefish desktop"
-msgstr "Escriptori Cutefish"
+msgid "LXQt desktop"
+msgstr "Escriptori LXQt"
 
 #: translation:142
-msgid "Install Cutefish desktop"
-msgstr "Instal·leu l'escriptori Cutefish"
+msgid "Install LXQt desktop"
+msgstr "Instal·leu l'escriptori LXQt"
 
 #: translation:143
 msgid "MauiShell desktop"
@@ -453,8 +453,8 @@ msgstr ""
 "Aquest programari té la Llicència pública general de GNU versió 2 (GPLv2)."
 
 #: translation:163
-msgid "It uses Qt5 WebEngine and htmlscript."
-msgstr "Usa Qt5 WebEngine i htmlscript."
+msgid "It uses Qt6 WebEngine and htmlscript."
+msgstr "Usa WebEngine Qt6 i htmlscript."
 
 #: translation:164
 msgid "For bugs, suggestions and improvements, please head to "
