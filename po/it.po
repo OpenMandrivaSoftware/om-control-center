@@ -22,7 +22,7 @@ msgstr "Centro di Controllo OpenMandriva"
 
 #: translation:12
 msgid "Welcome"
-msgstr "Benvenuto"
+msgstr "Benvenuti"
 
 #: translation:13
 msgid "Software"
