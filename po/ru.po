@@ -392,7 +392,7 @@ msgstr ""
 
 #: translation:141
 msgid "LXQt desktop"
-msgstr " Рабочий стол LXQt"
+msgstr "Рабочее окружение LXQt"
 
 #: translation:142
 msgid "Install LXQt desktop"
