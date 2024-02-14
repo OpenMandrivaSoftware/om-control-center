@@ -213,7 +213,7 @@ msgstr "Zainstaluj sterowniki graficzne NVIDIA"
 
 #: translation:78
 msgid "NVIDIA legacy drivers"
-msgstr "NVIDIA legacy drivers"
+msgstr "Sterowniki graficzne NVIDIA legacy"
 
 #: translation:79
 msgid "Install NVIDIA legacy drivers"
