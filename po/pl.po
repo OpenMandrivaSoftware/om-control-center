@@ -1,10 +1,12 @@
+# 
 # Translators:
-# Damian Marcin Szymański aka angrypenguin <angrypenguinpoland@gmail.com>, 2019
+# rugyada, 2022
+# Virtuti Militari <angrypenguinpoland@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Damian Marcin Szymański aka angrypenguin <angrypenguinpoland@gmail.com>, 2019\n"
-"Language-Team: Polish (https://www.transifex.com/openmandriva/teams/1818/pl/)\n"
+"Last-Translator: Virtuti Militari <angrypenguinpoland@gmail.com>, 2024\n"
+"Language-Team: Polish (https://app.transifex.com/openmandriva/teams/1818/pl/)\n"
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
@@ -92,12 +94,12 @@ msgid "Software and media management"
 msgstr "Zarządzanie oprogramowaniem i nośnikami"
 
 #: translation:42
-msgid "Install additional applications with dnfdragora"
-msgstr "Zainstaluj dodatkowe aplikacji za pomocą dnfdragora"
+msgid "dnfdragora"
+msgstr "dnfdragora"
 
 #: translation:43
-msgid "Find and install applications available in the repositories"
-msgstr "Znajdź i zainstaluj aplikacji dostępne w repozytoriach"
+msgid "Find and install applications"
+msgstr "Znajdź i zainstaluj aplikacje"
 
 #: translation:45
 msgid "Add restricted"
@@ -193,103 +195,137 @@ msgstr "Skonfiguruj swoją drukarkę"
 msgid "Configure your printer, add drivers for HP, EPSON, etc"
 msgstr "Skonfiguruj swoją drukarkę, dodaj sterowniki do HP, EPSON, itp."
 
+#: translation:74
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: translation:75
+msgid "Start and enable bluetooth service"
+msgstr "Uruchom i włącz usługę Bluetooth"
+
 #: translation:76
+msgid "NVIDIA drivers"
+msgstr "Sterowniki NVIDIA"
+
+#: translation:77
+msgid "Install NVIDIA drivers"
+msgstr "Zainstaluj sterowniki graficzne NVIDIA"
+
+#: translation:78
+msgid "NVIDIA legacy drivers"
+msgstr "NVIDIA legacy drivers"
+
+#: translation:79
+msgid "Install NVIDIA legacy drivers"
+msgstr "Zainstaluj sterowniki graficzne NVIDIA legacy"
+
+#: translation:82
 msgid "Local Disk Configurations"
 msgstr "Konfiguracja dysków lokalnych"
 
-#: translation:78
+#: translation:84
 msgid "Configure your local drives"
 msgstr "Skonfiguruj swoje lokalne dyski"
 
-#: translation:79
+#: translation:85
 msgid "Change, configure and manage your local drives"
 msgstr "Zmień, skonfiguruj i zarządzaj swoimi lokalnymi dyskami"
 
-#: translation:80
+#: translation:86
 msgid "Audio Volume"
 msgstr "Poziom głośności Audio"
 
-#: translation:81
+#: translation:87
 msgid "Configure Audio"
 msgstr "Konfiguracja Audio"
 
-#: translation:82
-msgid "Audio and Video"
-msgstr "Audio i Wideo"
-
-#: translation:83
-msgid "Phonon Audio and Video"
-msgstr "Phonon Audio i Wideo"
-
-#: translation:86
+#: translation:90
 msgid "Networks Configurations"
 msgstr "Konfiguracje Sieci"
 
-#: translation:88
+#: translation:92
 msgid "Connections"
 msgstr "Połączenia"
 
-#: translation:89
+#: translation:93
 msgid "Edit your Network Connections"
 msgstr "Edytuj twoje połączenia sieciowe"
 
-#: translation:92
+#: translation:96
 msgid "System Configurations"
 msgstr "Konfiguracje Systemu"
 
-#: translation:94
+#: translation:98
 msgid "Add & Configure user and groups"
 msgstr "Dodaj i skonfiguruj użytkownika oraz grupy"
 
-#: translation:95
-msgid "Here you can configure new users add groups etc"
-msgstr "Tutaj możesz skonfigurować nowych użytkowników, dodać grupy itp."
+#: translation:99
+msgid "Here you can create new users or edit users and groups, etc"
+msgstr ""
+"Tutaj możesz tworzyć nowych użytkowników lub edytować użytkowników i grupy "
+"itp"
 
-#: translation:97
+#: translation:101
 msgid "Services management"
 msgstr "Zarządzanie usługami"
 
-#: translation:98
+#: translation:102
 msgid "Start and stop of the entire services available on the system"
 msgstr "Uruchamianie i zatrzymywanie wszystkich usług dostępnych w systemie"
 
-#: translation:100
-msgid "Add other fonts"
-msgstr "Dodaj dodatkowe czcionki"
+#: translation:104
+msgid "Fonts"
+msgstr "Czcionki"
 
-#: translation:101
-msgid "Add new set of fonts"
-msgstr "Dodaj nowy zestaw czcionek"
+#: translation:105
+msgid "Font management or install new fonts"
+msgstr "Zarządzanie czcionkami lub instalowanie nowych czcionek"
 
-#: translation:103
+#: translation:107
 msgid "Configure time"
 msgstr "Skonfiguruj czas"
 
-#: translation:104
+#: translation:108
 msgid "Change time, configure the nts"
 msgstr "Zmień czas, skonfiguruj nts"
 
-#: translation:107
+#: translation:111
 msgid "Configure keyboard"
 msgstr "Skonfiguruj klawiaturę"
 
-#: translation:108
+#: translation:112
 msgid "Change or configure keyboard layout"
 msgstr "Zmień lub skonfiguruj układ klawiatury"
 
-#: translation:110
+#: translation:115
+msgid "Configure touchpad"
+msgstr "Konfiguracja touchpada"
+
+#: translation:116
+msgid "Configure touchpad input device"
+msgstr "Skonfiguruj urządzenie wejściowe typu touchpad"
+
+#: translation:118
 msgid "Install Guest Account"
 msgstr "Zainstaluj Konto Gościa"
 
-#: translation:111
+#: translation:119
 msgid "Creates xguest user as a locked down user"
 msgstr "Stwórz użytkownika xguest jako zablokowanego użytkownika "
 
-#: translation:112
+#: translation:120
+msgid "Install applications with DnfDrake"
+msgstr "Instaluj aplikacje za pośrednictwem DnfDrake"
+
+#: translation:121
+msgid "Find and install applications with DnfDrake, and much more"
+msgstr "Znajdź i zainstaluj oprogramowania za pomocą DnfDrake, i wiele więcej"
+
+#: translation:122
 msgid "Bug report tool"
 msgstr "Narzędzie zgłaszania błędów"
 
-#: translation:113
+#: translation:123
 msgid ""
 "The simple shell script will help in bug fixing process. The file generated "
 "should be attached to any bugreport"
@@ -297,35 +333,55 @@ msgstr ""
 "Prosty skrypt powłoki pomoże w procesie naprawiania błędów. Wygenerowany "
 "plik powinien być dołączany do każdego zgłoszonego błędu."
 
-#: translation:114
+#: translation:124
 msgid "Install Discover"
 msgstr "Zainstaluj Discover"
 
-#: translation:115
+#: translation:125
 msgid "Plasma 5 package manager"
 msgstr "Menadżer pakietów Plasma 5"
 
-#: translation:118
+#: translation:126
+msgid "Clean packages"
+msgstr "Czyszczenie pakietów"
+
+#: translation:127
+msgid "Auto remove unused packages"
+msgstr "Automatyczne usuwanie nieużywanych pakietów"
+
+#: translation:128
+msgid "System update"
+msgstr "Aktualizacja systemu"
+
+#: translation:129
+msgid ""
+"To get the latest bug fixes and enhancements for your system you should "
+"update it on daily basis"
+msgstr ""
+"Aby uzyskać najnowsze poprawki błędów i udoskonalenia dla swojego systemu, "
+"należy go aktualizować codziennie"
+
+#: translation:132
 msgid "Desktop Themes"
 msgstr "Motywy pulpitu"
 
-#: translation:119
+#: translation:133
 msgid "Change or install your favorite Plasma theme"
 msgstr "Zmień lub zainstaluj twoje ulubione motywy Plasmy"
 
-#: translation:121
+#: translation:135
 msgid "Desktop Icons"
 msgstr "Ikony Pulpitu"
 
-#: translation:122
+#: translation:136
 msgid "Change or install your favorite icons theme"
 msgstr "Zmień lub zainstaluj twoje ulubione motywy ikon"
 
-#: translation:124
+#: translation:138
 msgid "Configure the system boot"
 msgstr "Skonfiguruj uruchamianie systemu"
 
-#: translation:125
+#: translation:139
 msgid ""
 "If you need to change the boot order of the system or repair grub2 manually "
 "or later add another operating system"
@@ -333,42 +389,65 @@ msgstr ""
 "Jeśli chcesz zmienić kolejność uruchamianych systemów lub prawić grub2 "
 "ręcznie, bądź później dodać kolejny system operacyjny"
 
-#: translation:128
+#: translation:141
+msgid "LXQt desktop"
+msgstr "Środowisko LXQt"
+
+#: translation:142
+msgid "Install LXQt desktop"
+msgstr "Zainstaluj środowisko LXQt"
+
+#: translation:143
+msgid "MauiShell desktop"
+msgstr "Środowisko MauiShell"
+
+#: translation:144
+msgid "Install MauiShell desktop"
+msgstr "Zainstaluj środowisko MauiShell"
+
+#: translation:145
+msgid "Gnome desktop"
+msgstr "Środowisko GNOME"
+
+#: translation:146
+msgid "Install Gnome desktop"
+msgstr "Zainstaluj środowisko GNOME"
+
+#: translation:149
 msgid "Security Configurations"
 msgstr "Konfiguracja bezpieczeństwa"
 
-#: translation:130
+#: translation:151
 msgid "Configure your firewall"
 msgstr "Skonfiguruj firewall"
 
-#: translation:131
-msgid "Change, configure and manage your firewall settings"
-msgstr "Zmień, skonfiguruj i zarządzaj ustawieniami firewall"
+#: translation:152
+msgid "Set up a firewall and monitor network connections"
+msgstr ""
+"Skonfiguruj zaporę sieciową Firewall i monitoruj połączenia internetowe"
 
-#: translation:133
+#: translation:154
 msgid "Open your firewall applet"
 msgstr "Otwórz aplet firewall"
 
-#: translation:134
+#: translation:155
 msgid "Change, configure and manage your firewall settings from the applet"
 msgstr ""
 "Zmień, skonfiguruj i zarządzaj ustawieniami firewall za pośrednictwem apletu"
 
-#: translation:136
-msgid "Autorization management"
-msgstr "Zarządzanie uwierzytelnieniem"
+#: translation:157
+msgid "Passwords and Keys"
+msgstr "Hasła i Klucze"
 
-#: translation:137
-msgid "Configure users Autorization to the OpenMandriva configuration tools"
-msgstr ""
-"Skonfiguruj uprawnienia użytkowników do narzędzi konfiguracyjnych "
-"OpenMandriva"
+#: translation:158
+msgid "Manage your passwords and encryption keys"
+msgstr "Zarządzaj swoimi hasłami oraz kluczami szyfrującymi"
 
-#: translation:140
+#: translation:161
 msgid "About "
 msgstr "O"
 
-#: translation:141
+#: translation:162
 msgid ""
 "This software is licensed under the GNU General Public License version 2 "
 "(GPLv2)."
@@ -376,30 +455,30 @@ msgstr ""
 "To oprogramowanie jest licencjonowane pod licencją GNU General Public "
 "License w wersji 2 (GPLv2)."
 
-#: translation:142
-msgid "It uses Qt5 WebEngine and htmlscript."
-msgstr "Wykorzystuje Qt5 WebEngine i htmlscript."
+#: translation:163
+msgid "It uses Qt6 WebEngine and htmlscript."
+msgstr "Używa Qt6 WebEngine i htmlscript."
 
-#: translation:143
+#: translation:164
 msgid "For bugs, suggestions and improvements, please head to "
 msgstr "Błędy, sugestie i ulepszenia, proszę zgłaszać do"
 
-#: translation:144
+#: translation:165
 msgid "Exit"
 msgstr "Wyjście"
 
-#: translation:146
+#: translation:167
 msgid "You are using"
 msgstr "Używasz"
 
-#: translation:147
+#: translation:168
 msgid "with kernel"
 msgstr "z jądrem"
 
-#: translation:148
+#: translation:169
 msgid "architecture"
 msgstr "architektura"
 
-#: translation:149
+#: translation:170
 msgid "Next"
 msgstr "Dalej"
