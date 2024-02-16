@@ -2,13 +2,13 @@
 # Translators:
 # Kaio Henrique <kaiohenrique660@gmail.com>, 2019
 # Celio Alves <dreamcelio@gmail.com>, 2020
-# rugyada, 2022
 # André Luiz Iurko <andre.neo.buzi@gmail.com>, 2022
+# rugyada, 2024
 # 
 msgid ""
 msgstr ""
-"Last-Translator: André Luiz Iurko <andre.neo.buzi@gmail.com>, 2022\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/openmandriva/teams/1818/pt_BR/)\n"
+"Last-Translator: rugyada, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/openmandriva/teams/1818/pt_BR/)\n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
@@ -391,12 +391,12 @@ msgstr ""
 "grub2 manualmente ou depois adicionar outro sistema operacional"
 
 #: translation:141
-msgid "Cutefish desktop"
-msgstr "Cutefish desktop"
+msgid "LXQt desktop"
+msgstr "LXQt desktop"
 
 #: translation:142
-msgid "Install Cutefish desktop"
-msgstr "Instalar área de trabalhoCutefish"
+msgid "Install LXQt desktop"
+msgstr "Instalar área de trabalho LXQt"
 
 #: translation:143
 msgid "MauiShell desktop"
@@ -457,8 +457,8 @@ msgstr ""
 "(GPLv2)."
 
 #: translation:163
-msgid "It uses Qt5 WebEngine and htmlscript."
-msgstr "Ele usa o Qt5 WebEngine e o htmlscript."
+msgid "It uses Qt6 WebEngine and htmlscript."
+msgstr "Ele usa Qt6 WebEngine e htmlscript."
 
 #: translation:164
 msgid "For bugs, suggestions and improvements, please head to "
