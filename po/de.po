@@ -154,7 +154,7 @@ msgstr "OpenMandriva repo-picker"
 
 #: translation:58
 msgid "Enable and disable repositories the easy way"
-msgstr "Repositories auf einfache Weise aktivieren und deaktivieren"
+msgstr "Aktivieren und deaktivieren Sie Repositories auf einfache Weise"
 
 #: translation:61
 msgid "KBackup"
