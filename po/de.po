@@ -175,7 +175,7 @@ msgstr "Zeigt die Festplattennutzung der eingebundenen Geräte"
 
 #: translation:67
 msgid "Devices Configurations"
-msgstr "Gerätekonfigurationen"
+msgstr "Konfigurationen der Geräte"
 
 #: translation:69
 msgid "Display and Monitor"
