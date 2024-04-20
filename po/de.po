@@ -183,7 +183,7 @@ msgstr "Display und Monitor"
 
 #: translation:70
 msgid "Manage and configure monitor and display"
-msgstr "Monitor und Display verwalten und Konfigurieren"
+msgstr "Verwalten und konfigurieren Sie Monitor und Display"
 
 #: translation:72
 msgid "Configure your printer"
