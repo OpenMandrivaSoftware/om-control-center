@@ -33,7 +33,7 @@ msgstr "Hardware"
 
 #: translation:15
 msgid "Devices Configuration"
-msgstr "Gerätekonfiguration"
+msgstr "Konfiguration der Geräte"
 
 #: translation:16
 msgid "Local Disk configuration"
