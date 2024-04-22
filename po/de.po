@@ -331,7 +331,7 @@ msgid ""
 "should be attached to any bugreport"
 msgstr ""
 "Das einfache Shell-Skript wird im Prozess der Fehlerbehebung helfen. Die "
-"erzeugte Datei sollte an jeden Bug-Bereicht angehängt werden"
+"generierte Datei sollte an jeden Bug-Bereicht angehängt werden"
 
 #: translation:124
 msgid "Install Discover"
