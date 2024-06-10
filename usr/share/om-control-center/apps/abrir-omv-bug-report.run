@@ -4,5 +4,9 @@
 
 install_if_needed omdv-bug-report
 
-cd ; pkexec omdv-bug-report
-kdialog --title $"OpenMandriva"  --msgbox  $" bug-report.log has been created in your home directory"
+U=$(whoami)
+[ -z "$U" ] && U="$USER"
+[ -z "$U" ] && U="$(ls -ld ~ |cut -d' ' -f3)"
+
+FILE="$(pkexec omdv-bug-report -u "$U" |grep '^Please include' |cut -d"'" -f2)"
+kdialog --title $"OpenMandriva"  --msgbox  $"Report information has been saved as $FILE"
