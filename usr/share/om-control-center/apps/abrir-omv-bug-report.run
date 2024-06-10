@@ -1,5 +1,4 @@
 #!/bin/bash
-
 . /usr/share/htmlscript/helpers
 
 install_if_needed omdv-bug-report
@@ -8,5 +7,7 @@ U=$(whoami)
 [ -z "$U" ] && U="$USER"
 [ -z "$U" ] && U="$(ls -ld ~ |cut -d' ' -f3)"
 
+ProgressDialog $"Gathering system information"
 FILE="$(pkexec omdv-bug-report -u "$U" |grep '^Please include' |cut -d"'" -f2)"
+ProgressDialog --close
 kdialog --title $"OpenMandriva"  --msgbox  $"Report information has been saved as $FILE"
