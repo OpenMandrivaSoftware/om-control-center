@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. $(dirname $0)/helpers
+. /usr/share/htmlscript/helpers
 
 #check the connection on openmandriva site
 if ping -w2 www.openmandriva.org ; then

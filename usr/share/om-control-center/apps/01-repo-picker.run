@@ -1,6 +1,6 @@
 #!/bin/sh
 
-. $(dirname $0)/helpers
+. /usr/share/htmlscript/helpers
 
 install_if_needed om-repo-picker $"OM Repo Picker"
 exec om-repo-picker

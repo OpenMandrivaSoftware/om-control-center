@@ -1,5 +1,5 @@
 #!/bin/sh
-. $(dirname $0)/helpers
+. /usr/share/htmlscript/helpers
 
 install_if_needed dnfdragora
 

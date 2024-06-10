@@ -1,5 +1,5 @@
 #!/bin/sh
 
-. $(dirname $0)/helpers
+. /usr/share/htmlscript/helpers
 
 kcmshell kcm_icons
