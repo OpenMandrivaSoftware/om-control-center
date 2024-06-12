@@ -2,4 +2,4 @@
 
 . /usr/share/htmlscript/helpers
 
-kcmshell fontinst
+kcmshell kcm_fontinst
